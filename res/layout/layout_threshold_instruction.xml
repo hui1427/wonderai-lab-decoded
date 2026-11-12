@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="650.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/backgroud_blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/instruction" android:textAllCaps="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/lab_mode_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lab_imag" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/lab_img" android:layout_width="300.0dp" android:layout_height="300.0dp" android:src="@drawable/lab" android:layout_below="@id/lab_mode_tv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="5.0dp" android:layout_weight="1.5">
+            <ScrollView android:id="@id/scroll_text" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="5.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/black" android:id="@id/instruction_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/threshold_instruction" />
+            </ScrollView>
+            <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:layout_gravity="center|bottom" android:id="@id/dialog_btn" android:layout_width="80.0dp" android:layout_height="0.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="3.0dp" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

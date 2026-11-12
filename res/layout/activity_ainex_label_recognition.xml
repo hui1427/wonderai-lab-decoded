@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/video_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.2" style="@style/top">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/start_recognition" android:layout_weight="1.0" style="@style/action_style" />
+                <com.suke.widget.SwitchButton android:id="@id/switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" app:sb_show_indicator="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/ainex_obstacle_avidance_ll_shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="5.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="20.0dp" android:text="@string/ainex_tag_tip" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <Button android:id="@id/bt1" android:background="@drawable/tag_finger_recognition_right" android:visibility="gone" android:layout_width="70.0dp" android:layout_height="70.0dp" android:layout_centerVertical="true" android:onClick="onClick" android:layout_marginStart="20.0dp" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/iv1" android:background="@drawable/tag_1" android:visibility="gone" android:layout_width="200.0dp" android:layout_height="200.0dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/bt2" android:background="@drawable/tag_finger_recognition_left" android:visibility="gone" android:layout_width="70.0dp" android:layout_height="70.0dp" android:layout_centerVertical="true" android:onClick="onClick" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/backgroud_blue" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apirltag_recognize" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/action_style_game_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="20.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

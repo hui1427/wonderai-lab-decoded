@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">8.0dp</dimen>
+    <dimen name="activity_vertical_margin">8.0dp</dimen>
+    <dimen name="custom_margin1">7.0px</dimen>
+    <dimen name="custom_margin2">13.0px</dimen>
+    <dimen name="jethexa_slider_width">210.0dp</dimen>
+    <dimen name="jethexaros2_action_height">54.0dp</dimen>
+    <dimen name="jethexaros2_action_width">150.0dp</dimen>
+    <dimen name="jethexaros2_top_webview">25.0dp</dimen>
+    <dimen name="jetmax_webview_width">3.5</dimen>
+</resources>

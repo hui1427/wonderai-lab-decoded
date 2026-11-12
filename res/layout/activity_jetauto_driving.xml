@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/add_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/video_layout" android:background="@color/add_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.2" style="@style/top">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@id/start_avoid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:text="@string/start" style="@style/action_style" />
+                <com.suke.widget.SwitchButton android:id="@id/switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginLeft="5.0dp" app:sb_show_indicator="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/ainova_control_ll_shape" android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="2.0dp">
+                <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_range" style="@style/action_style" />
+                    <TextView android:id="@id/color_threshold_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.35" style="@style/action_style" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.05" style="@style/action_style" />
+                    <SeekBar android:id="@id/color_seekbar" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:maxHeight="10.0dp" android:max="95" android:progress="30" android:indeterminate="false" android:progressDrawable="@drawable/seekbar_progress_drawable" android:minHeight="10.0dp" android:thumb="@drawable/thum" android:splitTrack="false" style="@style/jetauto_color_style" />
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.00" style="@style/action_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <Button android:textColor="@color/white" android:id="@id/choose_color_btn" android:background="@drawable/rec_button_unpress_orange" android:layout_width="90.0dp" android:layout_height="40.0dp" android:text="@string/get_color" android:onClick="onClick" android:textAllCaps="false" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/shape_corner_form_grey" android:padding="5.0dp" android:layout_width="90.0dp" android:layout_height="70.0dp">
+                            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selected_color" />
+                            <com.hiwonder.wonder_ai.weight.ColorCircle android:id="@id/color_circle" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="2.0dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/count_down_layout" android:background="@drawable/shape_corner" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="5.0dp">
+                <TextView android:textSize="30.0sp" android:textColor="@color/colorRed" android:id="@id/count_down_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginRight="5.0dp" android:text="5s" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="10.0dp" android:text="@string/cancel_selecting_color" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/instruction_layout" android:background="@drawable/ainova_control_ll_shape" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="5.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="@string/select_color_tip" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/video_relativelayout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/circle_picker" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circle_shape" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/background_orange" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/style_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="20.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="20.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/contact_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/contact_w" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

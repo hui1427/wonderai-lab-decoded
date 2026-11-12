@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="200.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aboutUs" android:textAllCaps="false" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo_img" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:src="@drawable/lobot" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_below="@id/logo_img" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/language_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_below="@id/app_version" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:divider="@color/backgroud_blue" />
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/dialog_btn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:id="@id/dialog_divider" android:layout_width="0.5dp" android:layout_height="match_parent" android:divider="@color/backgroud_blue" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bluetooth_list" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="3.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_horizontal" android:id="@id/normal_dialog_title" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/disconnect_tips_title" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/normal_dialog_content" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="@string/disconnect_tips_connect" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/dialog_line" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <Button android:textColor="@color/black" android:id="@id/normal_dialog_cancel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:id="@id/dialog_divider" android:background="@color/dialog_line" android:layout_width="0.5dp" android:layout_height="match_parent" />
+        <Button android:textColor="@color/backgroud_blue" android:id="@id/normal_dialog_ok" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

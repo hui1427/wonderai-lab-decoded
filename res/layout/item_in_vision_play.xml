@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/horizon_img" android:background="@drawable/border_shadow" android:layout_width="120.0dp" android:layout_height="120.0dp" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/grey_most" android:gravity="center" android:layout_gravity="center" android:id="@id/horizon_te" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_below="@id/horizon_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

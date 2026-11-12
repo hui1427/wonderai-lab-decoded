@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24.0dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80.0dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64.0dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8.0dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8.0dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dp</dimen>
+    <dimen name="add_title_height">19.0sp</dimen>
+    <dimen name="custom_margin1">8.0px</dimen>
+    <dimen name="custom_margin2">17.0px</dimen>
+</resources>

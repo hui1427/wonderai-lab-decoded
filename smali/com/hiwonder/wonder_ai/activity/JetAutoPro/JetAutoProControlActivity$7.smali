@@ -1,0 +1,129 @@
+.class Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;
+.super Ljava/lang/Object;
+.source "JetAutoProControlActivity.java"
+
+# interfaces
+.implements Lcom/suke/widget/SwitchButton$OnCheckedChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;)V
+    .locals 0
+
+    .line 417
+    iput-object p1, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onCheckedChanged(Lcom/suke/widget/SwitchButton;Z)V
+    .locals 9
+
+    .line 420
+    iget-object p1, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    xor-int/lit8 v0, p2, 0x1
+
+    invoke-static {p1, v0}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->access$1402(Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;Z)Z
+
+    if-nez p2, :cond_0
+
+    .line 422
+    iget-object p1, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    invoke-static {p1}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->access$1500(Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;)Lcom/hiwonder/wonder_ai/component/HandShakeX;
+
+    move-result-object p1
+
+    const/4 p2, -0x2
+
+    invoke-virtual {p1, p2}, Lcom/hiwonder/wonder_ai/component/HandShakeX;->setOriention(I)V
+
+    .line 423
+    iget-object v0, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    const-wide/16 v1, 0x0
+
+    const-wide/16 v3, 0x0
+
+    const-wide/16 v5, 0x0
+
+    const-wide/16 v7, 0x0
+
+    invoke-virtual/range {v0 .. v8}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->sendCarCmd(DDDD)V
+
+    goto :goto_0
+
+    .line 425
+    :cond_0
+    iget-object p1, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    invoke-virtual {p1}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->getBaseContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->existGyroscope(Landroid/content/Context;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    .line 426
+    iget-object p1, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    invoke-virtual {p1}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->getBaseContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    const p2, 0x7f0e012e
+
+    const/4 v0, 0x1
+
+    invoke-static {p1, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+
+    .line 427
+    new-instance p1, Landroid/os/Message;
+
+    invoke-direct {p1}, Landroid/os/Message;-><init>()V
+
+    const/16 p2, 0xd
+
+    .line 428
+    iput p2, p1, Landroid/os/Message;->what:I
+
+    .line 429
+    iget-object p2, p0, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity$7;->this$0:Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;
+
+    invoke-static {p2}, Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;->access$100(Lcom/hiwonder/wonder_ai/activity/JetAutoPro/JetAutoProControlActivity;)Landroid/os/Handler;
+
+    move-result-object p2
+
+    invoke-virtual {p2, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
+
+    :cond_1
+    :goto_0
+    return-void
+.end method

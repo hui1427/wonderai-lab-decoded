@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/title_button">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="@string/ainova_gravity_control" style="@style/action_style" />
+            <com.suke.widget.SwitchButton android:id="@id/switch_button1" android:layout_width="50.0dp" android:layout_height="30.0dp" app:sb_show_indicator="false" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <com.hiwonder.wonder_ai.weight.HandShake android:id="@id/hand_shake" android:layout_width="180.0dp" android:layout_height="180.0dp" app:ball_bg="@drawable/ball_back_ainova" app:ball_src="@drawable/ball_ainova" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl1" android:background="@drawable/data_box_color" android:layout_width="160.0dp" android:layout_height="90.0dp" android:layout_marginTop="20.0dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/ultrasonic_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/ainova_ultrasonic" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:layout_below="@id/ultrasonic_text">
+                <ImageView android:id="@id/num1_imag" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/seg_0" android:scaleType="fitXY" android:layout_weight="1.0" />
+                <ImageView android:id="@id/num2_imag" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/seg_0" android:scaleType="fitXY" android:layout_weight="1.0" />
+                <ImageView android:id="@id/num3_imag" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/seg_0" android:scaleType="fitXY" android:layout_weight="1.0" />
+                <ImageView android:id="@id/num4_imag" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/seg_0" android:scaleType="fitXY" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/title_button">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="@string/ainova_obstacle_avoidance" style="@style/action_style" />
+            <com.suke.widget.SwitchButton android:id="@id/switch_button2" android:layout_width="50.0dp" android:layout_height="30.0dp" app:sb_show_indicator="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ainova_control_ll_shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="20.0dp" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="2.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:layout_marginTop="3.0dp" android:text="@string/ainova_obstacles" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/ainova_obstacle_avidance_ll_ll_shape" android:layout_width="50.0dp" android:layout_height="20.0dp">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_size1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100cm" style="@style/action_style" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/relativeLayout1" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:gravity="center" android:id="@id/tv_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40" style="@style/action_style" />
+                <SeekBar android:id="@id/seekbar" android:layout_width="0.0dp" android:layout_height="20.0dp" android:layout_margin="2.0dp" android:maxHeight="10.0dp" android:max="60" android:progress="50" android:progressDrawable="@drawable/seekbar_progress_drawable" android:minHeight="10.0dp" android:thumb="@drawable/r25" android:layout_weight="7.5" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:gravity="center" android:id="@id/tv_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" style="@style/action_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/title_button">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="@string/ainova_led" style="@style/action_style" />
+            <com.suke.widget.SwitchButton android:id="@id/switch_button3" android:layout_width="50.0dp" android:layout_height="30.0dp" app:sb_show_indicator="false" />
+        </LinearLayout>
+        <com.hiwonder.wonder_ai.weight.colorpicker.ColorPickerView android:id="@id/colorPicker" android:layout_width="180.0dp" android:layout_height="180.0dp" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="2.0dp">
+            <LinearLayout android:gravity="center" android:id="@id/ll_claws" android:background="@drawable/ainova_ii_button" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_centerVertical="true" android:layout_marginEnd="15.0dp" android:layout_alignParentEnd="true">
+                <ImageView android:layout_width="25.0dp" android:layout_height="35.0dp" android:src="@drawable/ainova_claws" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

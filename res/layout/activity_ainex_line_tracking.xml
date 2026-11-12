@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/video_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.2" style="@style/top">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/start_line_follow" android:layout_weight="1.0" />
+                <com.suke.widget.SwitchButton android:id="@id/switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" app:sb_show_indicator="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selection_color" />
+                <Button android:textColor="@color/white" android:id="@id/bt_black" android:background="@drawable/linefollow_black_button" android:layout_width="114.0dp" android:layout_height="40.0dp" android:layout_marginBottom="5.0dp" android:text="@string/black" android:onClick="onClick" />
+                <Button android:textColor="@color/black" android:id="@id/bt_white" android:background="@drawable/linefollow_white_button" android:layout_width="114.0dp" android:layout_height="40.0dp" android:layout_marginBottom="5.0dp" android:text="@string/white" android:onClick="onClick" android:textAllCaps="false" />
+                <Button android:textColor="@color/white" android:id="@id/bt_red" android:background="@drawable/linefollow_red_button" android:layout_width="114.0dp" android:layout_height="40.0dp" android:layout_marginBottom="5.0dp" android:text="@string/red" android:onClick="onClick" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/color_tracking_drawing_board" android:layout_width="110.0dp" android:layout_height="90.0dp" android:layout_marginTop="2.0dp">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:text="@string/tracking_color" style="@style/action_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_color" android:background="@drawable/line_color_shape" android:visibility="visible" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_color_red" android:background="@drawable/line_color_shape_red" android:visibility="gone" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_color_green" android:background="@drawable/line_color_shape_black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_color_blue" android:background="@drawable/line_color_shape_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/backgroud_blue" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg_1">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intelligent_line_inspection" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/action_style_game_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="20.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

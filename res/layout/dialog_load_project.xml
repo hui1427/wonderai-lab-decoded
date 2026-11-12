@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/theme_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:text="@string/tips_" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/theme_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_on_the_file_read" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_exit" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginRight="10.0dp" android:src="@drawable/exit_theme_color" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/list_filename" android:background="@drawable/dialog_card_shape" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" />
+</LinearLayout>

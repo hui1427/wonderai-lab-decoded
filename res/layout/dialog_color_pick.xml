@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="请选择一个颜色" android:layout_centerHorizontal="true" style="@style/action_style" />
+    <com.hiwonder.wonder_ai.weight.colorpicker.ColorPickerView android:id="@id/colorPicker" android:layout_width="200.0dp" android:layout_height="200.0dp" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/red_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/red_color" android:scaleType="fitCenter" style="@style/color_pick_button" />
+        <ImageButton android:id="@id/green_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/green_color" android:scaleType="fitCenter" style="@style/color_pick_button" />
+        <ImageButton android:id="@id/blue_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/blue_color" android:scaleType="fitCenter" style="@style/color_pick_button" />
+        <ImageButton android:id="@id/black_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/black_color" android:scaleType="fitCenter" style="@style/color_pick_button" />
+        <ImageButton android:id="@id/white_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/white_color" android:scaleType="fitCenter" style="@style/color_pick_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textColor="@color/white" android:id="@id/ok_btn" android:background="@drawable/orange_button" android:layout_width="70.0dp" android:layout_height="30.0dp" android:layout_marginRight="20.0dp" android:text="@string/ok" android:layout_alignParentRight="true" android:textAllCaps="false" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textColor="@color/white" android:id="@id/cancel_btn" android:background="@drawable/orange_button" android:layout_width="70.0dp" android:layout_height="30.0dp" android:layout_marginLeft="20.0dp" android:text="@string/cancel" android:layout_alignParentLeft="true" android:textAllCaps="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

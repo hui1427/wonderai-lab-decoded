@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/jetmax_select_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/form1" android:background="@drawable/border_shadow" android:src="@drawable/form1_1" android:scaleType="fitCenter" android:layout_centerHorizontal="true" style="@style/form_select_style" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/desktop_form" android:layout_below="@id/form1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/form2" android:background="@drawable/border_shadow" android:src="@drawable/form2_1" android:scaleType="fitCenter" android:layout_centerHorizontal="true" style="@style/form_select_style" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/car_form" android:layout_below="@id/form2" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

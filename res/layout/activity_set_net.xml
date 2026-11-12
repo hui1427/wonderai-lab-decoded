@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/backgroud_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_device" style="@style/set_net_title" />
+    <TextView android:textColor="@color/backgroud_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_sure_set" style="@style/set_net_text" />
+    <TextView android:textColor="@color/backgroud_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_get_net" style="@style/set_net_text" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/getWifi" android:background="?selectableItemBackgroundBorderless" android:layout_width="90.0dp" android:layout_height="50.0dp" android:layout_marginTop="20.0dp" android:src="@drawable/selector_item_wifi" android:scaleType="fitCenter" android:layout_centerHorizontal="true" android:onClick="onClickWifi" />
+        <ListView android:id="@id/wifi_list" android:padding="5.0dp" android:visibility="visible" android:layout_width="300.0dp" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:divider="@color/backgroud_blue" android:dividerHeight="0.5dp" android:layout_below="@id/getWifi" android:layout_centerHorizontal="true" />
+        <com.hiwonder.wonder_ai.view.BluetoothProgressView android:id="@id/bluetooth_progress" android:visibility="gone" android:layout_marginLeft="40.0dp" android:layout_marginTop="30.0dp" android:layout_marginRight="40.0dp" android:layout_marginBottom="40.0dp" android:layout_below="@id/getWifi" android:layout_centerHorizontal="true" style="@style/bluetooth_view" />
+    </RelativeLayout>
+</LinearLayout>

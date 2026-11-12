@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="200.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/background_orange" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/passwordET" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20.0dp" android:hint="@string/input_password" android:inputType="textPassword" />
+        <ImageButton android:id="@id/eye_password" android:background="?selectableItemBackgroundBorderless" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginBottom="10.0dp" android:src="@drawable/eye" android:scaleType="fitCenter" android:layout_alignRight="@id/passwordET" android:layout_alignBottom="@id/passwordET" />
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:divider="@color/background_orange" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18.0sp" android:textColor="@color/background_orange" android:id="@id/cancelBtn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <Button android:textSize="18.0sp" android:textColor="@color/background_orange" android:id="@id/okBtn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:id="@id/dialog_divider" android:layout_width="0.5dp" android:layout_height="match_parent" android:divider="@color/background_orange" />
+    </LinearLayout>
+</LinearLayout>

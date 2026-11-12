@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/add_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fullscreen_layout" android:background="@color/add_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/fullscreen_video" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:id="@id/fullscreen_back_button" android:background="@android:color/transparent" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/video_layout" android:background="@color/add_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <RelativeLayout android:background="@drawable/border_shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginRight="2.0dp" android:layout_marginBottom="5.0dp" android:layout_above="@id/pitch_layout">
+                <LinearLayout android:gravity="center" android:id="@id/gravity_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+                    <TextView android:textColor="@color/black" android:id="@id/gravity_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forward_backward" style="@style/action_style" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/control_layout" android:background="@drawable/acker_control_sliding" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:layout_below="@id/gravity_layout" android:layout_centerHorizontal="true" style="@style/jetacker_fb_style">
+                    <com.hiwonder.wonder_ai.view.VerticalController android:id="@id/vertical_controller" android:layout_width="match_parent" android:layout_height="match_parent" app:ball="@drawable/fb_ball" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pitch_layout" android:background="@drawable/border_shape" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginRight="2.0dp" android:layout_alignParentBottom="true" style="@style/jetacker_control_margin">
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="@string/speed_adjust" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:id="@id/tv_size1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="80" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="2.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black" android:id="@id/tv_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="10" style="@style/action_style" />
+                    <SeekBar android:id="@id/seekbar" android:layout_margin="2.0dp" android:maxHeight="10.0dp" android:max="90" android:progress="70" android:indeterminate="false" android:progressDrawable="@drawable/deep_seekbar_progress_drawable" android:minHeight="10.0dp" android:thumb="@drawable/thum" android:splitTrack="false" style="@style/jetauto_speed_seekbar_style" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" style="@style/action_style" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+            <WebView android:id="@id/video" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/turn_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="90.0dp" android:layout_marginBottom="10.0dp" android:text="0" android:layout_above="@id/acker_turn_layout" android:layout_alignParentRight="true" />
+            <RelativeLayout android:id="@id/acker_turn_layout" android:background="@drawable/acker_control_sliding" android:layout_marginRight="10.0dp" android:layout_marginBottom="100.0dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/acker_lf_style">
+                <com.hiwonder.wonder_ai.view.AckerLFControlView android:id="@id/acker_turn" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:lf_ball="@drawable/lf_ball" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/deep_background_color" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="@android:color/transparent" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_control" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/action_style_game_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="@android:color/transparent" android:layout_marginRight="25.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="@android:color/transparent" android:layout_marginRight="25.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/fullscreen" android:layout_centerInParent="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/fullscreen" android:background="@android:color/transparent" android:layout_marginRight="10.0dp" android:src="@drawable/fullscreen" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

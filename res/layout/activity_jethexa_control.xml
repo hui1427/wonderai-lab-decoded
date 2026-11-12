@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fullscreen_layout" android:background="@color/add_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/fullscreen_video" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:id="@id/fullscreen_back_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/video_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/turn" android:layout_width="160.0dp" android:layout_height="65.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/jethexa_margin_top">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_weight="1.0">
+                    <Button android:id="@id/ibtn_left1" android:background="@drawable/control_left" style="@style/left_right_style" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <Button android:textSize="8.0sp" android:textColor="@color/grey_background" android:id="@id/ibtn_middle1" android:background="@drawable/control_middle" android:text="@string/back_center" android:onClick="onClick" android:textAllCaps="false" style="@style/left_right_style" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginRight="12.0dp" android:layout_weight="1.0">
+                    <Button android:id="@id/ibtn_right1" android:background="@drawable/control_right" style="@style/left_right_style" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <com.hiwonder.wonder_ai.component.HandShakeX android:id="@id/hand_shakex" android:layout_width="150.0dp" android:layout_height="150.0dp" app:ball_bg="@drawable/ball_back" app:ball_src="@drawable/jethexa_ball" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/gait_layout" android:background="@drawable/ainova_control_ll_shape" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gait_choose" />
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="50.0dp">
+                    <LinearLayout android:gravity="center" android:id="@id/triangle_layout" android:background="@drawable/rec_deep_button_pressed" android:layout_marginTop="3.0dp" style="@style/jethexa_gait_button">
+                        <ImageView android:id="@id/tripod_ico" android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/triangle_w" />
+                        <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/tripod_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/triangular_gait" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/ripple_layout" android:background="@drawable/rec_button_unpress" android:layout_marginLeft="3.0dp" android:layout_marginTop="3.0dp" style="@style/jethexa_gait_button">
+                        <ImageView android:id="@id/ripple_ico" android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/wave_b" />
+                        <TextView android:textSize="11.0sp" android:textColor="@color/black" android:id="@id/ripple_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/corrugated_gait" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:padding="3.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+                <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/adjust_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:layout_marginBottom="2.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="right|center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/ainova_control_ll_shape" style="@style/jetspider_pitch_label">
+                                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:id="@id/tv_step_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" style="@style/action_style" />
+                                </LinearLayout>
+                                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:layout_width="50.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginRight="70.0dp" android:text="mm" android:textAlignment="textStart" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="3.0dp" android:layout_marginRight="5.0dp">
+                                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:layout_width="70.0dp" android:layout_height="wrap_content" android:text="@string/stride_adjustment" android:textAlignment="textEnd" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:layout_width="25.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:text="10" android:textAlignment="textEnd" style="@style/action_style" />
+                                <SeekBar android:id="@id/step_margin_seekbar" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:maxHeight="10.0dp" android:max="50" android:progress="20" android:progressDrawable="@drawable/seekbar_progress_drawable" android:minHeight="10.0dp" android:thumb="@drawable/thumb" android:splitTrack="false" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60" style="@style/action_style" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                            <LinearLayout android:gravity="right|center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/ainova_control_ll_shape" style="@style/jetspider_pitch_label">
+                                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/speed_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80" style="@style/action_style" />
+                                </LinearLayout>
+                                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:visibility="invisible" android:layout_width="50.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginRight="70.0dp" android:text="@string/ms_step" android:textAlignment="textStart" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="3.0dp" android:layout_marginRight="5.0dp">
+                                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:layout_width="70.0dp" android:layout_height="wrap_content" android:text="@string/speed" android:textAlignment="textEnd" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:layout_width="25.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:text="10" android:textAlignment="textEnd" style="@style/action_style" />
+                                <SeekBar android:id="@id/speed_seekbar" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:maxHeight="10.0dp" android:max="90" android:progress="70" android:progressDrawable="@drawable/seekbar_progress_drawable" android:minHeight="10.0dp" android:thumb="@drawable/thumb" android:splitTrack="false" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" style="@style/action_style" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                            <LinearLayout android:gravity="right|center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/ainova_control_ll_shape" style="@style/jetspider_pitch_label">
+                                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/step_height_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20" style="@style/action_style" />
+                                </LinearLayout>
+                                <TextView android:textColor="@color/black" android:layout_width="50.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginRight="70.0dp" android:text="%" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="3.0dp" android:layout_marginRight="5.0dp">
+                                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:layout_width="70.0dp" android:layout_height="wrap_content" android:text="@string/step_height" android:textAlignment="textEnd" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:layout_width="25.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:text="10%" android:textAlignment="textEnd" style="@style/action_style" />
+                                <SeekBar android:id="@id/step_height_seekbar" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:maxHeight="10.0dp" android:max="50" android:progress="10" android:progressDrawable="@drawable/seekbar_progress_drawable" android:minHeight="10.0dp" android:thumb="@drawable/thumb" android:splitTrack="false" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/backgroud_blue" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60%" style="@style/action_style" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/show_right_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.5">
+                        <TextView android:id="@id/height_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height" android:layout_centerHorizontal="true" style="@style/action_style" />
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_below="@id/height_text">
+                            <RelativeLayout android:background="@drawable/xarm_control_sliding" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_centerHorizontal="true" style="@style/jethexa_vertical_style">
+                                <TextView android:textSize="10.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rise" android:layout_centerHorizontal="true" />
+                                <TextView android:textSize="10.0sp" android:textColor="@color/black" android:id="@id/downText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/descend" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                                <com.hiwonder.wonder_ai.view.VerticalController android:id="@id/vertical_controller" android:layout_width="match_parent" android:layout_height="match_parent" app:ball="@drawable/seekbar_reset_h" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/turn_backgroup" android:layout_width="160.0dp" android:layout_height="65.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/jethexa_margin_top">
+                    <Button android:id="@id/z_plus" android:background="@drawable/z_plus_button" android:layout_marginLeft="20.0dp" android:onClick="onClick" style="@style/left_right_style" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginRight="20.0dp" android:layout_weight="1.0">
+                        <Button android:id="@id/z_minus" android:background="@drawable/z_minus_button" android:onClick="onClick" style="@style/left_right_style" />
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                    <ImageView android:id="@id/iv_remote" android:layout_width="150.0dp" android:layout_height="150.0dp" android:layout_margin="5.0dp" android:src="@drawable/jethexa_remote_0" android:layout_centerVertical="true" />
+                    <com.hiwonder.wonder_ai.view.RemoteControlView android:id="@id/rcv_remote" android:layout_width="150.0dp" android:layout_height="150.0dp" android:layout_margin="5.0dp" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/backgroud_blue" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_control" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/action_style_game_title" />
+        <ImageButton android:id="@id/reset_mode" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginRight="20.0dp" android:src="@drawable/arm_reset" android:scaleType="fitCenter" android:layout_toLeftOf="@id/video_take_photo" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/fullscreen" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:src="@drawable/contact_b" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/fullscreen" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="10.0dp" android:src="@drawable/fullscreen" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

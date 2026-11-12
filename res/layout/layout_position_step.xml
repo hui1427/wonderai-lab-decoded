@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="650.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/backgroud_blue" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/operation_steps" android:textAllCaps="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="8.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/rl_jetmax_pos" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="5.0">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="2.0">
+                <RelativeLayout android:id="@id/left_tip" android:background="@drawable/jetmax_pos_tips" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/step_img" android:layout_centerVertical="true">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_width="190.0dp" android:layout_height="wrap_content" android:text="@string/pos1_tips" />
+                </RelativeLayout>
+                <ImageView android:id="@id/step_img" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/jetmax_pos_1" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/oriention_img" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/jetmax_pos2" android:adjustViewBounds="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/postion_info3" android:layout_toRightOf="@id/oriention_img" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/video_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="5.0">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:textColor="@color/black" android:id="@id/step_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dp" android:layout_marginRight="60.0dp" android:text="@string/position_info1" />
+        </ScrollView>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.2">
+            <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/cancel_btn" android:layout_width="100.0dp" android:layout_height="50.0dp" android:layout_marginBottom="5.0dp" android:text="@string/cancel" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:textAllCaps="false" android:layout_marginEnd="150.0dp" style="?android:buttonBarButtonStyle" />
+            <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/dialog_btn" android:layout_width="100.0dp" android:layout_height="50.0dp" android:layout_marginBottom="5.0dp" android:text="@string/next_step" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:textAllCaps="false" android:layout_marginEnd="20.0dp" style="?android:buttonBarButtonStyle" />
+            <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/ok_btn" android:visibility="gone" android:layout_width="120.0dp" android:layout_height="50.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="10.0dp" android:text="@string/complete_calibration" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

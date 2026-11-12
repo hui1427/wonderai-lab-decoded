@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/backgroud_blue" android:id="@id/searchInfoText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="@string/searching" />
+    <com.hiwonder.wonder_ai.component.HorizontalListView android:id="@id/horizon_listview" android:layout_width="match_parent" android:layout_height="150.0dp" android:layout_marginLeft="20.0dp" android:layout_below="@id/searchInfoText" />
+    <View android:id="@id/divider_1" android:background="@color/backgroud_blue" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/horizon_listview" />
+    <ImageButton android:id="@id/ibtn" android:background="?selectableItemBackgroundBorderless" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_marginTop="20.0dp" android:src="@drawable/photo_media_list" android:scaleType="fitCenter" android:layout_below="@id/divider_1" android:layout_centerHorizontal="true" android:onClick="onCickPhoto" />
+    <ImageView android:id="@id/iv_add" android:layout_width="70.0dp" android:layout_height="70.0dp" android:layout_margin="20.0dp" android:src="@drawable/add_connect" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onCickWifi" />
+</RelativeLayout>

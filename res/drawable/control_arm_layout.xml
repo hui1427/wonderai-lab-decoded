@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="0.5dp" android:top="0.0dp" android:right="0.5dp" android:bottom="0.5dp" />
+            <solid android:color="#0dcccccc" />
+            <corners android:radius="10.0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="0.5dp" android:top="0.0dp" android:right="0.5dp" android:bottom="0.5dp" />
+            <solid android:color="#10cccccc" />
+            <corners android:radius="10.0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="0.5dp" android:top="0.0dp" android:right="0.5dp" android:bottom="0.5dp" />
+            <solid android:color="#15cccccc" />
+            <corners android:radius="10.0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="0.5dp" android:top="0.0dp" android:right="0.5dp" android:bottom="0.5dp" />
+            <solid android:color="#20cccccc" />
+            <corners android:radius="10.0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="0.5dp" android:top="0.0dp" android:right="0.5dp" android:bottom="0.5dp" />
+            <solid android:color="@color/add_line" />
+            <corners android:radius="10.0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#fafafa" />
+            <corners android:radius="4.0dp" />
+        </shape>
+    </item>
+</layer-list>
