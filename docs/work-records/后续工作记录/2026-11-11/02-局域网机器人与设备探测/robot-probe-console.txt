@@ -1,0 +1,102 @@
+{
+
+  "timestamp": "2026-11-11T21:34:30.725550+08:00",
+
+  "steps": [
+
+    {
+
+      "step": "udp_discovery",
+
+      "local_port": 9025,
+
+      "remote_port": 9027,
+
+      "payload": "LOBOT_NET_DISCOVER",
+
+      "sent_to": [
+
+        "255.255.255.255",
+
+        "<私网IP>",
+
+        "<私网IP>"
+
+      ],
+
+      "send_errors": [],
+
+      "replies": [],
+
+      "reply_count": 0
+
+    },
+
+    {
+
+      "step": "tcp_scan",
+
+      "ports": [
+
+        80,
+
+        8080,
+
+        9090,
+
+        5555,
+
+        9025,
+
+        9027,
+
+        8000,
+
+        8888,
+
+        22
+
+      ],
+
+      "open_hosts": [
+
+        {
+
+          "host": "<私网IP>",
+
+          "open_ports": [
+
+            8080
+
+          ]
+
+        },
+
+        {
+
+          "host": "<私网IP>",
+
+          "open_ports": [
+
+            80,
+
+            9090
+
+          ]
+
+        }
+
+      ],
+
+      "host_count": 2
+
+    }
+
+  ],
+
+  "wifi_adapter_present": false,
+
+  "conclusion": "δ�����κ���Ӧ LOBOT_NET_DISCOVER ���豸��δ���ֿ��Ż����˳����˿ڵľ�������������������̫�� <私网IP>/24������ <私网IP>������ Wi-Fi/�������������޷�����������ȵ����� BLE ̽�⡣��ǰ�������߱������˶˵��˲���������"
+
+}
+

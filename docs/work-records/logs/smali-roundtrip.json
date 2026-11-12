@@ -1,0 +1,62 @@
+{
+
+  "expected": 6563,
+
+  "redecoded": 6563,
+
+  "absent": [],
+
+  "added": [],
+
+  "byte_different": [
+
+    "androidx/appcompat/widget/VectorEnabledTintResources.smali",
+
+    "androidx/constraintlayout/solver/ArrayRow.smali",
+
+    "androidx/constraintlayout/solver/Pools.smali",
+
+    "androidx/constraintlayout/solver/widgets/Chain.smali",
+
+    "androidx/constraintlayout/solver/widgets/analyzer/Direct.smali",
+
+    "androidx/constraintlayout/solver/widgets/analyzer/Grouping.smali",
+
+    "androidx/constraintlayout/solver/widgets/analyzer/WidgetGroup.smali",
+
+    "androidx/core/graphics/TypefaceCompatApi21Impl.smali",
+
+    "androidx/core/view/KeyEventDispatcher.smali",
+
+    "androidx/core/view/WindowInsetsCompat$BuilderImpl20.smali",
+
+    "androidx/core/view/WindowInsetsCompat$Impl20.smali",
+
+    "androidx/recyclerview/widget/DefaultItemAnimator.smali",
+
+    "androidx/recyclerview/widget/RecyclerView.smali",
+
+    "androidx/recyclerview/widget/ViewInfoStore.smali",
+
+    "androidx/viewpager/widget/ViewPager.smali",
+
+    "com/bumptech/glide/util/pool/GlideTrace.smali",
+
+    "com/bumptech/glide/util/pool/StateVerifier.smali",
+
+    "com/hiwonder/wonder_ai/activity/TitleActivity.smali",
+
+    "com/hiwonder/wonder_ai/activity/photolistActivity.smali",
+
+    "com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+    "com/hiwonder/wonder_ai/utils/CommandConstant.smali",
+
+    "com/hiwonder/wonderai/BuildConfig.smali",
+
+    "org/slf4j/helpers/Util.smali"
+
+  ]
+
+}
+

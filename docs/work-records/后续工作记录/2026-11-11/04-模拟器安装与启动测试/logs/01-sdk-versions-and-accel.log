@@ -1,0 +1,98 @@
+=== 2026-11-11 21:40:25 +08:00 记录开始：工具版本与加速状态 ===
+
+## Host: Microsoft Windows 11 专业版 build 26200 / CPU AMD Ryzen 5 5600 6-Core Processor               / HypervisorPresent=False
+
+## emulator -version
+
+Android emulator version 37.3.9.0 (build_id 16863232) (CL:N/A)
+
+Copyright (C) 2006-2024 The Android Open Source Project and many others.
+
+This program is a derivative of the QEMU CPU emulator (www.qemu.org).
+
+
+
+  This software is licensed under the terms of the GNU General Public
+
+  License version 2, as published by the Free Software Foundation, and
+
+  may be copied, distributed, and modified under those terms.
+
+
+
+  This program is distributed in the hope that it will be useful,
+
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+
+  GNU General Public License for more details.
+
+
+
+INFO         | Android emulator version 37.3.9.0 (build_id 16863232) (CL:N/A)
+
+INFO         | Graphics backend: gfxstream
+
+## emulator -help-accel (原始输出, 关键行)
+
+
+
+  Use '-accel <mode>' to control how CPU emulation can be accelerated
+
+  when launching the Android emulator. Hardware acceleration is required.
+
+  On Linux, it relies on KVM being installed. On Windows, it relies on
+
+  WHPX. On macOS, it relies on HVF.
+
+  Valid values for <mode> are:
+
+
+
+     auto   The default, determines automatically if acceleration
+
+            is supported, and uses it when possible.
+
+
+
+     on     Force acceleration. If a hardware CPU accelerator is not
+
+            installed or usable, the emulator will refuse to start and
+
+            print an error message.
+
+
+
+     off    UNSUPPORTED: software CPU emulation (TCG) is no longer
+
+            supported, and '-accel off' returns an error unless
+
+            ANDROID_I_WANT_MY_TCG=yes is set in the environment.
+
+
+
+
+
+## emulator-check accel (原始输出)
+
+accel:
+
+6
+
+Android Emulator hypervisor driver is not installed on this machine
+
+accel
+
+emulator-check accel exit code: 6
+
+## adb version
+
+Android Debug Bridge version 1.0.41
+
+Version 37.0.3-16887417
+
+Installed as D:\WonderAiLabEmu\sdk\platform-tools\adb.exe
+
+Running on Windows <私网IP>.26200
+

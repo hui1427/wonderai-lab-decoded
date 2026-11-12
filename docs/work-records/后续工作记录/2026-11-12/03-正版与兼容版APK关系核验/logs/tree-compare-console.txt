@@ -1,0 +1,1054 @@
+=== tree diff ===
+
+{
+
+  "file_count": [
+
+    7955,
+
+    7955
+
+  ],
+
+  "only_official": [
+
+    "original/META-INF/CERT.RSA",
+
+    "original/META-INF/CERT.SF"
+
+  ],
+
+  "only_lab": [
+
+    "original/META-INF/ROBOTLAB.RSA",
+
+    "original/META-INF/ROBOTLAB.SF"
+
+  ],
+
+  "common": 7953,
+
+  "content_different": 31,
+
+  "content_different_files": [
+
+    "AndroidManifest.xml",
+
+    "apktool.yml",
+
+    "original/AndroidManifest.xml",
+
+    "original/META-INF/MANIFEST.MF",
+
+    "res/values-zh-rCN/strings.xml",
+
+    "res/values-zh-rTW/strings.xml",
+
+    "res/values/attrs.xml",
+
+    "res/values/strings.xml",
+
+    "smali/androidx/appcompat/widget/VectorEnabledTintResources.smali",
+
+    "smali/androidx/constraintlayout/solver/ArrayRow.smali",
+
+    "smali/androidx/constraintlayout/solver/Pools.smali",
+
+    "smali/androidx/constraintlayout/solver/widgets/Chain.smali",
+
+    "smali/androidx/constraintlayout/solver/widgets/analyzer/Direct.smali",
+
+    "smali/androidx/constraintlayout/solver/widgets/analyzer/Grouping.smali",
+
+    "smali/androidx/constraintlayout/solver/widgets/analyzer/WidgetGroup.smali",
+
+    "smali/androidx/core/graphics/TypefaceCompatApi21Impl.smali",
+
+    "smali/androidx/core/view/KeyEventDispatcher.smali",
+
+    "smali/androidx/core/view/WindowInsetsCompat$BuilderImpl20.smali",
+
+    "smali/androidx/core/view/WindowInsetsCompat$Impl20.smali",
+
+    "smali/androidx/recyclerview/widget/DefaultItemAnimator.smali",
+
+    "smali/androidx/recyclerview/widget/RecyclerView.smali",
+
+    "smali/androidx/recyclerview/widget/ViewInfoStore.smali",
+
+    "smali/androidx/viewpager/widget/ViewPager.smali",
+
+    "smali/com/bumptech/glide/util/pool/GlideTrace.smali",
+
+    "smali/com/bumptech/glide/util/pool/StateVerifier.smali",
+
+    "smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali",
+
+    "smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali",
+
+    "smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+    "smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali",
+
+    "smali/com/hiwonder/wonderai/BuildConfig.smali",
+
+    "smali/org/slf4j/helpers/Util.smali"
+
+  ]
+
+}
+
+=== manifest diff ===
+
+--- official/AndroidManifest.xml
+
++++ lab/AndroidManifest.xml
+
+@@ -1,3 +1,3 @@
+
+ <?xml version="1.0" encoding="utf-8"?>
+
+-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.hiwonder.wonderai" platformBuildVersionCode="36" platformBuildVersionName="16">
+
++<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="local.robotlab.wonderai" platformBuildVersionCode="36" platformBuildVersionName="16">
+
+     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+=== smali ===
+
+{
+
+  "count": [
+
+    6563,
+
+    6563
+
+  ],
+
+  "different_count": 23,
+
+  "normalized_identical_count": 0,
+
+  "semantic_differences": [
+
+    {
+
+      "file": "smali/androidx/appcompat/widget/VectorEnabledTintResources.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/constraintlayout/solver/ArrayRow.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/constraintlayout/solver/Pools.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/constraintlayout/solver/widgets/Chain.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/constraintlayout/solver/widgets/analyzer/Direct.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/constraintlayout/solver/widgets/analyzer/Grouping.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/constraintlayout/solver/widgets/analyzer/WidgetGroup.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/core/graphics/TypefaceCompatApi21Impl.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/core/view/KeyEventDispatcher.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/core/view/WindowInsetsCompat$BuilderImpl20.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/core/view/WindowInsetsCompat$Impl20.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/recyclerview/widget/DefaultItemAnimator.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/recyclerview/widget/RecyclerView.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/recyclerview/widget/ViewInfoStore.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/androidx/viewpager/widget/ViewPager.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/bumptech/glide/util/pool/GlideTrace.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/bumptech/glide/util/pool/StateVerifier.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/com/hiwonder/wonderai/BuildConfig.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    },
+
+    {
+
+      "file": "smali/org/slf4j/helpers/Util.smali",
+
+      "raw_equal": false,
+
+      "normalized_equal": false,
+
+      "method_sets_equal": true,
+
+      "methods_only_official": [],
+
+      "methods_only_lab": [],
+
+      "methods_with_different_instructions": []
+
+    }
+
+  ]
+
+}
+
+semantic_differences: [
+
+  {
+
+    "file": "smali/androidx/appcompat/widget/VectorEnabledTintResources.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/constraintlayout/solver/ArrayRow.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/constraintlayout/solver/Pools.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/constraintlayout/solver/widgets/Chain.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/constraintlayout/solver/widgets/analyzer/Direct.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/constraintlayout/solver/widgets/analyzer/Grouping.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/constraintlayout/solver/widgets/analyzer/WidgetGroup.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/core/graphics/TypefaceCompatApi21Impl.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/core/view/KeyEventDispatcher.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/core/view/WindowInsetsCompat$BuilderImpl20.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/core/view/WindowInsetsCompat$Impl20.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/recyclerview/widget/DefaultItemAnimator.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/recyclerview/widget/RecyclerView.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/recyclerview/widget/ViewInfoStore.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/androidx/viewpager/widget/ViewPager.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/bumptech/glide/util/pool/GlideTrace.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/bumptech/glide/util/pool/StateVerifier.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/com/hiwonder/wonderai/BuildConfig.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  },
+
+  {
+
+    "file": "smali/org/slf4j/helpers/Util.smali",
+
+    "raw_equal": false,
+
+    "normalized_equal": false,
+
+    "method_sets_equal": true,
+
+    "methods_only_official": [],
+
+    "methods_only_lab": [],
+
+    "methods_with_different_instructions": []
+
+  }
+
+]
+
+=== res ===
+
+{
+
+  "count": [
+
+    1327,
+
+    1327
+
+  ],
+
+  "only_official": [],
+
+  "only_lab": [],
+
+  "common": 1327,
+
+  "different_count": 4,
+
+  "different": [
+
+    "res/values-zh-rCN/strings.xml",
+
+    "res/values-zh-rTW/strings.xml",
+
+    "res/values/attrs.xml",
+
+    "res/values/strings.xml"
+
+  ]
+
+}
+
+=== app_name ===
+
+{
+
+  "res/values/strings.xml": {
+
+    "official_app_name": "WonderAi",
+
+    "lab_app_name": "WonderAi Lab"
+
+  },
+
+  "res/values-zh-rCN/strings.xml": {
+
+    "official_app_name": "WonderAi",
+
+    "lab_app_name": "WonderAi Lab"
+
+  },
+
+  "res/values-zh-rTW/strings.xml": {
+
+    "official_app_name": "WonderAi",
+
+    "lab_app_name": "WonderAi Lab"
+
+  }
+
+}
+
+=== BuildConfig diff ===
+
+--- official/smali/com/hiwonder/wonderai/BuildConfig.smali
+
++++ lab/smali/com/hiwonder/wonderai/BuildConfig.smali
+
+@@ -5,5 +5,5 @@
+
+ 
+
+ # static fields
+
+-.field public static final APPLICATION_ID:Ljava/lang/String; = "com.hiwonder.wonderai"
+
++.field public static final APPLICATION_ID:Ljava/lang/String; = "local.robotlab.wonderai"
+
+ 
+
+ .field public static final BUILD_TYPE:Ljava/lang/String; = "release"
+

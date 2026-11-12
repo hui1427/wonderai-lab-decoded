@@ -1,0 +1,96 @@
+########## SearchDeviceDialog references ##########
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:1: .class Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$1;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:3: .source "SearchDeviceDialog.java"
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:11: value = Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:21: .field final synthetic this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:25: .method constructor <init>(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;)V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:29: iput-object p1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$1;->this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:51: iget-object p2, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$1;->this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:53: invoke-static {p2}, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->access$000(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;)Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$1.smali:57: invoke-virtual {p2, p1}, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->add(Landroid/bluetooth/BluetoothDevice;)V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:1: .class Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$2;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:3: .source "SearchDeviceDialog.java"
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:11: value = Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->scanBLEDevice()V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:21: .field final synthetic this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:25: .method constructor <init>(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;)V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:29: iput-object p1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$2;->this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:42: iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$2;->this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$2.smali:44: invoke-virtual {v0}, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->stopScan()V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter$ViewHolder.smali:1: .class Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter$ViewHolder;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter$ViewHolder.smali:3: .source "SearchDeviceDialog.java"
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter$ViewHolder.smali:8: value = Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter$ViewHolder.smali:20: .field final synthetic this$1:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter$ViewHolder.smali:26: .method constructor <init>(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;)V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter$ViewHolder.smali:30: iput-object p1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter$ViewHolder;->this$1:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:1: .class Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:3: .source "SearchDeviceDialog.java"
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:8: value = Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:18: Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter$ViewHolder;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:36: .field final synthetic this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:40: .method public constructor <init>(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;Landroid/content/Context;)V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:44: iput-object p1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:49: iput-object p2, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->context:Landroid/content/Context;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:52: iget-object p1, p1, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:63: iput-object p2, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->devices:Ljava/util/ArrayList;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:102: iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->devices:Ljava/util/ArrayList;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:122: iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->devices:Ljava/util/ArrayList;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:127: invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->notifyDataSetChanged()V
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:137: iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->devices:Ljava/util/ArrayList;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:142: iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->this$0:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:144: iget-object v0, v0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:155: iput-object v1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;->devices:Ljava/util/ArrayList;
+
+
+
+########## startService / bindService in app ##########
+
+
+
+########## Bluetooth enable/disable in app ##########
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:54: invoke-virtual {p1}, Landroid/bluetooth/BluetoothAdapter;->getBondedDevices()Ljava/util/Set;
+
+app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog$BluetoothDataAdapter.smali:146: invoke-virtual {v0}, Landroid/bluetooth/BluetoothAdapter;->getBondedDevices()Ljava/util/Set;
+
+app\smali\com\hiwonder\wonder_ai\utils\BluetoothTool\BLEService.smali:343: invoke-virtual {v2, p1}, Landroid/bluetooth/BluetoothAdapter;->getRemoteDevice(Ljava/lang/String;)Landroid/bluetooth/BluetoothDevice;
+

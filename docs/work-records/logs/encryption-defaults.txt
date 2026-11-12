@@ -1,0 +1,132 @@
+('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', '<init>') regs 6 args 3
+
+0 345b 53f8 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'this$0')
+
+2 1070 ae00 0003 ('Ljava/lang/Object;', '<init>')
+
+5 0013 001e 
+
+7 3059 53f6 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'rTime')
+
+9 3059 53fa ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'wTime')
+
+11 3059 53ea ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'cTime')
+
+13 0022 16f9 
+
+15 1070 ae76 0000 ('Ljava/lang/StringBuilder;', '<init>')
+
+18 1071 77bb 0004 ('Lcom/deng/netlibrary/netLib/ZyNetHttps;', 'access$1600')
+
+21 010b 
+
+22 306e ae7e 0210 ('Ljava/lang/StringBuilder;', 'append')
+
+25 041a 0000 ''
+
+27 206e ae82 0040 ('Ljava/lang/StringBuilder;', 'append')
+
+30 106e ae92 0000 ('Ljava/lang/StringBuilder;', 'toString')
+
+33 040c 
+
+34 345b 53ec ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'fileName')
+
+36 0412 
+
+37 345c 53ed ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'isInputDecryption')
+
+39 345c 53ee ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'isOutputDecryption')
+
+41 355b 53f5 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'mUrl')
+
+43 000e 
+
+('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', '<init>') regs 7 args 4
+
+0 345b 53f8 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'this$0')
+
+2 1070 ae00 0003 ('Ljava/lang/Object;', '<init>')
+
+5 0013 001e 
+
+7 3059 53f6 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'rTime')
+
+9 3059 53fa ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'wTime')
+
+11 3059 53ea ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'cTime')
+
+13 0022 16f9 
+
+15 1070 ae76 0000 ('Ljava/lang/StringBuilder;', '<init>')
+
+18 1071 77bb 0004 ('Lcom/deng/netlibrary/netLib/ZyNetHttps;', 'access$1600')
+
+21 010b 
+
+22 306e ae7e 0210 ('Ljava/lang/StringBuilder;', 'append')
+
+25 041a 0000 ''
+
+27 206e ae82 0040 ('Ljava/lang/StringBuilder;', 'append')
+
+30 106e ae92 0000 ('Ljava/lang/StringBuilder;', 'toString')
+
+33 040c 
+
+34 345b 53ec ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'fileName')
+
+36 0412 
+
+37 345c 53ed ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'isInputDecryption')
+
+39 345c 53ee ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'isOutputDecryption')
+
+41 355b 53f5 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'mUrl')
+
+43 365b 53ef ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'mMethod')
+
+45 000e 
+
+('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', '<init>') regs 8 args 5
+
+0 345b 53f8 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'this$0')
+
+2 1070 ae00 0003 ('Ljava/lang/Object;', '<init>')
+
+5 0013 001e 
+
+7 3059 53f6 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'rTime')
+
+9 3059 53fa ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'wTime')
+
+11 3059 53ea ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'cTime')
+
+13 0022 16f9 
+
+15 1070 ae76 0000 ('Ljava/lang/StringBuilder;', '<init>')
+
+18 1071 77bb 0004 ('Lcom/deng/netlibrary/netLib/ZyNetHttps;', 'access$1600')
+
+21 010b 
+
+22 306e ae7e 0210 ('Ljava/lang/StringBuilder;', 'append')
+
+25 041a 0000 ''
+
+27 206e ae82 0040 ('Ljava/lang/StringBuilder;', 'append')
+
+30 0412 
+
+31 345c 53ed ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'isInputDecryption')
+
+33 345c 53ee ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'isOutputDecryption')
+
+35 355b 53f5 ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'mUrl')
+
+37 365b 53eb ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'fileDir')
+
+39 375b 53ec ('Lcom/deng/netlibrary/netLib/ZyNetHttps$Builder;', 'fileName')
+
+41 000e 
+

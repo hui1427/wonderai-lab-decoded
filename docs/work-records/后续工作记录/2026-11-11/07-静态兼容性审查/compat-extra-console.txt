@@ -1,0 +1,96 @@
+{
+
+  "old_package_refs": 0,
+
+  "new_package_refs": 3,
+
+  "components_total": 138,
+
+  "components_with_filter": [
+
+    [
+
+      "activity",
+
+      "com.hiwonder.wonder_ai.activity.StartActivity",
+
+      "true"
+
+    ]
+
+  ],
+
+  "activities_exported_true": [
+
+    "com.hiwonder.wonder_ai.activity.StartActivity"
+
+  ],
+
+  "app_storage_paths_count": 16,
+
+  "elf": [
+
+    {
+
+      "file": "app/lib/arm64-v8a/libpl_droidsonroids_gif.so",
+
+      "size": 42776,
+
+      "load_p_align": [
+
+        65536,
+
+        65536
+
+      ],
+
+      "min_align": 65536
+
+    },
+
+    {
+
+      "file": "app/lib/armeabi/libpl_droidsonroids_gif.so",
+
+      "size": 38364
+
+    },
+
+    {
+
+      "file": "app/lib/armeabi-v7a/libpl_droidsonroids_gif.so",
+
+      "size": 34276
+
+    },
+
+    {
+
+      "file": "app/lib/x86/libpl_droidsonroids_gif.so",
+
+      "size": 38308
+
+    },
+
+    {
+
+      "file": "app/lib/x86_64/libpl_droidsonroids_gif.so",
+
+      "size": 43048,
+
+      "load_p_align": [
+
+        4096,
+
+        4096
+
+      ],
+
+      "min_align": 4096
+
+    }
+
+  ]
+
+}
+

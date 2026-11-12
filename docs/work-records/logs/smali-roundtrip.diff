@@ -1,0 +1,400 @@
+--- edited/androidx/appcompat/widget/VectorEnabledTintResources.smali
+
++++ rebuilt/androidx/appcompat/widget/VectorEnabledTintResources.smali
+
+@@ -9 +9 @@
+
+-.field private static sCompatVectorFromResourcesEnabled:Z = false
+
++.field private static sCompatVectorFromResourcesEnabled:Z
+
+--- edited/androidx/constraintlayout/solver/ArrayRow.smali
+
++++ rebuilt/androidx/constraintlayout/solver/ArrayRow.smali
+
+@@ -18,3 +18,3 @@
+
+-.field private static final DEBUG:Z = false
+
+-
+
+-.field private static final FULL_NEW_CHECK:Z = false
+
++.field private static final DEBUG:Z
+
++
+
++.field private static final FULL_NEW_CHECK:Z
+
+--- edited/androidx/constraintlayout/solver/Pools.smali
+
++++ rebuilt/androidx/constraintlayout/solver/Pools.smali
+
+@@ -16 +16 @@
+
+-.field private static final DEBUG:Z = false
+
++.field private static final DEBUG:Z
+
+--- edited/androidx/constraintlayout/solver/widgets/Chain.smali
+
++++ rebuilt/androidx/constraintlayout/solver/widgets/Chain.smali
+
+@@ -7,3 +7,3 @@
+
+-.field private static final DEBUG:Z = false
+
+-
+
+-.field public static final USE_CHAIN_OPTIMIZATION:Z = false
+
++.field private static final DEBUG:Z
+
++
+
++.field public static final USE_CHAIN_OPTIMIZATION:Z
+
+--- edited/androidx/constraintlayout/solver/widgets/analyzer/Direct.smali
+
++++ rebuilt/androidx/constraintlayout/solver/widgets/analyzer/Direct.smali
+
+@@ -7,3 +7,3 @@
+
+-.field private static final APPLY_MATCH_PARENT:Z = false
+
+-
+
+-.field private static final DEBUG:Z = false
+
++.field private static final APPLY_MATCH_PARENT:Z
+
++
+
++.field private static final DEBUG:Z
+
+--- edited/androidx/constraintlayout/solver/widgets/analyzer/Grouping.smali
+
++++ rebuilt/androidx/constraintlayout/solver/widgets/analyzer/Grouping.smali
+
+@@ -7,3 +7,3 @@
+
+-.field private static final DEBUG:Z = false
+
+-
+
+-.field private static final DEBUG_GROUPING:Z = false
+
++.field private static final DEBUG:Z
+
++
+
++.field private static final DEBUG_GROUPING:Z
+
+--- edited/androidx/constraintlayout/solver/widgets/analyzer/WidgetGroup.smali
+
++++ rebuilt/androidx/constraintlayout/solver/widgets/analyzer/WidgetGroup.smali
+
+@@ -15 +15 @@
+
+-.field private static final DEBUG:Z = false
+
++.field private static final DEBUG:Z
+
+--- edited/androidx/core/graphics/TypefaceCompatApi21Impl.smali
+
++++ rebuilt/androidx/core/graphics/TypefaceCompatApi21Impl.smali
+
+@@ -15,5 +15,5 @@
+
+-.field private static sAddFontWeightStyle:Ljava/lang/reflect/Method; = null
+
+-
+
+-.field private static sCreateFromFamiliesWithDefault:Ljava/lang/reflect/Method; = null
+
+-
+
+-.field private static sFontFamily:Ljava/lang/Class; = null
+
++.field private static sAddFontWeightStyle:Ljava/lang/reflect/Method;
+
++
+
++.field private static sCreateFromFamiliesWithDefault:Ljava/lang/reflect/Method;
+
++
+
++.field private static sFontFamily:Ljava/lang/Class;
+
+@@ -28 +28 @@
+
+-.field private static sFontFamilyCtor:Ljava/lang/reflect/Constructor; = null
+
++.field private static sFontFamilyCtor:Ljava/lang/reflect/Constructor;
+
+@@ -37 +37 @@
+
+-.field private static sHasInitBeenCalled:Z = false
+
++.field private static sHasInitBeenCalled:Z
+
+--- edited/androidx/core/view/KeyEventDispatcher.smali
+
++++ rebuilt/androidx/core/view/KeyEventDispatcher.smali
+
+@@ -15,5 +15,5 @@
+
+-.field private static sActionBarFieldsFetched:Z = false
+
+-
+
+-.field private static sActionBarOnMenuKeyMethod:Ljava/lang/reflect/Method; = null
+
+-
+
+-.field private static sDialogFieldsFetched:Z = false
+
++.field private static sActionBarFieldsFetched:Z
+
++
+
++.field private static sActionBarOnMenuKeyMethod:Ljava/lang/reflect/Method;
+
++
+
++.field private static sDialogFieldsFetched:Z
+
+--- edited/androidx/core/view/WindowInsetsCompat$BuilderImpl20.smali
+
++++ rebuilt/androidx/core/view/WindowInsetsCompat$BuilderImpl20.smali
+
+@@ -18 +18 @@
+
+-.field private static sConstructor:Ljava/lang/reflect/Constructor; = null
+
++.field private static sConstructor:Ljava/lang/reflect/Constructor;
+
+@@ -28,5 +28,5 @@
+
+-.field private static sConstructorFetched:Z = false
+
+-
+
+-.field private static sConsumedField:Ljava/lang/reflect/Field; = null
+
+-
+
+-.field private static sConsumedFieldFetched:Z = false
+
++.field private static sConstructorFetched:Z
+
++
+
++.field private static sConsumedField:Ljava/lang/reflect/Field;
+
++
+
++.field private static sConsumedFieldFetched:Z
+
+--- edited/androidx/core/view/WindowInsetsCompat$Impl20.smali
+
++++ rebuilt/androidx/core/view/WindowInsetsCompat$Impl20.smali
+
+@@ -18 +18 @@
+
+-.field private static sAttachInfoClass:Ljava/lang/Class; = null
+
++.field private static sAttachInfoClass:Ljava/lang/Class;
+
+@@ -27,7 +27,7 @@
+
+-.field private static sAttachInfoField:Ljava/lang/reflect/Field; = null
+
+-
+
+-.field private static sGetViewRootImplMethod:Ljava/lang/reflect/Method; = null
+
+-
+
+-.field private static sVisibleInsetsField:Ljava/lang/reflect/Field; = null
+
+-
+
+-.field private static sVisibleRectReflectionFetched:Z = false
+
++.field private static sAttachInfoField:Ljava/lang/reflect/Field;
+
++
+
++.field private static sGetViewRootImplMethod:Ljava/lang/reflect/Method;
+
++
+
++.field private static sVisibleInsetsField:Ljava/lang/reflect/Field;
+
++
+
++.field private static sVisibleRectReflectionFetched:Z
+
+--- edited/androidx/recyclerview/widget/DefaultItemAnimator.smali
+
++++ rebuilt/androidx/recyclerview/widget/DefaultItemAnimator.smali
+
+@@ -16 +16 @@
+
+-.field private static final DEBUG:Z = false
+
++.field private static final DEBUG:Z
+
+--- edited/androidx/recyclerview/widget/RecyclerView.smali
+
++++ rebuilt/androidx/recyclerview/widget/RecyclerView.smali
+
+@@ -130 +130 @@
+
+-.field static sDebugAssertionsEnabled:Z = false
+
++.field static sDebugAssertionsEnabled:Z
+
+@@ -136 +136 @@
+
+-.field static sVerboseLoggingEnabled:Z = false
+
++.field static sVerboseLoggingEnabled:Z
+
+--- edited/androidx/recyclerview/widget/ViewInfoStore.smali
+
++++ rebuilt/androidx/recyclerview/widget/ViewInfoStore.smali
+
+@@ -16 +16 @@
+
+-.field private static final DEBUG:Z = false
+
++.field private static final DEBUG:Z
+
+--- edited/androidx/viewpager/widget/ViewPager.smali
+
++++ rebuilt/androidx/viewpager/widget/ViewPager.smali
+
+@@ -67 +67 @@
+
+-.field private static final USE_CACHE:Z = false
+
++.field private static final USE_CACHE:Z
+
+--- edited/com/bumptech/glide/util/pool/GlideTrace.smali
+
++++ rebuilt/com/bumptech/glide/util/pool/GlideTrace.smali
+
+@@ -9 +9 @@
+
+-.field private static final TRACING_ENABLED:Z = false
+
++.field private static final TRACING_ENABLED:Z
+
+--- edited/com/bumptech/glide/util/pool/StateVerifier.smali
+
++++ rebuilt/com/bumptech/glide/util/pool/StateVerifier.smali
+
+@@ -16 +16 @@
+
+-.field private static final DEBUG:Z = false
+
++.field private static final DEBUG:Z
+
+--- edited/com/hiwonder/wonder_ai/activity/TitleActivity.smali
+
++++ rebuilt/com/hiwonder/wonder_ai/activity/TitleActivity.smali
+
+@@ -22,3 +22,3 @@
+
+-.field public static isConnected:Z = false
+
+-
+
+-.field public static noShowConnect:Z = false
+
++.field public static isConnected:Z
+
++
+
++.field public static noShowConnect:Z
+
+--- edited/com/hiwonder/wonder_ai/activity/photolistActivity.smali
+
++++ rebuilt/com/hiwonder/wonder_ai/activity/photolistActivity.smali
+
+@@ -16,3 +16,3 @@
+
+-.field public static deleteflag:Z = false
+
+-
+
+-.field public static listItem:Ljava/util/ArrayList; = null
+
++.field public static deleteflag:Z
+
++
+
++.field public static listItem:Ljava/util/ArrayList;
+
+@@ -30,3 +30,3 @@
+
+-.field public static listItemAdapter:Lcom/hiwonder/wonder_ai/component/PhotoAdapter; = null
+
+-
+
+-.field public static photo_del_mode:Z = false
+
++.field public static listItemAdapter:Lcom/hiwonder/wonder_ai/component/PhotoAdapter;
+
++
+
++.field public static photo_del_mode:Z
+
+--- edited/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali
+
++++ rebuilt/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali
+
+@@ -38,3 +38,3 @@
+
+-.field private static instance:Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager; = null
+
+-
+
+-.field private static isRegistered:Z = false
+
++.field private static instance:Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager;
+
++
+
++.field private static isRegistered:Z
+
+--- edited/com/hiwonder/wonder_ai/utils/CommandConstant.smali
+
++++ rebuilt/com/hiwonder/wonder_ai/utils/CommandConstant.smali
+
+@@ -25 +25 @@
+
+-.field public static blockly_null:Z = false
+
++.field public static blockly_null:Z
+
+--- edited/org/slf4j/helpers/Util.smali
+
++++ rebuilt/org/slf4j/helpers/Util.smali
+
+@@ -15,3 +15,3 @@
+
+-.field private static SECURITY_MANAGER:Lorg/slf4j/helpers/Util$ClassContextSecurityManager; = null
+
+-
+
+-.field private static SECURITY_MANAGER_CREATION_ALREADY_ATTEMPTED:Z = false
+
++.field private static SECURITY_MANAGER:Lorg/slf4j/helpers/Util$ClassContextSecurityManager;
+
++
+
++.field private static SECURITY_MANAGER_CREATION_ALREADY_ATTEMPTED:Z
+

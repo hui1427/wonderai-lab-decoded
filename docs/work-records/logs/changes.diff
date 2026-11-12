@@ -1,0 +1,70 @@
+--- original/AndroidManifest.xml
+
++++ app/AndroidManifest.xml
+
+@@ -1,3 +1,3 @@
+
+ <?xml version="1.0" encoding="utf-8"?>
+
+-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.hiwonder.wonderai" platformBuildVersionCode="36" platformBuildVersionName="16">
+
++<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="local.robotlab.wonderai" platformBuildVersionCode="36" platformBuildVersionName="16">
+
+     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+--- original/smali/com/hiwonder/wonderai/BuildConfig.smali
+
++++ app/smali/com/hiwonder/wonderai/BuildConfig.smali
+
+@@ -6,3 +6,3 @@
+
+ # static fields
+
+-.field public static final APPLICATION_ID:Ljava/lang/String; = "com.hiwonder.wonderai"
+
++.field public static final APPLICATION_ID:Ljava/lang/String; = "local.robotlab.wonderai"
+
+ 
+
+--- original/res/values/strings.xml
+
++++ app/res/values/strings.xml
+
+@@ -78,3 +78,3 @@
+
+     <string name="apirltag_recognize">Apirltag Recognition</string>
+
+-    <string name="app_name">WonderAi</string>
+
++    <string name="app_name">WonderAi Lab</string>
+
+     <string name="app_version">Version:</string>
+
+--- original/res/values-zh-rCN/strings.xml
+
++++ app/res/values-zh-rCN/strings.xml
+
+@@ -78,3 +78,3 @@
+
+     <string name="apirltag_recognize">标签识别</string>
+
+-    <string name="app_name">WonderAi</string>
+
++    <string name="app_name">WonderAi Lab</string>
+
+     <string name="app_version">版本号:</string>
+
+--- original/res/values-zh-rTW/strings.xml
+
++++ app/res/values-zh-rTW/strings.xml
+
+@@ -78,3 +78,3 @@
+
+     <string name="apirltag_recognize">標籤識別</string>
+
+-    <string name="app_name">WonderAi</string>
+
++    <string name="app_name">WonderAi Lab</string>
+
+     <string name="app_version">版本號:</string>
+

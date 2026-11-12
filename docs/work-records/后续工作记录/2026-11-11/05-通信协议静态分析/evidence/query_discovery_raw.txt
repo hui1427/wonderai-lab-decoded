@@ -1,0 +1,35 @@
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:44  const 0 (0x0)  @private constructor <init>(Lcom/hiwonder/wonder_ai/connect/Scanner;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:95  const 0 (0x0)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:97  const 0 (0x0)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:100  const 10 (0xa)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:104  const 0 (0x0)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:116  const 1 (0x1)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:133  const 9025 (0x2341)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:139  const 350 (0x15e)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:144  const-string 'LOBOT_NET_DISCOVER'  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:180  const 9027 (0x2343)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:219  const 0 (0x0)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:224  const 100 (0x64)  @protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali:454  const 0 (0x0)  @protected onPostExecute(Ljava/util/Map;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:36  const 0 (0x0)  @public constructor <init>(Landroid/content/Context;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:48  const-string 'wifi'  @public constructor <init>(Landroid/content/Context;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:161  const-string 'connectivity'  @private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:183  const 0 (0x0)  @private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:197  const 1 (0x1)  @private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:209  const-string 'Scanner'  @private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:211  const-string 'UDP socket bound to Wi-Fi network'  @private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:230  const 0 (0x0)  @private copyOfRange([BI)[B
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:232  const 0 (0x0)  @private copyOfRange([BI)[B
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:234  const 0 (0x0)  @private copyOfRange([BI)[B
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:245  const 58 (0x3a)  @private copyOfRange([BI)[B
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:302  const 0 (0x0)  @private getGatewayAddress()Ljava/net/InetAddress;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:341  const-string '255.255.255.255'  @private getScanAddresses()Ljava/util/Set;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:363  const 0 (0x0)  @private getWifiBroadcastAddress()Ljava/net/InetAddress;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:392  const 4 (0x4)  @private getWifiBroadcastAddress()Ljava/net/InetAddress;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:396  const 0 (0x0)  @private getWifiBroadcastAddress()Ljava/net/InetAddress;
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:439  const 0 (0x0)  @private scan(Z)Z
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:446  const 1 (0x1)  @private scan(Z)Z
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:457  const-string 'UDPwifi'  @private scan(Z)Z
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:471  const 0 (0x0)  @private scan(Z)Z
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:490  const 1 (0x1)  @public scan()Z
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali:503  const 0 (0x0)  @public scanAll()Z

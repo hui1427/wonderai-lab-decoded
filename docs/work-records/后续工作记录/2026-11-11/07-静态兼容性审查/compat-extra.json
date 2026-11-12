@@ -1,0 +1,335 @@
+{
+
+  "old_package_refs": {
+
+    "count": 0,
+
+    "items": []
+
+  },
+
+  "new_package_refs": {
+
+    "count": 3,
+
+    "items": [
+
+      {
+
+        "file": "app/AndroidManifest.xml",
+
+        "line": 2,
+
+        "text": "<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:compileSdkVersion=\"36\" android:compileSdkVersionCodename=\"16\" package=\"local.robotlab.wonderai\" platformBuildVersionCode=\"3"
+
+      },
+
+      {
+
+        "file": "app/build/apk/classes.dex",
+
+        "line": 106112,
+
+        "text": "loadfuncCode\u0000\u0007loading\u0000\u0011loadingStateCheck\u0000\u000eloading_layout\u0000\u0005lobot\u0000\u0017local.robotlab.wonderai\u0000\u0011localCertificates\u0000"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonderai/BuildConfig.smali",
+
+        "line": 7,
+
+        "text": ".field public static final APPLICATION_ID:Ljava/lang/String; = \"local.robotlab.wonderai\""
+
+      }
+
+    ]
+
+  },
+
+  "app_storage_paths": {
+
+    "count": 16,
+
+    "items": [
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/Glide.smali",
+
+        "line": 1376,
+
+        "text": "invoke-virtual {p0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/DiskLruCacheFactory$1.smali",
+
+        "line": 38,
+
+        "text": ".method public getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/DiskLruCacheFactory$2.smali",
+
+        "line": 42,
+
+        "text": ".method public getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/DiskLruCacheFactory$CacheDirectoryGetter.smali",
+
+        "line": 18,
+
+        "text": ".method public abstract getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/DiskLruCacheFactory.smali",
+
+        "line": 73,
+
+        "text": "invoke-interface {v0}, Lcom/bumptech/glide/load/engine/cache/DiskLruCacheFactory$CacheDirectoryGetter;->getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/ExternalCacheDiskCacheFactory$1.smali",
+
+        "line": 42,
+
+        "text": ".method public getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/ExternalPreferredCacheDiskCacheFactory$1.smali",
+
+        "line": 46,
+
+        "text": "invoke-virtual {v0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/ExternalPreferredCacheDiskCacheFactory$1.smali",
+
+        "line": 77,
+
+        "text": ".method public getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/InternalCacheDiskCacheFactory$1.smali",
+
+        "line": 42,
+
+        "text": ".method public getCacheDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/engine/cache/InternalCacheDiskCacheFactory$1.smali",
+
+        "line": 48,
+
+        "text": "invoke-virtual {v0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 494,
+
+        "text": "invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->getFilesDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 542,
+
+        "text": "invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->getFilesDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+        "line": 331,
+
+        "text": "invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->getFilesDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+        "line": 423,
+
+        "text": "invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->getFilesDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/InputActionDialog.smali",
+
+        "line": 105,
+
+        "text": "invoke-virtual {v2}, Landroid/content/Context;->getFilesDir()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Control_Activity.smali",
+
+        "line": 1172,
+
+        "text": "invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/AiNex/AiNex_Control_Activity;->getFilesDir()Ljava/io/File;"
+
+      }
+
+    ]
+
+  },
+
+  "components_total": 138,
+
+  "components_with_filter": [
+
+    {
+
+      "kind": "activity",
+
+      "name": "com.hiwonder.wonder_ai.activity.StartActivity",
+
+      "exported": "true",
+
+      "has_filter": true
+
+    }
+
+  ],
+
+  "activities_exported_true": [
+
+    {
+
+      "kind": "activity",
+
+      "name": "com.hiwonder.wonder_ai.activity.StartActivity",
+
+      "exported": "true",
+
+      "has_filter": true
+
+    }
+
+  ],
+
+  "services": [
+
+    {
+
+      "kind": "service",
+
+      "name": "com.hiwonder.wonder_ai.utils.BluetoothTool.BLEService",
+
+      "exported": null,
+
+      "has_filter": false
+
+    }
+
+  ],
+
+  "native_libs_elf": [
+
+    {
+
+      "file": "app/lib/arm64-v8a/libpl_droidsonroids_gif.so",
+
+      "size": 42776,
+
+      "load_p_align": [
+
+        65536,
+
+        65536
+
+      ],
+
+      "min_align": 65536
+
+    },
+
+    {
+
+      "file": "app/lib/armeabi/libpl_droidsonroids_gif.so",
+
+      "size": 38364
+
+    },
+
+    {
+
+      "file": "app/lib/armeabi-v7a/libpl_droidsonroids_gif.so",
+
+      "size": 34276
+
+    },
+
+    {
+
+      "file": "app/lib/x86/libpl_droidsonroids_gif.so",
+
+      "size": 38308
+
+    },
+
+    {
+
+      "file": "app/lib/x86_64/libpl_droidsonroids_gif.so",
+
+      "size": 43048,
+
+      "load_p_align": [
+
+        4096,
+
+        4096
+
+      ],
+
+      "min_align": 4096
+
+    }
+
+  ]
+
+}

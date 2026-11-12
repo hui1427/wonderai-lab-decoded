@@ -1,0 +1,66 @@
+{
+
+  "orig_entries": 1275,
+
+  "lab_entries": 1275,
+
+  "common_entries": 93,
+
+  "only_original_count": 1182,
+
+  "only_lab_count": 1182,
+
+  "size_diff": [
+
+    [
+
+      "AndroidManifest.xml",
+
+      43544,
+
+      43548
+
+    ],
+
+    [
+
+      "META-INF/MANIFEST.MF",
+
+      107810,
+
+      145132
+
+    ],
+
+    [
+
+      "classes.dex",
+
+      8727400,
+
+      8735336
+
+    ],
+
+    [
+
+      "resources.arsc",
+
+      634904,
+
+      672224
+
+    ]
+
+  ],
+
+  "size_diff_count": 4,
+
+  "crc_diff_count": 34,
+
+  "orig_total_uncompressed": 41044841,
+
+  "lab_total_uncompressed": 41165235
+
+}
+

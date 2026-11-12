@@ -1,0 +1,14 @@
+
+
+Name  InterfaceDescription               Status LinkSpeed
+
+----  --------------------               ------ ---------
+
+以太网 2 Realtek PCIe GbE Family Controller Up     100 Mbps 
+
+
+
+
+
+
+

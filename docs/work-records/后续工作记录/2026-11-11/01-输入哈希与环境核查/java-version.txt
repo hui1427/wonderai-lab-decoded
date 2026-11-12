@@ -1,0 +1,26 @@
+java.exe : openjdk version "11.0.8" 2020-07-14
+
+所在位置 行:1 字符: 512
+
++ ... s\Codex\2026-11-11\w\outputs\RobotLab"; & $java -version 2>&1 | Out-F ...
+
++                                             ~~~~~~~~~~~~~~~~~~~~~
+
+    + CategoryInfo          : NotSpecified: (openjdk version "11.0.8" 2020-07-14:String) [], RemoteException
+
+    + FullyQualifiedErrorId : NativeCommandError
+
+ 
+
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.8+10)
+
+Eclipse OpenJ9 VM AdoptOpenJDK (build openj9-0.21.0, JRE 11 Windows 10 amd64-64-Bit Compressed References 20200715_679 
+
+(JIT enabled, AOT enabled)
+
+OpenJ9   - 34cf4c075
+
+OMR      - 113e54219
+
+JCL      - 95bb504fbb based on jdk-11.0.8+10)
+

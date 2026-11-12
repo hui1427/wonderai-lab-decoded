@@ -1,0 +1,145 @@
+{
+
+ "生成时间": "2026-11-11 21:47:21",
+
+ "总数": 137,
+
+ "唯一Activity类数": 136,
+
+ "四态": {
+
+  "等待设备或条件": 135,
+
+  "不适用": 2
+
+ },
+
+ "代码分组": {
+
+  "公共页面": 12,
+
+  "JetMax": 9,
+
+  "AiNex": 9,
+
+  "JetHexa": 1,
+
+  "JetHexa/JetHexaStandard": 9,
+
+  "JetHexa/JetHexaROS2": 8,
+
+  "JetHexa/JetHexaAdvanced": 7,
+
+  "JetAuto": 7,
+
+  "JetAutoPro": 10,
+
+  "JetAutoTank": 3,
+
+  "JetArm/Starter": 8,
+
+  "JetArm/Pro": 5,
+
+  "ROSOrin": 10,
+
+  "JetRover": 16,
+
+  "JetAcker": 4,
+
+  "JetArm/chassis": 2,
+
+  "JetSpider": 7,
+
+  "JetMaxPro": 10
+
+ },
+
+ "适用机型": {
+
+  "所有机型（公共页）": 12,
+
+  "JetMax": 9,
+
+  "AiNex": 9,
+
+  "JetHexa 系列（子型号选择）": 1,
+
+  "JetHexa Standard": 9,
+
+  "JetHexa ROS2": 8,
+
+  "JetHexa Pro（Advanced）": 7,
+
+  "JetAuto": 7,
+
+  "JetAuto Pro": 10,
+
+  "JetAuto Tank": 3,
+
+  "JetArm Starter": 8,
+
+  "JetArm Pro": 5,
+
+  "ROSOrin（含 Pro/ROS1/Ackermann）": 10,
+
+  "JetRover": 16,
+
+  "JetAcker": 4,
+
+  "JetArm（ROS2 麦轮/履带底盘）": 2,
+
+  "JetSpider": 7,
+
+  "JetMaxPro": 10
+
+ },
+
+ "功能类别": {
+
+  "启动/入口": 22,
+
+  "公共": 1,
+
+  "发现/连接": 1,
+
+  "视频/拍照": 2,
+
+  "网络设置": 2,
+
+  "设置/参数": 7,
+
+  "视觉识别": 51,
+
+  "控制": 32,
+
+  "动作组": 8,
+
+  "其他/交互": 1,
+
+  "状态/雷达": 10
+
+ },
+
+ "优先级": {
+
+  "P0": 57,
+
+  "—": 2,
+
+  "P1": 12,
+
+  "P3": 7,
+
+  "P2": 59
+
+ },
+
+ "验收方法": {
+
+  "真机": 135,
+
+  "静态": 2
+
+ }
+
+}

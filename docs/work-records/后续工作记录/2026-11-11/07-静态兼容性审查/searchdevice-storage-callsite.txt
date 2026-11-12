@@ -1,0 +1,244 @@
+1771:     .line 393
+
+1772:     sget-object p1, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->_scanner:Lcom/hiwonder/wonder_ai/connect/Scanner;
+
+1773: 
+
+1774:     invoke-virtual {p1}, Lcom/hiwonder/wonder_ai/connect/Scanner;->scanAll()Z
+
+1775: 
+
+1776:     .line 394
+
+1777:     iget-object p1, p0, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->searchingInfoText:Landroid/widget/TextView;
+
+1778: 
+
+1779:     const v0, 0x7f0e0182
+
+1780: 
+
+1781:     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
+
+1782: 
+
+1783:     return-void
+
+1784: .end method
+
+1785: 
+
+1786: .method protected onResume()V
+
+1787:     .locals 2
+
+1788: 
+
+1789:     const/4 v0, 0x1
+
+1790: 
+
+1791:     .line 337
+
+1792:     invoke-virtual {p0, v0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->RefreshBtnAnimStart(Z)V
+
+1793: 
+
+1794:     .line 338
+
+1795:     sget-object v0, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->hListViewAdapter:Lcom/hiwonder/wonder_ai/component/HorizontalListViewAdapter;
+
+1796: 
+
+1797:     invoke-virtual {v0}, Lcom/hiwonder/wonder_ai/component/HorizontalListViewAdapter;->clear()V
+
+1798: 
+
+1799:     .line 339
+
+1800:     sget-object v0, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->_scanner:Lcom/hiwonder/wonder_ai/connect/Scanner;
+
+1801: 
+
+1802:     invoke-virtual {v0}, Lcom/hiwonder/wonder_ai/connect/Scanner;->scanAll()Z
+
+1803: 
+
+1804:     .line 340
+
+1805:     iget-object v0, p0, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->searchingInfoText:Landroid/widget/TextView;
+
+1806: 
+
+1807:     const v1, 0x7f0e0182
+
+1808: 
+
+1809:     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
+
+1810: 
+
+1811:     .line 341
+
+1812:     invoke-super {p0}, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->onResume()V
+
+1813: 
+
+1814:     return-void
+
+1815: .end method
+
+1816: 
+
+1817: .method public verifyStoragePermissions()V
+
+1818:     .locals 2
+
+1819: 
+
+1820:     :try_start_0
+
+1821:     const-string v0, "android.permission.WRITE_EXTERNAL_STORAGE"
+
+1822: 
+
+1823:     .line 347
+
+1824:     invoke-static {p0, v0}, Landroidx/core/app/ActivityCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+
+1825: 
+
+1826:     move-result v0
+
+1827: 
+
+1828:     if-eqz v0, :cond_0
+
+1829: 
+
+1830:     .line 351
+
+1831:     sget-object v0, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->PERMISSIONS_STORAGE:[Ljava/lang/String;
+
+1832: 
+
+1833:     const/4 v1, 0x1
+
+1834: 
+
+1835:     invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+
+1836:     :try_end_0
+
+1837:     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+1838: 
+
+1839:     goto :goto_0
+
+1840: 
+
+1841:     :catch_0
+
+1842:     move-exception v0
+
+1843: 
+
+1844:     .line 354
+
+1845:     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+1846: 
+
+1847:     :cond_0
+
+1848:     :goto_0
+
+1849:     return-void
+
+1850: .end method
+
+1851: 
+
+1852: .method public wifi()V
+
+1853:     .locals 2
+
+1854: 
+
+1855:     .line 409
+
+1856:     invoke-direct {p0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->grantPermm()V
+
+1857: 
+
+1858:     .line 410
+
+1859:     invoke-direct {p0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->grantPermm()V
+
+1860: 
+
+1861:     .line 411
+
+1862:     invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->getApplicationContext()Landroid/content/Context;
+
+1863: 
+
+1864:     move-result-object v0
+
+1865: 
+
+1866:     invoke-static {v0}, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->getWifiName(Landroid/content/Context;)Ljava/lang/String;
+
+1867: 
+
+1868:     move-result-object v0
+
+1869: 
+
+1870:     sput-object v0, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->WIFI_Name:Ljava/lang/String;
+
+1871: 
+
+1872:     .line 412
+
+1873:     new-instance v0, Ljava/lang/StringBuilder;
+
+1874: 
+
+1875:     const-string v1, "wifi-name:"
+
+1876: 
+
+1877:     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+1878: 
+
+1879:     sget-object v1, Lcom/hiwonder/wonder_ai/activity/SearchDeviceActivity;->WIFI_Name:Ljava/lang/String;
+
+1880: 
+
+1881:     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+1882: 
+
+1883:     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+1884: 
+
+1885:     move-result-object v0
+
+1886: 
+
+1887:     const-string v1, "hiwonder3"
+
+1888: 
+
+1889:     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+1890: 
+
+1891:     return-void
+
+1892: .end method
+

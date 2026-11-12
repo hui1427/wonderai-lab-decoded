@@ -1,0 +1,400 @@
+
+
+### app/smali/com/hiwonder/wonder_ai/activity/MainActivity.smali :: .method protected onCreate(Landroid/os/Bundle;)V
+
+.method protected onCreate(Landroid/os/Bundle;)V
+
+    .locals 4
+
+
+
+    .line 129
+
+    invoke-super {p0, p1}, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->onCreate(Landroid/os/Bundle;)V
+
+
+
+    const p1, 0x7f0a0076
+
+
+
+    .line 130
+
+    invoke-virtual {p0, p1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->setContentView(I)V
+
+
+
+    const/4 p1, 0x0
+
+
+
+    .line 132
+
+    invoke-virtual {p0, p1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->setLeftBtn(Z)V
+
+
+
+    const/4 v0, 0x1
+
+
+
+    .line 133
+
+    invoke-virtual {p0, v0}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->showLeftBtn(Z)V
+
+
+
+    .line 134
+
+    invoke-virtual {p0, p1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->showRightBtn(Z)V
+
+
+
+    .line 135
+
+    invoke-virtual {p0, p1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->showLogo(Z)V
+
+
+
+    const v1, 0x7f0e004c
+
+
+
+    .line 136
+
+    invoke-virtual {p0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->getString(I)Ljava/lang/String;
+
+
+
+    move-result-object v1
+
+
+
+    invoke-virtual {p0, v0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->showLogo_tv(ZLjava/lang/String;)V
+
+
+
+    const-string v1, ""
+
+
+
+    .line 137
+
+    invoke-virtual {p0, p1, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->showTv_electricity(ZLjava/lang/String;)V
+
+
+
+    const v1, 0x7f0600ab
+
+
+
+    .line 138
+
+    invoke-virtual {p0, p1, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->showIv_electricity(ZI)V
+
+
+
+    .line 140
+
+    new-instance v1, Landroid/os/Handler;
+
+
+
+    new-instance v2, Lcom/hiwonder/wonder_ai/activity/MainActivity$MsgCallBack;
+
+
+
+    invoke-direct {v2, p0}, Lcom/hiwonder/wonder_ai/activity/MainActivity$MsgCallBack;-><init>(Lcom/hiwonder/wonder_ai/activity/MainActivity;)V
+
+
+
+    invoke-direct {v1, v2}, Landroid/os/Handler;-><init>(Landroid/os/Handler$Callback;)V
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->mHandler:Landroid/os/Handler;
+
+
+
+    const v1, 0x7f070171
+
+
+
+    .line 141
+
+    invoke-virtual {p0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->findViewById(I)Landroid/view/View;
+
+
+
+    move-result-object v1
+
+
+
+    check-cast v1, Landroid/widget/LinearLayout;
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->linearLayout:Landroid/widget/LinearLayout;
+
+
+
+    .line 142
+
+    invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+
+
+    move-result-object v1
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->layoutInflater:Landroid/view/LayoutInflater;
+
+
+
+    const v1, 0x7f0701fd
+
+
+
+    .line 144
+
+    invoke-virtual {p0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->findViewById(I)Landroid/view/View;
+
+
+
+    move-result-object v1
+
+
+
+    check-cast v1, Landroid/widget/Button;
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->primaryKitBtn:Landroid/widget/Button;
+
+
+
+    const v1, 0x7f07006b
+
+
+
+    .line 145
+
+    invoke-virtual {p0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->findViewById(I)Landroid/view/View;
+
+
+
+    move-result-object v1
+
+
+
+    check-cast v1, Landroid/widget/Button;
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->advancedKitBtn:Landroid/widget/Button;
+
+
+
+    const v1, 0x7f070244
+
+
+
+    .line 146
+
+    invoke-virtual {p0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->findViewById(I)Landroid/view/View;
+
+
+
+    move-result-object v1
+
+
+
+    check-cast v1, Landroid/widget/Button;
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->seniorkitBtn:Landroid/widget/Button;
+
+
+
+    const v1, 0x7f0701d3
+
+
+
+    .line 147
+
+    invoke-virtual {p0, v1}, Lcom/hiwonder/wonder_ai/activity/MainActivity;->findViewById(I)Landroid/view/View;
+
+
+
+    move-result-object v1
+
+
+
+    check-cast v1, Landroid/widget/Button;
+
+
+
+    iput-object v1, p0, Lcom/hiwonder/wonder_ai/activity/MainActivity;->majorkitBtn:Landroid/widget/Button;
+
+
+
+    const-string v1, "kit"
+
+
+
+
+
+===== SetNetActivity receiver filter action =====
+
+691: 
+
+692:     invoke-direct {p1, p0, p0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$WifiAdapter;-><init>(Lcom/hiwonder/wonder_ai/activity/SetNetActivity;Landroid/content/Context;)V
+
+693: 
+
+694:     iput-object p1, p0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->wifiAdapter:Lcom/hiwonder/wonder_ai/activity/SetNetActivity$WifiAdapter;
+
+695: 
+
+696:     .line 98
+
+697:     iget-object v0, p0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->wifiList:Landroid/widget/ListView;
+
+698: 
+
+699:     invoke-virtual {v0, p1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
+
+700: 
+
+701:     .line 99
+
+702:     new-instance p1, Landroid/os/Handler;
+
+703: 
+
+704:     new-instance v0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$MsgCallBack;
+
+705: 
+
+706:     invoke-direct {v0, p0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$MsgCallBack;-><init>(Lcom/hiwonder/wonder_ai/activity/SetNetActivity;)V
+
+707: 
+
+708:     invoke-direct {p1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Handler$Callback;)V
+
+709: 
+
+710:     iput-object p1, p0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->mHandler:Landroid/os/Handler;
+
+711: 
+
+712:     .line 100
+
+713:     new-instance p1, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$1;
+
+714: 
+
+715:     invoke-direct {p1, p0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$1;-><init>(Lcom/hiwonder/wonder_ai/activity/SetNetActivity;)V
+
+716: 
+
+717:     iput-object p1, p0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->mReceiver:Landroid/content/BroadcastReceiver;
+
+718: 
+
+719:     .line 118
+
+720:     new-instance p1, Landroid/content/IntentFilter;
+
+721: 
+
+722:     invoke-direct {p1}, Landroid/content/IntentFilter;-><init>()V
+
+723: 
+
+724:     const-string v0, "android.net.wifi.WIFI_STATE_CHANGED"
+
+725: 
+
+726:     .line 119
+
+727:     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+728: 
+
+729:     const-string v0, "android.net.wifi.supplicant.CONNECTION_CHANGE"
+
+730: 
+
+731:     .line 120
+
+732:     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+733: 
+
+734:     const-string v0, "android.net.wifi.STATE_CHANGE"
+
+735: 
+
+736:     .line 121
+
+737:     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+738: 
+
+739:     const-string v0, "android.net.conn.CONNECTIVITY_CHANGE"
+
+740: 
+
+741:     .line 122
+
+742:     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+743: 
+
+744:     const-string v0, "android.net.wifi.supplicant.STATE_CHANGE"
+
+745: 
+
+746:     .line 123
+
+747:     invoke-virtual {p1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+748: 
+
+749:     .line 124
+
+750:     iget-object v0, p0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->mReceiver:Landroid/content/BroadcastReceiver;
+
+751: 
+
+752:     invoke-virtual {p0, v0, p1}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+
+753: 
+
+754:     .line 125
+
+755:     iget-object p1, p0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->wifiList:Landroid/widget/ListView;
+
+756: 
+
+757:     new-instance v0, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$2;
+
+758: 
+
+759:     invoke-direct {v0, p0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity$2;-><init>(Lcom/hiwonder/wonder_ai/activity/SetNetActivity;)V
+
+760: 
+
+761:     invoke-virtual {p1, v0}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+
+762: 
+
+763:     return-void
+
+764: .end method
+
+765: 
+

@@ -1,0 +1,436 @@
+
+
+########## TitleActivity starts BLEService? app\smali\com\hiwonder\wonder_ai\activity\TitleActivity.smali:500-575 ##########
+
+500: 
+
+501:     .line 257
+
+502:     :sswitch_3
+
+503:     invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->getFragmentManager()Landroid/app/FragmentManager;
+
+504: 
+
+505:     move-result-object p1
+
+506: 
+
+507:     invoke-static {p1}, Lcom/hiwonder/wonder_ai/dialog/ContactDialog;->createDialog(Landroid/app/FragmentManager;)V
+
+508: 
+
+509:     :goto_0
+
+510:     return-void
+
+511: 
+
+512:     :sswitch_data_0
+
+513:     .sparse-switch
+
+514:         0x7f0700cf -> :sswitch_3
+
+515:         0x7f0701b0 -> :sswitch_2
+
+516:         0x7f070209 -> :sswitch_1
+
+517:         0x7f070219 -> :sswitch_0
+
+518:     .end sparse-switch
+
+519: .end method
+
+520: 
+
+521: .method protected onCreate(Landroid/os/Bundle;)V
+
+522:     .locals 1
+
+523: 
+
+524:     .line 76
+
+525:     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
+
+526: 
+
+527:     const/4 p1, 0x1
+
+528: 
+
+529:     .line 77
+
+530:     invoke-virtual {p0, p1}, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->supportRequestWindowFeature(I)Z
+
+531: 
+
+532:     .line 78
+
+533:     new-instance p1, Landroid/content/Intent;
+
+534: 
+
+535:     const-class v0, Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEService;
+
+536: 
+
+537:     invoke-direct {p1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+538: 
+
+539:     .line 79
+
+540:     invoke-direct {p0}, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->setupViews()V
+
+541: 
+
+542:     return-void
+
+543: .end method
+
+544: 
+
+545: .method protected onDestroy()V
+
+546:     .locals 0
+
+547: 
+
+548:     .line 299
+
+549:     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
+
+550: 
+
+551:     return-void
+
+552: .end method
+
+553: 
+
+554: .method protected onRefreshClick(Landroid/view/View;)V
+
+555:     .locals 0
+
+556: 
+
+557:     return-void
+
+558: .end method
+
+559: 
+
+560: .method protected onResume()V
+
+561:     .locals 1
+
+562: 
+
+563:     .line 292
+
+564:     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onResume()V
+
+565: 
+
+566:     .line 293
+
+567:     sget-boolean v0, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->isConnected:Z
+
+568: 
+
+569:     invoke-virtual {p0, v0}, Lcom/hiwonder/wonder_ai/activity/TitleActivity;->setBluetoothAnima(Z)V
+
+570: 
+
+571:     return-void
+
+572: .end method
+
+573: 
+
+574: .method protected onRightBtn(Landroid/view/View;)V
+
+575:     .locals 0
+
+
+
+########## BLEService head app\smali\com\hiwonder\wonder_ai\utils\BluetoothTool\BLEService.smali:1-60 ##########
+
+1: .class public Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEService;
+
+2: .super Landroid/app/Service;
+
+3: .source "BLEService.java"
+
+4: 
+
+5: 
+
+6: # annotations
+
+7: .annotation system Ldalvik/annotation/MemberClasses;
+
+8:     value = {
+
+9:         Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEService$BLEBinder;,
+
+10:         Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEService$NotificationListener;
+
+11:     }
+
+12: .end annotation
+
+13: 
+
+14: 
+
+15: # static fields
+
+16: .field public static final ACTION_DATA_AVAILABLE:Ljava/lang/String; = "com.lobot.microcar.le.ACTION_DATA_AVAILABLE"
+
+17: 
+
+18: .field public static final ACTION_GATT_CONNECTED:Ljava/lang/String; = "com.lobot.microcar.le.ACTION_GATT_CONNECTED"
+
+19: 
+
+20: .field public static final ACTION_GATT_CONNECT_FAIL:Ljava/lang/String; = "com.lobot.microcar.le.ACTION_GATT_CONNECT_FAIL"
+
+21: 
+
+22: .field public static final ACTION_GATT_DISCONNECTED:Ljava/lang/String; = "com.lobot.microcar.le.ACTION_GATT_DISCONNECTED"
+
+23: 
+
+24: .field public static final ACTION_GATT_SERVICES_DISCOVERED:Ljava/lang/String; = "com.lobot.microcar.le.ACTION_GATT_SERVICE_DISCOVERED"
+
+25: 
+
+26: .field private static final BLE_NAME:Ljava/lang/String; = "com.lobot.microcar.le"
+
+27: 
+
+28: .field public static final EXTRA_DATA:Ljava/lang/String; = "com.lobot.microcar.le.EXTRA_DATA"
+
+29: 
+
+30: .field private static final TAG:Ljava/lang/String; = "hh"
+
+31: 
+
+32: 
+
+33: # instance fields
+
+34: .field connectState:Z
+
+35: 
+
+36: .field descriptorWrite:Z
+
+37: 
+
+38: .field private final mBinder:Lcom/hiwonder/wonder_ai/utils/BluetoothTool/BLEService$BLEBinder;
+
+39: 
+
+40: .field private mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;
+
+41: 
+
+42: .field private mBluetoothDeviceAddress:Ljava/lang/String;
+
+43: 
+
+44: .field private mBluetoothGatt:Landroid/bluetooth/BluetoothGatt;
+
+45: 
+
+46: .field private mBluetoothManager:Landroid/bluetooth/BluetoothManager;
+
+47: 
+
+48: .field private mConnectState:I
+
+49: 
+
+50: .field private final mGattCallback:Landroid/bluetooth/BluetoothGattCallback;
+
+51: 
+
+52: .field servicesDiscovered:Z
+
+53: 
+
+54: 
+
+55: # direct methods
+
+56: .method public constructor <init>()V
+
+57:     .locals 1
+
+58: 
+
+59:     .line 30
+
+60:     invoke-direct {p0}, Landroid/app/Service;-><init>()V
+
+
+
+########## SearchDeviceDialog init/scan app\smali\com\hiwonder\wonder_ai\dialog\SearchDeviceDialog.smali:100-175 ##########
+
+100: 
+
+101:     .line 107
+
+102:     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+103: 
+
+104:     move-result-object p4
+
+105: 
+
+106:     check-cast p4, Lcom/hiwonder/wonder_ai/weight/CircularProgressView;
+
+107: 
+
+108:     iput-object p4, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->progressView:Lcom/hiwonder/wonder_ai/weight/CircularProgressView;
+
+109: 
+
+110:     const p4, 0x7f070236
+
+111: 
+
+112:     .line 108
+
+113:     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+114: 
+
+115:     move-result-object p4
+
+116: 
+
+117:     check-cast p4, Landroid/widget/Button;
+
+118: 
+
+119:     const v0, 0x7f07020c
+
+120: 
+
+121:     .line 109
+
+122:     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+123: 
+
+124:     move-result-object p2
+
+125: 
+
+126:     check-cast p2, Landroid/widget/Button;
+
+127: 
+
+128:     .line 110
+
+129:     iput-object p1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->context:Landroid/app/Activity;
+
+130: 
+
+131:     .line 111
+
+132:     new-instance v0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+133: 
+
+134:     invoke-direct {v0, p0, p1}, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;-><init>(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;Landroid/content/Context;)V
+
+135: 
+
+136:     iput-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mAdapter:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+137: 
+
+138:     .line 112
+
+139:     invoke-virtual {p3, v0}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
+
+140: 
+
+141:     .line 113
+
+142:     invoke-virtual {p3, p0}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+
+143: 
+
+144:     .line 114
+
+145:     invoke-virtual {p4, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+146: 
+
+147:     .line 115
+
+148:     invoke-virtual {p2, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+149: 
+
+150:     .line 116
+
+151:     new-instance p1, Landroid/os/Handler;
+
+152: 
+
+153:     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
+
+154: 
+
+155:     iput-object p1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mHandler:Landroid/os/Handler;
+
+156: 
+
+157:     .line 117
+
+158:     invoke-virtual {p0}, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->scanBLEDevice()V
+
+159: 
+
+160:     return-void
+
+161: .end method
+
+162: 
+
+163: .method static synthetic access$000(Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;)Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+164:     .locals 0
+
+165: 
+
+166:     .line 32
+
+167:     iget-object p0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mAdapter:Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter;
+
+168: 
+
+169:     return-object p0
+
+170: .end method
+
+171: 
+
+172: .method public static createDialog(Landroid/app/Activity;IILcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog$OnDeviceSelectedListener;)Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;
+
+173:     .locals 3
+
+174: 
+
+175:     .line 126
+

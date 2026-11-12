@@ -1,0 +1,2301 @@
+{
+
+  "registerReceiver_2arg": {
+
+    "count": 3,
+
+    "files": [
+
+      "app/smali/androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.smali",
+
+      "app/smali/com/bumptech/glide/manager/DefaultConnectivityMonitor.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.smali",
+
+        "line": 138,
+
+        "text": "invoke-virtual {v1, v2, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/manager/DefaultConnectivityMonitor.smali",
+
+        "line": 84,
+
+        "text": "invoke-virtual {v0, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+        "line": 691,
+
+        "text": "invoke-virtual {p1, v1, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      }
+
+    ]
+
+  },
+
+  "registerReceiver_any": {
+
+    "count": 11,
+
+    "files": [
+
+      "app/smali/androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.smali",
+
+      "app/smali/androidx/localbroadcastmanager/content/LocalBroadcastManager.smali",
+
+      "app/smali/com/bumptech/glide/manager/DefaultConnectivityMonitor.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/connect/Scanner$$ExternalSyntheticApiModelOutline0.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.smali",
+
+        "line": 53,
+
+        "text": "invoke-virtual {v0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.smali",
+
+        "line": 138,
+
+        "text": "invoke-virtual {v1, v2, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/localbroadcastmanager/content/LocalBroadcastManager.smali",
+
+        "line": 281,
+
+        "text": ".method public registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/localbroadcastmanager/content/LocalBroadcastManager.smali",
+
+        "line": 834,
+
+        "text": ".method public unregisterReceiver(Landroid/content/BroadcastReceiver;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/manager/DefaultConnectivityMonitor.smali",
+
+        "line": 84,
+
+        "text": "invoke-virtual {v0, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/manager/DefaultConnectivityMonitor.smali",
+
+        "line": 135,
+
+        "text": "invoke-virtual {v0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+        "line": 752,
+
+        "text": "invoke-virtual {p0, v0, p1}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+        "line": 786,
+
+        "text": "invoke-virtual {p0, v0}, Lcom/hiwonder/wonder_ai/activity/SetNetActivity;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/connect/Scanner$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 10,
+
+        "text": "invoke-virtual {p0, p1, p2, p3}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+        "line": 691,
+
+        "text": "invoke-virtual {p1, v1, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEManager.smali",
+
+        "line": 1210,
+
+        "text": "invoke-virtual {p1, v0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V"
+
+      }
+
+    ]
+
+  },
+
+  "PendingIntent_get": {
+
+    "count": 3,
+
+    "files": [
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat.smali",
+
+      "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+      "app/smali/androidx/media/session/MediaButtonReceiver.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaSessionCompat.smali",
+
+        "line": 255,
+
+        "text": "invoke-static {p1, p3, p4, p3}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+        "line": 990,
+
+        "text": "invoke-static {v2, v3, v1, v4}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/media/session/MediaButtonReceiver.smali",
+
+        "line": 122,
+
+        "text": "invoke-static {p0, v2, p2, p3}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;"
+
+      }
+
+    ]
+
+  },
+
+  "external_storage": {
+
+    "count": 6,
+
+    "files": [
+
+      "app/smali/androidx/core/content/FileProvider.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/MainActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider.smali",
+
+        "line": 526,
+
+        "text": "invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/MainActivity.smali",
+
+        "line": 72,
+
+        "text": "const-string v0, \"android.permission.READ_EXTERNAL_STORAGE\""
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/MainActivity.smali",
+
+        "line": 74,
+
+        "text": "const-string v1, \"android.permission.WRITE_EXTERNAL_STORAGE\""
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 50,
+
+        "text": "const-string v0, \"android.permission.READ_EXTERNAL_STORAGE\""
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 52,
+
+        "text": "const-string v1, \"android.permission.WRITE_EXTERNAL_STORAGE\""
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 1821,
+
+        "text": "const-string v0, \"android.permission.WRITE_EXTERNAL_STORAGE\""
+
+      }
+
+    ]
+
+  },
+
+  "getExternalFilesDir": {
+
+    "count": 5,
+
+    "files": [
+
+      "app/smali/androidx/core/content/ContextCompat$Api19Impl.smali",
+
+      "app/smali/androidx/core/content/ContextCompat.smali",
+
+      "app/smali/androidx/core/content/FileProvider.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat$Api19Impl.smali",
+
+        "line": 38,
+
+        "text": ".method static getExternalFilesDirs(Landroid/content/Context;Ljava/lang/String;)[Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat$Api19Impl.smali",
+
+        "line": 42,
+
+        "text": "invoke-virtual {p0, p1}, Landroid/content/Context;->getExternalFilesDirs(Ljava/lang/String;)[Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat.smali",
+
+        "line": 322,
+
+        "text": ".method public static getExternalFilesDirs(Landroid/content/Context;Ljava/lang/String;)[Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat.smali",
+
+        "line": 326,
+
+        "text": "invoke-static {p0, p1}, Landroidx/core/content/ContextCompat$Api19Impl;->getExternalFilesDirs(Landroid/content/Context;Ljava/lang/String;)[Ljava/io/File;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider.smali",
+
+        "line": 545,
+
+        "text": "invoke-static {p0, v3}, Landroidx/core/content/ContextCompat;->getExternalFilesDirs(Landroid/content/Context;Ljava/lang/String;)[Ljava/io/File;"
+
+      }
+
+    ]
+
+  },
+
+  "MediaStore": {
+
+    "count": 3,
+
+    "files": [
+
+      "app/smali/com/bumptech/glide/load/data/mediastore/ThumbFetcher$ImageThumbnailQuery.smali",
+
+      "app/smali/com/bumptech/glide/load/data/mediastore/ThumbFetcher$VideoThumbnailQuery.smali",
+
+      "app/smali/okhttp3/Headers$$ExternalSyntheticApiModelOutline0.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/okhttp3/Headers$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 130,
+
+        "text": "invoke-static {p0}, Landroid/provider/MediaStore;->setRequireOriginal(Landroid/net/Uri;)Landroid/net/Uri;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/data/mediastore/ThumbFetcher$ImageThumbnailQuery.smali",
+
+        "line": 71,
+
+        "text": "sget-object v1, Landroid/provider/MediaStore$Images$Thumbnails;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/bumptech/glide/load/data/mediastore/ThumbFetcher$VideoThumbnailQuery.smali",
+
+        "line": 71,
+
+        "text": "sget-object v1, Landroid/provider/MediaStore$Video$Thumbnails;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;"
+
+      }
+
+    ]
+
+  },
+
+  "BluetoothAdapter": {
+
+    "count": 23,
+
+    "files": [
+
+      "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEService.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali",
+
+        "line": 52,
+
+        "text": "iget-object p1, p1, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali",
+
+        "line": 54,
+
+        "text": "invoke-virtual {p1}, Landroid/bluetooth/BluetoothAdapter;->getBondedDevices()Ljava/util/Set;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali",
+
+        "line": 144,
+
+        "text": "iget-object v0, v0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali",
+
+        "line": 146,
+
+        "text": "invoke-virtual {v0}, Landroid/bluetooth/BluetoothAdapter;->getBondedDevices()Ljava/util/Set;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 34,
+
+        "text": ".field mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 63,
+
+        "text": "invoke-static {}, Landroid/bluetooth/BluetoothAdapter;->getDefaultAdapter()Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 67,
+
+        "text": "iput-object p3, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 305,
+
+        "text": "iget-object v1, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 319,
+
+        "text": "iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 323,
+
+        "text": "invoke-virtual {v0, v1}, Landroid/bluetooth/BluetoothAdapter;->startLeScan(Landroid/bluetooth/BluetoothAdapter$LeScanCallback;)Z"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 375,
+
+        "text": "iget-object v0, p0, Lcom/hiwonder/wonder_ai/dialog/SearchDeviceDialog;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 387,
+
+        "text": "invoke-virtual {v0, v1}, Landroid/bluetooth/BluetoothAdapter;->stopLeScan(Landroid/bluetooth/BluetoothAdapter$LeScanCallback;)V"
+
+      }
+
+    ]
+
+  },
+
+  "BLE_scan": {
+
+    "count": 6,
+
+    "files": [
+
+      "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/connect/WifiAdmin.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/connect/WifiAutoConnectManager.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali",
+
+        "line": 534,
+
+        "text": "invoke-virtual {p1, p0}, Lcom/hiwonder/wonder_ai/connect/WifiAdmin;->startScan(Landroid/content/Context;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/connect/WifiAdmin.smali",
+
+        "line": 982,
+
+        "text": ".method public startScan(Landroid/content/Context;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/connect/WifiAdmin.smali",
+
+        "line": 988,
+
+        "text": "invoke-virtual {v0}, Landroid/net/wifi/WifiManager;->startScan()Z"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/connect/WifiAutoConnectManager.smali",
+
+        "line": 697,
+
+        "text": ".method public startScan(Landroid/content/Context;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/connect/WifiAutoConnectManager.smali",
+
+        "line": 703,
+
+        "text": "invoke-virtual {v0}, Landroid/net/wifi/WifiManager;->startScan()Z"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali",
+
+        "line": 323,
+
+        "text": "invoke-virtual {v0, v1}, Landroid/bluetooth/BluetoothAdapter;->startLeScan(Landroid/bluetooth/BluetoothAdapter$LeScanCallback;)Z"
+
+      }
+
+    ]
+
+  },
+
+  "Camera_api": {
+
+    "count": 1,
+
+    "files": [
+
+      "app/smali/androidx/core/content/ContextCompat$LegacyServiceMapHolder.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat$LegacyServiceMapHolder.smali",
+
+        "line": 81,
+
+        "text": "const-class v1, Landroid/hardware/camera2/CameraManager;"
+
+      }
+
+    ]
+
+  },
+
+  "requestPermissions": {
+
+    "count": 13,
+
+    "files": [
+
+      "app/smali/androidx/core/app/ActivityCompat$1.smali",
+
+      "app/smali/androidx/core/app/ActivityCompat$PermissionCompatDelegate.smali",
+
+      "app/smali/androidx/core/app/ActivityCompat.smali",
+
+      "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+      "app/smali/androidx/fragment/app/Fragment.smali",
+
+      "app/smali/androidx/fragment/app/FragmentActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/DirectConnectionModeActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/app/ActivityCompat$1.smali",
+
+        "line": 11,
+
+        "text": "value = Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/ActivityCompat$PermissionCompatDelegate.smali",
+
+        "line": 21,
+
+        "text": ".method public abstract requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)Z"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/ActivityCompat.smali",
+
+        "line": 310,
+
+        "text": ".method public static requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/ActivityCompat.smali",
+
+        "line": 319,
+
+        "text": "invoke-interface {v0, p0, p1, p2}, Landroidx/core/app/ActivityCompat$PermissionCompatDelegate;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)Z"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 474,
+
+        "text": "invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->requestPermissions([Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/fragment/app/Fragment.smali",
+
+        "line": 3754,
+
+        "text": ".method public final requestPermissions([Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/fragment/app/FragmentActivity.smali",
+
+        "line": 1372,
+
+        "text": "invoke-static {p0, p2, p3}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/fragment/app/FragmentActivity.smali",
+
+        "line": 1404,
+
+        "text": "invoke-static {p0, p2, p1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/DirectConnectionModeActivity.smali",
+
+        "line": 238,
+
+        "text": "invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 737,
+
+        "text": "invoke-static {p0, v1, v0}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 794,
+
+        "text": "invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/SearchDeviceActivity.smali",
+
+        "line": 1835,
+
+        "text": "invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V"
+
+      }
+
+    ]
+
+  },
+
+  "getInstalledPackages": {
+
+    "count": 5,
+
+    "files": [
+
+      "app/smali/androidx/appcompat/widget/ActivityChooserModel.smali",
+
+      "app/smali/androidx/core/content/PackageManagerCompat.smali",
+
+      "app/smali/androidx/core/content/pm/ShortcutManagerCompat.smali",
+
+      "app/smali/androidx/core/content/pm/ShortcutXmlParser.smali",
+
+      "app/smali/androidx/core/widget/TextViewCompat$OreoCallback.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/appcompat/widget/ActivityChooserModel.smali",
+
+        "line": 369,
+
+        "text": "invoke-virtual {v0, v2, v1}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/PackageManagerCompat.smali",
+
+        "line": 131,
+
+        "text": "invoke-virtual {p0, v0, v1}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/widget/TextViewCompat$OreoCallback.smali",
+
+        "line": 160,
+
+        "text": "invoke-virtual {p2, v1, v2}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/pm/ShortcutManagerCompat.smali",
+
+        "line": 1005,
+
+        "text": "invoke-virtual {v1, v2, v3}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/pm/ShortcutXmlParser.smali",
+
+        "line": 321,
+
+        "text": "invoke-virtual {v2, v1, v3}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;"
+
+      }
+
+    ]
+
+  },
+
+  "NotificationChannel": {
+
+    "count": 397,
+
+    "files": [
+
+      "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+      "app/smali/androidx/core/app/NotificationChannelCompat$Builder.smali",
+
+      "app/smali/androidx/core/app/NotificationChannelCompat.smali",
+
+      "app/smali/androidx/core/app/NotificationChannelGroupCompat$Builder.smali",
+
+      "app/smali/androidx/core/app/NotificationChannelGroupCompat.smali",
+
+      "app/smali/androidx/core/app/NotificationCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+      "app/smali/androidx/core/app/NotificationManagerCompat.smali",
+
+      "app/smali/androidx/core/app/Person$$ExternalSyntheticApiModelOutline0.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 443,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/NotificationChannel;)Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 446,
+
+        "text": "invoke-virtual {p0}, Landroid/app/NotificationChannel;->getId()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 466,
+
+        "text": "new-instance v0, Landroid/app/NotificationChannel;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 495,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/NotificationChannel;I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 498,
+
+        "text": "invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setLightColor(I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 503,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 506,
+
+        "text": "invoke-virtual {p0, p1, p2}, Landroid/app/NotificationChannel;->setSound(Landroid/net/Uri;Landroid/media/AudioAttributes;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 511,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/NotificationChannel;Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 514,
+
+        "text": "invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setGroup(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 519,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/NotificationChannel;Z)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 522,
+
+        "text": "invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setShowBadge(Z)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 721,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/NotificationChannel;)Z"
+
+      }
+
+    ]
+
+  },
+
+  "startForegroundService": {
+
+    "count": 7,
+
+    "files": [
+
+      "app/smali/androidx/core/content/ContextCompat$Api26Impl.smali",
+
+      "app/smali/androidx/core/content/ContextCompat.smali",
+
+      "app/smali/androidx/core/widget/TextViewCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+      "app/smali/androidx/media/session/MediaButtonReceiver.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat$Api26Impl.smali",
+
+        "line": 27,
+
+        "text": ".method static startForegroundService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat$Api26Impl.smali",
+
+        "line": 31,
+
+        "text": "invoke-virtual {p0, p1}, Landroid/content/Context;->startForegroundService(Landroid/content/Intent;)Landroid/content/ComponentName;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat.smali",
+
+        "line": 533,
+
+        "text": ".method public static startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/ContextCompat.smali",
+
+        "line": 544,
+
+        "text": "invoke-static {p0, p1}, Landroidx/core/content/ContextCompat$Api26Impl;->startForegroundService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/widget/TextViewCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 100,
+
+        "text": "invoke-virtual {p0, p1}, Landroid/content/Context;->startForegroundService(Landroid/content/Intent;)Landroid/content/ComponentName;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/media/session/MediaButtonReceiver.smali",
+
+        "line": 368,
+
+        "text": ".method private static startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/media/session/MediaButtonReceiver.smali",
+
+        "line": 434,
+
+        "text": "invoke-static {p1, p2}, Landroidx/media/session/MediaButtonReceiver;->startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V"
+
+      }
+
+    ]
+
+  },
+
+  "AlarmManager": {
+
+    "count": 15,
+
+    "files": [
+
+      "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+      "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+      "app/smali/androidx/core/content/ContextCompat$LegacyServiceMapHolder.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 16,
+
+        "text": ".method public static setAlarmClock(Landroid/app/AlarmManager;JLandroid/app/PendingIntent;Landroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 24,
+
+        "text": "invoke-virtual {p0, v0, p4}, Landroid/app/AlarmManager;->setAlarmClock(Landroid/app/AlarmManager$AlarmClockInfo;Landroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 29,
+
+        "text": ".method public static setAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 40,
+
+        "text": "invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0;->m$1(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 46,
+
+        "text": "invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 52,
+
+        "text": ".method public static setExact(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 56,
+
+        "text": "invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 61,
+
+        "text": ".method public static setExactAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 72,
+
+        "text": "invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0;->m(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/AlarmManagerCompat.smali",
+
+        "line": 78,
+
+        "text": "invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat;->setExact(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 487,
+
+        "text": ".method public static bridge synthetic m(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/DialogCompat$$ExternalSyntheticApiModelOutline0.smali",
+
+        "line": 490,
+
+        "text": "invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V"
+
+      }
+
+    ]
+
+  },
+
+  "implicit_intent_action": {
+
+    "count": 22,
+
+    "files": [
+
+      "app/smali/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$1.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MessageHandler.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat.smali",
+
+      "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+      "app/smali/androidx/core/app/NotificationManagerCompat$SideChannelManager.smali",
+
+      "app/smali/androidx/core/content/IntentCompat.smali",
+
+      "app/smali/androidx/core/content/PackageManagerCompat.smali",
+
+      "app/smali/androidx/core/content/UnusedAppRestrictionsBackportServiceConnection.smali",
+
+      "app/smali/androidx/core/content/pm/ShortcutManagerCompat.smali",
+
+      "app/smali/androidx/core/content/pm/ShortcutXmlParser.smali",
+
+      "app/smali/androidx/media/session/MediaButtonReceiver.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/dialog/UpdateDialog.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/utils/BluetoothTool/BLEService.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$1.smali",
+
+        "line": 119,
+
+        "text": "invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MessageHandler.smali",
+
+        "line": 506,
+
+        "text": "invoke-direct {v1, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaSessionCompat.smali",
+
+        "line": 247,
+
+        "text": "invoke-direct {p4, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+        "line": 660,
+
+        "text": "invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+        "line": 681,
+
+        "text": "invoke-direct {v1, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+        "line": 726,
+
+        "text": "invoke-direct {v0, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/appcompat/widget/SearchView.smali",
+
+        "line": 976,
+
+        "text": "invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/app/NotificationManagerCompat$SideChannelManager.smali",
+
+        "line": 134,
+
+        "text": "invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/IntentCompat.smali",
+
+        "line": 58,
+
+        "text": "invoke-direct {p0, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/IntentCompat.smali",
+
+        "line": 77,
+
+        "text": "invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/PackageManagerCompat.smali",
+
+        "line": 111,
+
+        "text": "invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/UnusedAppRestrictionsBackportServiceConnection.smali",
+
+        "line": 92,
+
+        "text": "invoke-direct {p1, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+
+      }
+
+    ]
+
+  },
+
+  "WebView": {
+
+    "count": 2962,
+
+    "files": [
+
+      "app/smali/androidx/core/text/util/LinkifyCompat.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Automatic_Kick_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Color_Reconize_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Color_Tracking_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Control_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Down_Up_Steps_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Face_Recognition_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Label_Recognition_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/AiNex/AiNex_Line_Tracking_Activity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetAcker/JetAckerControlActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetAcker/JetAckerROS2ControlActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetAcker/JetAckerRadarActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Pro/JetArmProControlActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Pro/JetArmProDeepSortActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Pro/JetArmProSmartStackingActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Pro/JetArmROS2ObjectSortingActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Starter/JetArmPositionActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Starter/JetArmROS2StarterControlActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Starter/JetArmStarterColorPalletizingActivity.smali",
+
+      "app/smali/com/hiwonder/wonder_ai/activity/JetArm/Starter/JetArmStarterControlActivity.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/text/util/LinkifyCompat.smali",
+
+        "line": 730,
+
+        "text": "invoke-static {p0}, Landroid/webkit/WebView;->findAddress(Ljava/lang/String;)Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity$MsgCallBack.smali",
+
+        "line": 88,
+
+        "text": "invoke-static {v1}, Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;->access$1300(Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;)Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity$MsgCallBack.smali",
+
+        "line": 92,
+
+        "text": "invoke-virtual {v1, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity$MsgCallBack.smali",
+
+        "line": 140,
+
+        "text": "invoke-static {p1}, Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;->access$1300(Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;)Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity$MsgCallBack.smali",
+
+        "line": 146,
+
+        "text": "invoke-virtual {p1, v1}, Landroid/webkit/WebView;->setInitialScale(I)V"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 87,
+
+        "text": ".field private colorVideoView:Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 101,
+
+        "text": ".field private mVideoView:Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 304,
+
+        "text": ".method static synthetic access$1300(Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;)Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 308,
+
+        "text": "iget-object p0, p0, Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;->colorVideoView:Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 1863,
+
+        "text": "check-cast p1, Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 1865,
+
+        "text": "iput-object p1, p0, Lcom/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity;->mVideoView:Landroid/webkit/WebView;"
+
+      },
+
+      {
+
+        "file": "app/smali/com/hiwonder/wonder_ai/activity/JetMaxProThresholdActivity.smali",
+
+        "line": 1874,
+
+        "text": "check-cast p1, Landroid/webkit/WebView;"
+
+      }
+
+    ]
+
+  },
+
+  "FileProvider": {
+
+    "count": 48,
+
+    "files": [
+
+      "app/smali/androidx/core/content/FileProvider$PathStrategy.smali",
+
+      "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+      "app/smali/androidx/core/content/FileProvider.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$PathStrategy.smali",
+
+        "line": 1,
+
+        "text": ".class interface abstract Landroidx/core/content/FileProvider$PathStrategy;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$PathStrategy.smali",
+
+        "line": 8,
+
+        "text": "value = Landroidx/core/content/FileProvider;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 1,
+
+        "text": ".class Landroidx/core/content/FileProvider$SimplePathStrategy;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 6,
+
+        "text": ".implements Landroidx/core/content/FileProvider$PathStrategy;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 11,
+
+        "text": "value = Landroidx/core/content/FileProvider;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 47,
+
+        "text": "iput-object v0, p0, Landroidx/core/content/FileProvider$SimplePathStrategy;->mRoots:Ljava/util/HashMap;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 50,
+
+        "text": "iput-object p1, p0, Landroidx/core/content/FileProvider$SimplePathStrategy;->mAuthority:Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 76,
+
+        "text": "iget-object v0, p0, Landroidx/core/content/FileProvider$SimplePathStrategy;->mRoots:Ljava/util/HashMap;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 153,
+
+        "text": "iget-object v1, p0, Landroidx/core/content/FileProvider$SimplePathStrategy;->mRoots:Ljava/util/HashMap;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 256,
+
+        "text": "iget-object v0, p0, Landroidx/core/content/FileProvider$SimplePathStrategy;->mRoots:Ljava/util/HashMap;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider$SimplePathStrategy.smali",
+
+        "line": 417,
+
+        "text": "iget-object v1, p0, Landroidx/core/content/FileProvider$SimplePathStrategy;->mAuthority:Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/androidx/core/content/FileProvider.smali",
+
+        "line": 1,
+
+        "text": ".class public Landroidx/core/content/FileProvider;"
+
+      }
+
+    ]
+
+  },
+
+  "content_uri": {
+
+    "count": 0,
+
+    "files": [],
+
+    "samples": []
+
+  },
+
+  "ActivityThread_hack": {
+
+    "count": 3417,
+
+    "files": [
+
+      "app/smali/android/support/v4/media/ParceledListSliceAdapterApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompatApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompatApi24.smali",
+
+      "app/smali/androidx/activity/ImmLeaksCleaner.smali",
+
+      "app/smali/androidx/annotation/OptIn.smali",
+
+      "app/smali/androidx/annotation/experimental/UseExperimental.smali",
+
+      "app/smali/androidx/appcompat/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo.smali",
+
+      "app/smali/androidx/appcompat/app/ActionBarDrawerToggleHoneycomb.smali",
+
+      "app/smali/androidx/appcompat/app/AppCompatDelegateImpl.smali",
+
+      "app/smali/androidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener.smali",
+
+      "app/smali/androidx/appcompat/app/AppCompatViewInflater.smali",
+
+      "app/smali/androidx/appcompat/app/ResourcesFlusher.smali",
+
+      "app/smali/androidx/appcompat/view/SupportMenuInflater$InflatedOnMenuItemClickListener.smali",
+
+      "app/smali/androidx/appcompat/view/SupportMenuInflater$MenuState.smali",
+
+      "app/smali/androidx/appcompat/view/menu/MenuItemWrapperICS.smali",
+
+      "app/smali/androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper.smali",
+
+      "app/smali/androidx/appcompat/widget/DrawableUtils.smali",
+
+      "app/smali/androidx/appcompat/widget/DropDownListView.smali",
+
+      "app/smali/androidx/appcompat/widget/ListPopupWindow.smali",
+
+      "app/smali/androidx/appcompat/widget/MenuPopupWindow.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/kotlin/LateinitKt.smali",
+
+        "line": 14,
+
+        "text": "\"Lkotlin/reflect/KProperty0;\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LateinitKt.smali",
+
+        "line": 16,
+
+        "text": "\"(Lkotlin/reflect/KProperty0;)V\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LateinitKt.smali",
+
+        "line": 17,
+
+        "text": "\"(Lkotlin/reflect/KProperty0;)Z\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LateinitKt.smali",
+
+        "line": 31,
+
+        "text": ".method private static final isInitialized(Lkotlin/reflect/KProperty0;)Z"
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LateinitKt.smali",
+
+        "line": 36,
+
+        "text": "\"Lkotlin/reflect/KProperty0<\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LateinitKt.smali",
+
+        "line": 55,
+
+        "text": ".method public static synthetic isInitialized$annotations(Lkotlin/reflect/KProperty0;)V"
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LazyKt__LazyKt.smali",
+
+        "line": 21,
+
+        "text": "\"Lkotlin/reflect/KProperty;\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LazyKt__LazyKt.smali",
+
+        "line": 22,
+
+        "text": "\"(Lkotlin/Lazy;Ljava/lang/Object;Lkotlin/reflect/KProperty;)Ljava/lang/Object;\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LazyKt__LazyKt.smali",
+
+        "line": 45,
+
+        "text": ".method private static final getValue(Lkotlin/Lazy;Ljava/lang/Object;Lkotlin/reflect/KProperty;)Ljava/lang/Object;"
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/LazyKt__LazyKt.smali",
+
+        "line": 55,
+
+        "text": "\"Lkotlin/reflect/KProperty<\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/OptIn.smali",
+
+        "line": 33,
+
+        "text": "\"Lkotlin/reflect/KClass;\","
+
+      },
+
+      {
+
+        "file": "app/smali/kotlin/PropertyReferenceDelegatesKt.smali",
+
+        "line": 14,
+
+        "text": "\"Lkotlin/reflect/KProperty0;\","
+
+      }
+
+    ]
+
+  },
+
+  "getPackageName": {
+
+    "count": 78,
+
+    "files": [
+
+      "app/smali/android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.smali",
+
+      "app/smali/android/support/v4/media/session/IMediaSession$Stub$Proxy.smali",
+
+      "app/smali/android/support/v4/media/session/IMediaSession$Stub.smali",
+
+      "app/smali/android/support/v4/media/session/IMediaSession.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImpl.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplBase.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompatApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21$ExtraSession.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MediaSessionStub.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase.smali",
+
+      "app/smali/androidx/appcompat/widget/ActionBarContextView.smali",
+
+      "app/smali/androidx/appcompat/widget/SuggestionsAdapter.smali",
+
+      "app/smali/androidx/appcompat/widget/TooltipPopup.smali",
+
+      "app/smali/androidx/constraintlayout/motion/widget/MotionScene.smali",
+
+      "app/smali/androidx/constraintlayout/widget/ConstraintHelper.smali",
+
+      "app/smali/androidx/constraintlayout/widget/ConstraintLayoutStates.smali",
+
+      "app/smali/androidx/constraintlayout/widget/ConstraintSet.smali",
+
+      "app/smali/androidx/coordinatorlayout/widget/CoordinatorLayout.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.smali",
+
+        "line": 132,
+
+        "text": "invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.smali",
+
+        "line": 218,
+
+        "text": "invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/IMediaSession$Stub$Proxy.smali",
+
+        "line": 637,
+
+        "text": ".method public getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/IMediaSession$Stub.smali",
+
+        "line": 1231,
+
+        "text": "invoke-virtual {p0}, Landroid/support/v4/media/session/IMediaSession$Stub;->getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/IMediaSession.smali",
+
+        "line": 82,
+
+        "text": ".method public abstract getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImpl.smali",
+
+        "line": 42,
+
+        "text": ".method public abstract getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21.smali",
+
+        "line": 333,
+
+        "text": ".method public getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplBase.smali",
+
+        "line": 327,
+
+        "text": ".method public getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplBase.smali",
+
+        "line": 334,
+
+        "text": "invoke-interface {v0}, Landroid/support/v4/media/session/IMediaSession;->getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+        "line": 535,
+
+        "text": ".method public getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+        "line": 541,
+
+        "text": "invoke-interface {v0}, Landroid/support/v4/media/session/MediaControllerCompat$MediaControllerImpl;->getPackageName()Ljava/lang/String;"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompatApi21.smali",
+
+        "line": 131,
+
+        "text": "invoke-virtual {p0}, Landroid/media/session/MediaController;->getPackageName()Ljava/lang/String;"
+
+      }
+
+    ]
+
+  },
+
+  "Build_VERSION": {
+
+    "count": 703,
+
+    "files": [
+
+      "app/smali/android/support/v4/media/MediaBrowserCompat$ItemCallback.smali",
+
+      "app/smali/android/support/v4/media/MediaBrowserCompat$SubscriptionCallback.smali",
+
+      "app/smali/android/support/v4/media/MediaBrowserCompat.smali",
+
+      "app/smali/android/support/v4/media/MediaDescriptionCompat.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat$Callback$StubApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat$Callback.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.smali",
+
+      "app/smali/android/support/v4/media/session/MediaSessionCompat.smali",
+
+      "app/smali/android/support/v4/media/session/PlaybackStateCompat.smali",
+
+      "app/smali/androidx/activity/ComponentActivity.smali",
+
+      "app/smali/androidx/appcompat/app/AlertController.smali",
+
+      "app/smali/androidx/appcompat/app/AppCompatActivity.smali",
+
+      "app/smali/androidx/appcompat/app/AppCompatDelegateImpl$AppCompatWindowCallback.smali",
+
+      "app/smali/androidx/appcompat/app/AppCompatDelegateImpl.smali",
+
+      "app/smali/androidx/appcompat/app/ResourcesFlusher.smali",
+
+      "app/smali/androidx/appcompat/content/res/AppCompatResources.smali",
+
+      "app/smali/androidx/appcompat/graphics/drawable/DrawableContainer$DrawableContainerState.smali",
+
+      "app/smali/androidx/appcompat/graphics/drawable/DrawableContainer.smali"
+
+    ],
+
+    "samples": [
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat$ItemCallback.smali",
+
+        "line": 35,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat$SubscriptionCallback.smali",
+
+        "line": 55,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat.smali",
+
+        "line": 78,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaBrowserCompat.smali",
+
+        "line": 95,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaDescriptionCompat.smali",
+
+        "line": 339,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaDescriptionCompat.smali",
+
+        "line": 459,
+
+        "text": "sget v2, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/MediaDescriptionCompat.smali",
+
+        "line": 496,
+
+        "text": "sget v1, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat$Callback$StubApi21.smali",
+
+        "line": 262,
+
+        "text": "sget v1, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21.smali",
+
+        "line": 512,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+        "line": 85,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+        "line": 102,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      },
+
+      {
+
+        "file": "app/smali/android/support/v4/media/session/MediaControllerCompat.smali",
+
+        "line": 163,
+
+        "text": "sget v0, Landroid/os/Build$VERSION;->SDK_INT:I"
+
+      }
+
+    ]
+
+  }
+
+}

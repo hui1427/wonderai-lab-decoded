@@ -1,0 +1,63 @@
+{
+
+ "app_name": "WonderAi Lab",
+
+ "primary_kits": "初阶套件",
+
+ "advanced_kits": "进阶套件",
+
+ "senior_kits": "高阶套件",
+
+ "major_kits": "专业套件",
+
+ "product_selection": "产品选择",
+
+ "mode_selection": "模式选择",
+
+ "jetspider_title2": "表演模式",
+
+ "jetspider_title3": "激光雷达",
+
+ "jetspider_title4": "取色巡线",
+
+ "jetspider_title5": "目标追踪",
+
+ "jetspider_title6": "手势控制",
+
+ "ros_car_title3": "智能巡逻",
+
+ "ros_car_title4": "目标追踪",
+
+ "ros_car_title5": "取色巡线",
+
+ "rosorin_title3": "目标追踪",
+
+ "rosorin_title4": "取色巡线",
+
+ "rosorin_title5": "无人驾驶",
+
+ "deep_sort": "深度物品分拣",
+
+ "color_palletizing": "智能码垛",
+
+ "object_sorting": "物品分拣",
+
+ "garbage_classification": "垃圾分类",
+
+ "position": "位置校准",
+
+ "gesture_control": "手势控制",
+
+ "start": "开始",
+
+ "rgb_control": "",
+
+ "radar": "",
+
+ "lidar": "",
+
+ "show_mode": "",
+
+ "large_model": ""
+
+}

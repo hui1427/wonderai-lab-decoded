@@ -1,0 +1,27 @@
+计算时间: 2026-11-11 21:33:14
+
+算法: SHA-256 (Get-FileHash -Algorithm SHA256)
+
+
+
+交付工程 ZIP
+  路径: C:\Users\<用户>\Desktop\WonderAi-Lab-Project.zip
+  大小: 66243751 字节
+  SHA-256: 558B804FEFC338B29A7AEED1D99638E0D434F9BBBF0FD1D68EE987781BBCA9BB
+  耗时: 0.2s
+
+
+交付 APK
+  路径: C:\Users\<用户>\Desktop\WonderAi-Lab.apk
+  大小: 34616888 字节
+  SHA-256: BC6CFB78A26DCEBF37850B406301D9F1992DE8A0D32203B641B82C3BC641D066
+  耗时: 0.0s
+
+
+原版 base.apk
+  路径: C:\Users\<用户>\Desktop\网盘文件快传\base.apk
+  大小: 34435235 字节
+  SHA-256: 808D9279464990B1716DA2B475345A01C6916382B343D60E6117B2C8C9148F03
+  耗时: 0.0s
+
+

@@ -1,0 +1,332 @@
+
+
+########## res/values/attrs.xml: 641 diff lines ##########
+
+--- official/res/values/attrs.xml
+
++++ lab/res/values/attrs.xml
+
+@@ -44,10 +44,10 @@
+
+     <attr name="alpha" format="float" />
+
+     <attr name="alphabeticModifiers">
+
++        <flag name="ALT" value="0x2" />
+
++        <flag name="CTRL" value="0x1000" />
+
++        <flag name="FUNCTION" value="0x8" />
+
+         <flag name="META" value="0x10000" />
+
+-        <flag name="CTRL" value="0x1000" />
+
+-        <flag name="ALT" value="0x2" />
+
+         <flag name="SHIFT" value="0x1" />
+
+         <flag name="SYM" value="0x4" />
+
+-        <flag name="FUNCTION" value="0x8" />
+
+     </attr>
+
+     <attr name="altSrc" format="reference" />
+
+@@ -55,7 +55,7 @@
+
+     <attr name="applyMotionScene" format="boolean" />
+
+     <attr name="arcMode">
+
++        <enum name="flip" value="2" />
+
++        <enum name="startHorizontal" value="1" />
+
+         <enum name="startVertical" value="0" />
+
+-        <enum name="startHorizontal" value="1" />
+
+-        <enum name="flip" value="2" />
+
+     </attr>
+
+     <attr name="arrowHeadLength" format="dimension" />
+
+@@ -76,9 +76,9 @@
+
+     </attr>
+
+     <attr name="autoTransition">
+
++        <enum name="animateToEnd" value="4" />
+
++        <enum name="animateToStart" value="3" />
+
++        <enum name="jumpToEnd" value="2" />
+
++        <enum name="jumpToStart" value="1" />
+
+         <enum name="none" value="0" />
+
+-        <enum name="jumpToStart" value="1" />
+
+-        <enum name="jumpToEnd" value="2" />
+
+-        <enum name="animateToStart" value="3" />
+
+-        <enum name="animateToEnd" value="4" />
+
+     </attr>
+
+     <attr name="background" format="reference" />
+
+@@ -87,10 +87,10 @@
+
+     <attr name="backgroundTint" format="color" />
+
+     <attr name="backgroundTintMode">
+
+-        <enum name="src_over" value="3" />
+
+-        <enum name="src_in" value="5" />
+
+-        <enum name="src_atop" value="9" />
+
++        <enum name="add" value="16" />
+
+         <enum name="multiply" value="14" />
+
+         <enum name="screen" value="15" />
+
+-        <enum name="add" value="16" />
+
++        <enum name="src_atop" value="9" />
+
++        <enum name="src_in" value="5" />
+
++        <enum name="src_over" value="3" />
+
+     </attr>
+
+     <attr name="ball" format="reference" />
+
+@@ -108,10 +108,10 @@
+
+     <attr name="barrierAllowsGoneWidgets" format="boolean" />
+
+     <attr name="barrierDirection">
+
++        <enum name="bottom" value="3" />
+
++        <enum name="end" value="6" />
+
+
+
+########## res/values/strings.xml: 9 diff lines ##########
+
+--- official/res/values/strings.xml
+
++++ lab/res/values/strings.xml
+
+@@ -77,5 +77,5 @@
+
+     <string name="anti_clockwise">Anti-clockwise</string>
+
+     <string name="apirltag_recognize">Apirltag Recognition</string>
+
+-    <string name="app_name">WonderAi</string>
+
++    <string name="app_name">WonderAi Lab</string>
+
+     <string name="app_version">Version:</string>
+
+     <string name="are_you_sure_you_want_to_delete">are you sure you want to delete</string>
+
+
+
+########## res/values-zh-rCN/strings.xml: 9 diff lines ##########
+
+--- official/res/values-zh-rCN/strings.xml
+
++++ lab/res/values-zh-rCN/strings.xml
+
+@@ -77,5 +77,5 @@
+
+     <string name="anti_clockwise">��ʱ��</string>
+
+     <string name="apirltag_recognize">��ǩʶ��</string>
+
+-    <string name="app_name">WonderAi</string>
+
++    <string name="app_name">WonderAi Lab</string>
+
+     <string name="app_version">�汾��:</string>
+
+     <string name="are_you_sure_you_want_to_delete">ȷ��Ҫɾ��</string>
+
+
+
+########## res/values-zh-rTW/strings.xml: 9 diff lines ##########
+
+--- official/res/values-zh-rTW/strings.xml
+
++++ lab/res/values-zh-rTW/strings.xml
+
+@@ -77,5 +77,5 @@
+
+     <string name="anti_clockwise">��r�</string>
+
+     <string name="apirltag_recognize">�˻`�R�e</string>
+
+-    <string name="app_name">WonderAi</string>
+
++    <string name="app_name">WonderAi Lab</string>
+
+     <string name="app_version">�汾̖:</string>
+
+     <string name="are_you_sure_you_want_to_delete">�_��Ҫ�h��</string>
+
+
+
+########## smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali: 9 diff lines ##########
+
+--- official/smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali
+
++++ lab/smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali
+
+@@ -23,5 +23,5 @@
+
+ .field public static AiNova_patrol:Ljava/lang/String; = "2222"
+
+ 
+
+-.field public static blockly_null:Z = false
+
++.field public static blockly_null:Z
+
+ 
+
+ 
+
+
+
+########## smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali: 13 diff lines ##########
+
+--- official/smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali
+
++++ lab/smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali
+
+@@ -20,7 +20,7 @@
+
+ .field private static final RETRY_TIMES:I = 0x3
+
+ 
+
+-.field public static isConnected:Z = false
+
+-
+
+-.field public static noShowConnect:Z = false
+
++.field public static isConnected:Z
+
++
+
++.field public static noShowConnect:Z
+
+ 
+
+ 
+
+
+
+########## smali/androidx/core/view/KeyEventDispatcher.smali: 17 diff lines ##########
+
+--- official/smali/androidx/core/view/KeyEventDispatcher.smali
+
++++ lab/smali/androidx/core/view/KeyEventDispatcher.smali
+
+@@ -13,9 +13,9 @@
+
+ 
+
+ # static fields
+
+-.field private static sActionBarFieldsFetched:Z = false
+
+-
+
+-.field private static sActionBarOnMenuKeyMethod:Ljava/lang/reflect/Method; = null
+
+-
+
+-.field private static sDialogFieldsFetched:Z = false
+
++.field private static sActionBarFieldsFetched:Z
+
++
+
++.field private static sActionBarOnMenuKeyMethod:Ljava/lang/reflect/Method;
+
++
+
++.field private static sDialogFieldsFetched:Z
+
+ 
+
+ .field private static sDialogKeyListenerField:Ljava/lang/reflect/Field;
+
+
+
+########## smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali: 24 diff lines ##########
+
+--- official/smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali
+
++++ lab/smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali
+
+@@ -14,7 +14,7 @@
+
+ 
+
+ # static fields
+
+-.field public static deleteflag:Z = false
+
+-
+
+-.field public static listItem:Ljava/util/ArrayList; = null
+
++.field public static deleteflag:Z
+
++
+
++.field public static listItem:Ljava/util/ArrayList;
+
+     .annotation system Ldalvik/annotation/Signature;
+
+         value = {
+
+@@ -28,7 +28,7 @@
+
+ .end field
+
+ 
+
+-.field public static listItemAdapter:Lcom/hiwonder/wonder_ai/component/PhotoAdapter; = null
+
+-
+
+-.field public static photo_del_mode:Z = false
+
++.field public static listItemAdapter:Lcom/hiwonder/wonder_ai/component/PhotoAdapter;
+
++
+
++.field public static photo_del_mode:Z
+
+ 
+
+ .field public static photo_num:I
+

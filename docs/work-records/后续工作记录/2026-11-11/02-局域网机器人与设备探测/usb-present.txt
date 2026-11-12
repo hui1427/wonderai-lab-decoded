@@ -1,0 +1,26 @@
+
+
+Status Class FriendlyName                                               InstanceId                                                    
+
+------ ----- ------------                                               ----------                                                    
+
+OK     USB   AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft) PCI\VEN_1022&DEV_43EC&SUBSYS_11421B21&REV_00\4&2F961C17&0&000A
+
+OK     Ports 通信端口 (COM1)                                                ACPI\PNP0501\0                                                
+
+OK     USB   USB Root Hub (USB 3.0)                                     USB\ROOT_HUB30\5&A1B8819&0&0                                  
+
+OK     USB   USB Composite Device                                       USB\VID_258A&PID_0226\6&87435E9&0&3                           
+
+OK     USB   USB Composite Device                                       USB\VID_18F8&PID_1286\6&F96AFF1&0&11                          
+
+OK     USB   AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft) PCI\VEN_1022&DEV_149C&SUBSYS_7C961462&REV_00\4&1BCC313C&0&0341
+
+OK     USB   USB Root Hub (USB 3.0)                                     USB\ROOT_HUB30\5&277265C1&0&0                                 
+
+
+
+
+
+
+

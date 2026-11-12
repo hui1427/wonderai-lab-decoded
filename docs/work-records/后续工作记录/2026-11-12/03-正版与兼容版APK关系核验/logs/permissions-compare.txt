@@ -1,0 +1,10 @@
+permissions equal: True 10 10
+
+only official: []
+
+only lab: []
+
+features equal: True ['android.hardware.bluetooth_le', 'android.hardware.faketouch', 'android.hardware.location', 'android.hardware.screen.landscape', 'android.hardware.wifi']
+
+badging activity lines equal: True 1 1
+

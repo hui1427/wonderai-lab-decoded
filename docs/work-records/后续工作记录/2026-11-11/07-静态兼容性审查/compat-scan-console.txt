@@ -1,0 +1,46 @@
+{
+
+  "registerReceiver_2arg": 3,
+
+  "registerReceiver_any": 11,
+
+  "PendingIntent_get": 3,
+
+  "external_storage": 6,
+
+  "getExternalFilesDir": 5,
+
+  "MediaStore": 3,
+
+  "BluetoothAdapter": 23,
+
+  "BLE_scan": 6,
+
+  "Camera_api": 1,
+
+  "requestPermissions": 13,
+
+  "getInstalledPackages": 5,
+
+  "NotificationChannel": 397,
+
+  "startForegroundService": 7,
+
+  "AlarmManager": 15,
+
+  "implicit_intent_action": 22,
+
+  "WebView": 2962,
+
+  "FileProvider": 48,
+
+  "content_uri": 0,
+
+  "ActivityThread_hack": 3417,
+
+  "getPackageName": 78,
+
+  "Build_VERSION": 703
+
+}
+

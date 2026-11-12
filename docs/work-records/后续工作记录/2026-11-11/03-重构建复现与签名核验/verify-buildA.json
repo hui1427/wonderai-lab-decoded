@@ -1,0 +1,128 @@
+{
+
+  "input_sha256": "808d9279464990b1716da2b475345a01c6916382b343d60e6117b2c8c9148f03",
+
+  "output_sha256": "ede8becd8da32000b2aef43391e2661b05a431883025187899599c6893f60fbc",
+
+  "old_package": "com.hiwonder.wonderai",
+
+  "new_package": "local.robotlab.wonderai",
+
+  "launcher": "com.hiwonder.wonder_ai.activity.StartActivity",
+
+  "databases_integrity_and_rows": {
+
+    "assets/AiArm.db": [
+
+      "ok",
+
+      9
+
+    ],
+
+    "assets/JetHexa.db": [
+
+      "ok",
+
+      9
+
+    ],
+
+    "assets/JetHexaMode.db": [
+
+      "ok",
+
+      4
+
+    ],
+
+    "assets/JetHexaROS2.db": [
+
+      "ok",
+
+      9
+
+    ],
+
+    "assets/JetSpider.db": [
+
+      "ok",
+
+      9
+
+    ]
+
+  },
+
+  "classes_counts": [
+
+    6563,
+
+    6563
+
+  ],
+
+  "methods_counts": [
+
+    61802,
+
+    61802
+
+  ],
+
+  "activities_counts": [
+
+    136,
+
+    136
+
+  ],
+
+  "resources_counts": [
+
+    3554,
+
+    3554
+
+  ],
+
+  "assets_counts": [
+
+    12,
+
+    12
+
+  ],
+
+  "databases_counts": [
+
+    5,
+
+    5
+
+  ],
+
+  "checks": {
+
+    "classes": true,
+
+    "methods": true,
+
+    "activities": true,
+
+    "resources": true,
+
+    "assets": true,
+
+    "databases": true,
+
+    "database_integrity": true,
+
+    "launcher": true,
+
+    "new_identity": true
+
+  }
+
+}
+

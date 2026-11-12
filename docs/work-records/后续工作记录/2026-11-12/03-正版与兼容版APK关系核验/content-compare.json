@@ -1,0 +1,425 @@
+{
+
+  "official": {
+
+    "path": "D:\\WonderAiLabAudit-20261112\\official.apk",
+
+    "size": 34435235,
+
+    "sha256": "808d9279464990b1716da2b475345a01c6916382b343d60e6117b2c8c9148f03"
+
+  },
+
+  "lab": {
+
+    "path": "D:\\WonderAiLabAudit-20261112\\lab-user.apk",
+
+    "size": 34616888,
+
+    "sha256": "bc6cfb78a26dcebf37850b406301d9f1992de8a0d32203b641b82c3bc641d066"
+
+  },
+
+  "apk_bytes_identical": false,
+
+  "entry_count": [
+
+    1275,
+
+    1275
+
+  ],
+
+  "dex": {
+
+    "name": [
+
+      "classes.dex",
+
+      "classes.dex"
+
+    ],
+
+    "sha256": [
+
+      "ed3e03edb6e499fb4d675a031ce38226e9bb2bcc6ff0146875de4a22c82e345d",
+
+      "f2462c398903a1cf8547734c154cdc253f5c950cd3fece28a63348c1ca274750"
+
+    ],
+
+    "dex_bytes_identical": false,
+
+    "class_count": [
+
+      6563,
+
+      6563
+
+    ],
+
+    "method_count": [
+
+      61802,
+
+      61802
+
+    ],
+
+    "classes_only_official": [],
+
+    "classes_only_lab": [],
+
+    "classes_equal": true,
+
+    "methods_equal": true,
+
+    "methods_only_official_count": 0,
+
+    "methods_only_lab_count": 0,
+
+    "string_pool": [
+
+      55714,
+
+      55713
+
+    ],
+
+    "strings_only_official": [
+
+      "com.hiwonder.wonderai",
+
+      "~~D8{\"backend\":\"dex\",\"compilation-mode\":\"release\",\"has-checksums\":false,\"min-api\":21,\"version\":\"8.1.68\"}"
+
+    ],
+
+    "strings_only_lab": [
+
+      "local.robotlab.wonderai"
+
+    ]
+
+  },
+
+  "assets_libs": {
+
+    "official_count": 12,
+
+    "lab_count": 12,
+
+    "names_equal": true,
+
+    "all_content_equal": true,
+
+    "differences": []
+
+  },
+
+  "payloads": {
+
+    "AndroidManifest.xml": {
+
+      "official_size": 43544,
+
+      "lab_size": 43548,
+
+      "official_sha256": "9f610a49c997fff037636badae955589acf8c29f2c41fb5a7a58dbf4d3a3be05",
+
+      "lab_sha256": "40c99ba725c3ce6db77c73addc3a36fa86ba96c176efa3c560f52076b09016d0",
+
+      "identical": false
+
+    },
+
+    "classes.dex": {
+
+      "official_size": 8727400,
+
+      "lab_size": 8735336,
+
+      "official_sha256": "ed3e03edb6e499fb4d675a031ce38226e9bb2bcc6ff0146875de4a22c82e345d",
+
+      "lab_sha256": "f2462c398903a1cf8547734c154cdc253f5c950cd3fece28a63348c1ca274750",
+
+      "identical": false
+
+    },
+
+    "resources.arsc": {
+
+      "official_size": 634904,
+
+      "lab_size": 672224,
+
+      "official_sha256": "de76693fe8f5544ebfa58d7cc9806c0562a7c640c7c9bef76c3ed9bc73d4ee6a",
+
+      "lab_sha256": "e8ad9967a5ceada29341bb067839f360103f4fa990d78ce3cea9a62c43803bb2",
+
+      "identical": false
+
+    }
+
+  },
+
+  "meta_inf": {
+
+    "official": [
+
+      "META-INF/CERT.RSA",
+
+      "META-INF/CERT.SF",
+
+      "META-INF/MANIFEST.MF",
+
+      "META-INF/androidx.activity_activity.version",
+
+      "META-INF/androidx.annotation_annotation-experimental.version",
+
+      "META-INF/androidx.appcompat_appcompat-resources.version",
+
+      "META-INF/androidx.appcompat_appcompat.version",
+
+      "META-INF/androidx.arch.core_core-runtime.version",
+
+      "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+
+      "META-INF/androidx.cardview_cardview.version",
+
+      "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+
+      "META-INF/androidx.core_core-ktx.version",
+
+      "META-INF/androidx.core_core.version",
+
+      "META-INF/androidx.cursoradapter_cursoradapter.version",
+
+      "META-INF/androidx.customview_customview-poolingcontainer.version",
+
+      "META-INF/androidx.customview_customview.version",
+
+      "META-INF/androidx.documentfile_documentfile.version",
+
+      "META-INF/androidx.drawerlayout_drawerlayout.version",
+
+      "META-INF/androidx.exifinterface_exifinterface.version",
+
+      "META-INF/androidx.fragment_fragment.version",
+
+      "META-INF/androidx.interpolator_interpolator.version",
+
+      "META-INF/androidx.legacy_legacy-support-core-ui.version",
+
+      "META-INF/androidx.legacy_legacy-support-core-utils.version",
+
+      "META-INF/androidx.legacy_legacy-support-v4.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+
+      "META-INF/androidx.loader_loader.version",
+
+      "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+
+      "META-INF/androidx.media_media.version",
+
+      "META-INF/androidx.print_print.version",
+
+      "META-INF/androidx.recyclerview_recyclerview.version",
+
+      "META-INF/androidx.savedstate_savedstate.version",
+
+      "META-INF/androidx.slidingpanelayout_slidingpanelayout.version",
+
+      "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version",
+
+      "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+
+      "META-INF/androidx.vectordrawable_vectordrawable.version",
+
+      "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+
+      "META-INF/androidx.viewpager_viewpager.version",
+
+      "META-INF/com/android/build/gradle/app-metadata.properties"
+
+    ],
+
+    "lab": [
+
+      "META-INF/MANIFEST.MF",
+
+      "META-INF/ROBOTLAB.RSA",
+
+      "META-INF/ROBOTLAB.SF",
+
+      "META-INF/androidx.activity_activity.version",
+
+      "META-INF/androidx.annotation_annotation-experimental.version",
+
+      "META-INF/androidx.appcompat_appcompat-resources.version",
+
+      "META-INF/androidx.appcompat_appcompat.version",
+
+      "META-INF/androidx.arch.core_core-runtime.version",
+
+      "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+
+      "META-INF/androidx.cardview_cardview.version",
+
+      "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+
+      "META-INF/androidx.core_core-ktx.version",
+
+      "META-INF/androidx.core_core.version",
+
+      "META-INF/androidx.cursoradapter_cursoradapter.version",
+
+      "META-INF/androidx.customview_customview-poolingcontainer.version",
+
+      "META-INF/androidx.customview_customview.version",
+
+      "META-INF/androidx.documentfile_documentfile.version",
+
+      "META-INF/androidx.drawerlayout_drawerlayout.version",
+
+      "META-INF/androidx.exifinterface_exifinterface.version",
+
+      "META-INF/androidx.fragment_fragment.version",
+
+      "META-INF/androidx.interpolator_interpolator.version",
+
+      "META-INF/androidx.legacy_legacy-support-core-ui.version",
+
+      "META-INF/androidx.legacy_legacy-support-core-utils.version",
+
+      "META-INF/androidx.legacy_legacy-support-v4.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+
+      "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+
+      "META-INF/androidx.loader_loader.version",
+
+      "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+
+      "META-INF/androidx.media_media.version",
+
+      "META-INF/androidx.print_print.version",
+
+      "META-INF/androidx.recyclerview_recyclerview.version",
+
+      "META-INF/androidx.savedstate_savedstate.version",
+
+      "META-INF/androidx.slidingpanelayout_slidingpanelayout.version",
+
+      "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version",
+
+      "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+
+      "META-INF/androidx.vectordrawable_vectordrawable.version",
+
+      "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+
+      "META-INF/androidx.viewpager_viewpager.version",
+
+      "META-INF/com/android/build/gradle/app-metadata.properties"
+
+    ]
+
+  },
+
+  "entries": {
+
+    "common": 93,
+
+    "only_official": 1182,
+
+    "only_lab": 1182,
+
+    "common_content_differ": [
+
+      "AndroidManifest.xml",
+
+      "META-INF/MANIFEST.MF",
+
+      "classes.dex",
+
+      "res/color-v23/abc_btn_colored_borderless_text_material.xml",
+
+      "res/color-v23/abc_btn_colored_text_material.xml",
+
+      "res/color-v23/abc_color_highlight_material.xml",
+
+      "res/color-v23/abc_tint_btn_checkable.xml",
+
+      "res/color-v23/abc_tint_default.xml",
+
+      "res/color-v23/abc_tint_edittext.xml",
+
+      "res/color-v23/abc_tint_seek_thumb.xml",
+
+      "res/color-v23/abc_tint_spinner.xml",
+
+      "res/color-v23/abc_tint_switch_track.xml",
+
+      "res/color/abc_background_cache_hint_selector_material_dark.xml",
+
+      "res/color/abc_background_cache_hint_selector_material_light.xml",
+
+      "res/color/abc_btn_colored_text_material.xml",
+
+      "res/color/abc_hint_foreground_material_dark.xml",
+
+      "res/color/abc_hint_foreground_material_light.xml",
+
+      "res/color/abc_primary_text_disable_only_material_dark.xml",
+
+      "res/color/abc_primary_text_disable_only_material_light.xml",
+
+      "res/color/abc_primary_text_material_dark.xml",
+
+      "res/color/abc_primary_text_material_light.xml",
+
+      "res/color/abc_search_url_text.xml",
+
+      "res/color/abc_secondary_text_material_dark.xml",
+
+      "res/color/abc_secondary_text_material_light.xml",
+
+      "res/color/abc_tint_btn_checkable.xml",
+
+      "res/color/abc_tint_default.xml",
+
+      "res/color/abc_tint_edittext.xml",
+
+      "res/color/abc_tint_seek_thumb.xml",
+
+      "res/color/abc_tint_spinner.xml",
+
+      "res/color/abc_tint_switch_track.xml",
+
+      "res/color/button_text_color.xml",
+
+      "res/color/switch_thumb_material_dark.xml",
+
+      "res/color/switch_thumb_material_light.xml",
+
+      "resources.arsc"
+
+    ],
+
+    "common_content_differ_count": 34
+
+  }
+
+}

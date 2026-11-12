@@ -1,0 +1,6 @@
+Independent .NET vector: PASS qdBKRVjL3eXtVjxlZZs5PA==
+
+Nine round trips (AES-128/192/256, empty/UTF-8/block boundary): PASS
+
+Invalid placeholder key length rejected: PASS
+

@@ -1,0 +1,4095 @@
+{
+
+ "activity_main": [
+
+  [
+
+   "advanced_kits",
+
+   "进阶套件"
+
+  ],
+
+  [
+
+   "major_kits",
+
+   "专业套件"
+
+  ],
+
+  [
+
+   "primary_kits",
+
+   "初阶套件"
+
+  ],
+
+  [
+
+   "senior_kits",
+
+   "高阶套件"
+
+  ]
+
+ ],
+
+ "activity_title": [],
+
+ "activity_start": [],
+
+ "activity_search_device": [
+
+  [
+
+   "searching",
+
+   "正在搜索..."
+
+  ]
+
+ ],
+
+ "activity_set_net": [
+
+  [
+
+   "click_get_net",
+
+   "2.点击获取Wifi列表按钮，选择要连接到的网络中"
+
+  ],
+
+  [
+
+   "make_sure_set",
+
+   "1.请确认您的手机或平板Wifi直连到当前设备，若没有，请长按WonderPi控制板KEY1键5秒，再次连接!"
+
+  ],
+
+  [
+
+   "set_device",
+
+   "配置当前选中设备:"
+
+  ]
+
+ ],
+
+ "activity_jetmax_control": [
+
+  [
+
+   "absorb",
+
+   "吸起"
+
+  ],
+
+  [
+
+   "absorb_control",
+
+   "吸嘴控制"
+
+  ],
+
+  [
+
+   "anti_clockwise",
+
+   "逆时针"
+
+  ],
+
+  [
+
+   "arm_control",
+
+   "机械臂控制"
+
+  ],
+
+  [
+
+   "big_claw_form",
+
+   "大爪子形态"
+
+  ],
+
+  [
+
+   "clockwise",
+
+   "顺时针"
+
+  ],
+
+  [
+
+   "little_claw_down_form",
+
+   "小爪子形态(向下)"
+
+  ],
+
+  [
+
+   "little_claw_forward_form",
+
+   "小爪子形态(向前)"
+
+  ],
+
+  [
+
+   "move_down",
+
+   "下降"
+
+  ],
+
+  [
+
+   "move_up",
+
+   "抬起"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release2",
+
+   "放下"
+
+  ],
+
+  [
+
+   "sucker_form",
+
+   "吸嘴形态"
+
+  ],
+
+  [
+
+   "wrist_control",
+
+   "腕部控制"
+
+  ]
+
+ ],
+
+ "activity_jetmax_car_control": [
+
+  [
+
+   "absorb",
+
+   "吸起"
+
+  ],
+
+  [
+
+   "arm_control",
+
+   "机械臂控制"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "hand_control",
+
+   "手部控制"
+
+  ],
+
+  [
+
+   "move_down",
+
+   "下降"
+
+  ],
+
+  [
+
+   "move_up",
+
+   "抬起"
+
+  ],
+
+  [
+
+   "open_arm",
+
+   "松开"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release2",
+
+   "放下"
+
+  ],
+
+  [
+
+   "sucker_form",
+
+   "吸嘴形态"
+
+  ]
+
+ ],
+
+ "activity_jetmax_home_page": [
+
+  [
+
+   "mode_selection",
+
+   "模式选择"
+
+  ]
+
+ ],
+
+ "activity_jetmax_switchbutton_share": [
+
+  [
+
+   "position",
+
+   "位置校准"
+
+  ]
+
+ ],
+
+ "activity_jetauto_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetauto_tank_control": [
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ]
+
+ ],
+
+ "activity_jetautopro_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetautopro_control2": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetautopro_control_6servos": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jethexa_control": [
+
+  [
+
+   "back_center",
+
+   "立正"
+
+  ],
+
+  [
+
+   "corrugated_gait",
+
+   "波纹步态"
+
+  ],
+
+  [
+
+   "descend",
+
+   "下降"
+
+  ],
+
+  [
+
+   "gait_choose",
+
+   "步态选择"
+
+  ],
+
+  [
+
+   "height",
+
+   "高度"
+
+  ],
+
+  [
+
+   "ms_step",
+
+   "ms/步"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "rise",
+
+   "上升"
+
+  ],
+
+  [
+
+   "speed",
+
+   "速度"
+
+  ],
+
+  [
+
+   "step_height",
+
+   "步高"
+
+  ],
+
+  [
+
+   "stride_adjustment",
+
+   "步幅"
+
+  ],
+
+  [
+
+   "triangular_gait",
+
+   "三角步态"
+
+  ]
+
+ ],
+
+ "activity_jethexaros2_control": [
+
+  [
+
+   "back_center",
+
+   "立正"
+
+  ],
+
+  [
+
+   "corrugated_gait",
+
+   "波纹步态"
+
+  ],
+
+  [
+
+   "descend",
+
+   "下降"
+
+  ],
+
+  [
+
+   "gait_choose",
+
+   "步态选择"
+
+  ],
+
+  [
+
+   "height",
+
+   "高度"
+
+  ],
+
+  [
+
+   "ms_step",
+
+   "ms/步"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "rise",
+
+   "上升"
+
+  ],
+
+  [
+
+   "speed",
+
+   "速度"
+
+  ],
+
+  [
+
+   "step_height",
+
+   "步高"
+
+  ],
+
+  [
+
+   "stride_adjustment",
+
+   "步幅"
+
+  ],
+
+  [
+
+   "triangular_gait",
+
+   "三角步态"
+
+  ]
+
+ ],
+
+ "activity_jetarm_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "reset_arm",
+
+   "机体回中"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetarm_chassis_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "reset_arm",
+
+   "机体回中"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetarm_track_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "reset_arm",
+
+   "机体回中"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetrover_mecanum_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetrover_tank_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetrover_mecanum_ros2_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetrover_tank_ros2_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetroveracker_ros2_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "forward_backward",
+
+   "前进后退"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetacker_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "forward_backward",
+
+   "前进后退"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetrosorin_control": null,
+
+ "activity_rosorin_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_arm_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_arm_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_rosorinpro_control": [
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gravity_control",
+
+   "重力控制"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "ros_car_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_car_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_rosorin_acker_control": [
+
+  [
+
+   "forward_backward",
+
+   "前进后退"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "speed_adjust",
+
+   "速度调节:"
+
+  ]
+
+ ],
+
+ "activity_jetspider_control": [
+
+  [
+
+   "back_center",
+
+   "立正"
+
+  ],
+
+  [
+
+   "backward",
+
+   "向后"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "corrugated_gait",
+
+   "波纹步态"
+
+  ],
+
+  [
+
+   "descend",
+
+   "下降"
+
+  ],
+
+  [
+
+   "forward",
+
+   "向前"
+
+  ],
+
+  [
+
+   "gait_choose",
+
+   "步态选择"
+
+  ],
+
+  [
+
+   "joint_1",
+
+   "关节1:"
+
+  ],
+
+  [
+
+   "joint_2",
+
+   "关节2:"
+
+  ],
+
+  [
+
+   "joint_3",
+
+   "关节3:"
+
+  ],
+
+  [
+
+   "joint_4",
+
+   "关节4:"
+
+  ],
+
+  [
+
+   "joint_5",
+
+   "关节5:"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release",
+
+   "放开"
+
+  ],
+
+  [
+
+   "rise",
+
+   "上升"
+
+  ],
+
+  [
+
+   "ros_arm_id_hand",
+
+   "手部:"
+
+  ],
+
+  [
+
+   "ros_arm_reset",
+
+   "机械臂复位"
+
+  ],
+
+  [
+
+   "speed2",
+
+   "速度:"
+
+  ],
+
+  [
+
+   "stride_adjustment2",
+
+   "步幅:"
+
+  ],
+
+  [
+
+   "triangular_gait",
+
+   "三角步态"
+
+  ],
+
+  [
+
+   "turn_left",
+
+   "左转"
+
+  ],
+
+  [
+
+   "turn_right",
+
+   "右转"
+
+  ]
+
+ ],
+
+ "activity_jetspider_patrol_activity": null,
+
+ "activity_jetauto_radar": [
+
+  [
+
+   "car_speed",
+
+   "小车速度:"
+
+  ],
+
+  [
+
+   "detect_distance",
+
+   "检测距离(m):"
+
+  ],
+
+  [
+
+   "radar_avoid_obstacle",
+
+   "雷达避障"
+
+  ],
+
+  [
+
+   "radar_follow",
+
+   "雷达跟随"
+
+  ],
+
+  [
+
+   "radar_warning",
+
+   "雷达警卫"
+
+  ],
+
+  [
+
+   "ros_car_title2",
+
+   "激光雷达"
+
+  ],
+
+  [
+
+   "scan_angle",
+
+   "扫描角度:"
+
+  ]
+
+ ],
+
+ "activity_jethexaros2_radar": [
+
+  [
+
+   "detect_distance",
+
+   "检测距离(m):"
+
+  ],
+
+  [
+
+   "move_speed",
+
+   "移动速度(m/s):"
+
+  ],
+
+  [
+
+   "radar_avoid_obstacle",
+
+   "雷达避障"
+
+  ],
+
+  [
+
+   "radar_follow",
+
+   "雷达跟随"
+
+  ],
+
+  [
+
+   "radar_warning",
+
+   "雷达警卫"
+
+  ],
+
+  [
+
+   "ros_car_title2",
+
+   "激光雷达"
+
+  ],
+
+  [
+
+   "scan_angle",
+
+   "扫描角度:"
+
+  ]
+
+ ],
+
+ "activity_jethexapro_radar": [
+
+  [
+
+   "detect_distance",
+
+   "检测距离(m):"
+
+  ],
+
+  [
+
+   "move_speed",
+
+   "移动速度(m/s):"
+
+  ],
+
+  [
+
+   "radar_avoid_obstacle",
+
+   "雷达避障"
+
+  ],
+
+  [
+
+   "radar_follow",
+
+   "雷达跟随"
+
+  ],
+
+  [
+
+   "radar_warning",
+
+   "雷达警卫"
+
+  ],
+
+  [
+
+   "ros_car_title2",
+
+   "激光雷达"
+
+  ],
+
+  [
+
+   "scan_angle",
+
+   "扫描角度:"
+
+  ]
+
+ ],
+
+ "activity_rosorin_lidar": [
+
+  [
+
+   "detect_distance",
+
+   "检测距离(m):"
+
+  ],
+
+  [
+
+   "jetspider_title3",
+
+   "激光雷达"
+
+  ],
+
+  [
+
+   "move_speed2",
+
+   "移动速度:"
+
+  ],
+
+  [
+
+   "radar_avoid_obstacle",
+
+   "雷达避障"
+
+  ],
+
+  [
+
+   "radar_follow",
+
+   "雷达跟随"
+
+  ],
+
+  [
+
+   "radar_warning",
+
+   "雷达警卫"
+
+  ],
+
+  [
+
+   "scan_angle",
+
+   "扫描角度:"
+
+  ]
+
+ ],
+
+ "activity_jetspider_lidar": [
+
+  [
+
+   "detect_distance",
+
+   "检测距离(m):"
+
+  ],
+
+  [
+
+   "jetspider_title3",
+
+   "激光雷达"
+
+  ],
+
+  [
+
+   "move_speed",
+
+   "移动速度(m/s):"
+
+  ],
+
+  [
+
+   "radar_avoid_obstacle",
+
+   "雷达避障"
+
+  ],
+
+  [
+
+   "radar_follow",
+
+   "雷达跟随"
+
+  ],
+
+  [
+
+   "radar_warning",
+
+   "雷达警卫"
+
+  ],
+
+  [
+
+   "scan_angle",
+
+   "扫描角度:"
+
+  ]
+
+ ],
+
+ "activity_jetacker_radar": [
+
+  [
+
+   "car_speed",
+
+   "小车速度:"
+
+  ],
+
+  [
+
+   "detect_distance",
+
+   "检测距离(m):"
+
+  ],
+
+  [
+
+   "radar_avoid_obstacle",
+
+   "雷达避障"
+
+  ],
+
+  [
+
+   "radar_follow",
+
+   "雷达跟随"
+
+  ],
+
+  [
+
+   "radar_warning",
+
+   "雷达警卫"
+
+  ],
+
+  [
+
+   "ros_car_title2",
+
+   "激光雷达"
+
+  ],
+
+  [
+
+   "scan_angle",
+
+   "扫描角度:"
+
+  ]
+
+ ],
+
+ "activity_jetauto_driving": [
+
+  [
+
+   "cancel_selecting_color",
+
+   "后取消取色"
+
+  ],
+
+  [
+
+   "color_range",
+
+   "颜色范围："
+
+  ],
+
+  [
+
+   "get_color",
+
+   "取色"
+
+  ],
+
+  [
+
+   "select_color_tip",
+
+   "点击“取色”按钮后，移动画面中的红色圆圈到目标物体上，点击“确定取色”按钮进行取色。"
+
+  ],
+
+  [
+
+   "selected_color",
+
+   "已选颜色"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jetauto_ar": [
+
+  [
+
+   "bicycle",
+
+   "自行车"
+
+  ],
+
+  [
+
+   "chair",
+
+   "椅子"
+
+  ],
+
+  [
+
+   "cow",
+
+   "牛"
+
+  ],
+
+  [
+
+   "fox",
+
+   "狐狸"
+
+  ],
+
+  [
+
+   "rectangle",
+
+   "立方体"
+
+  ],
+
+  [
+
+   "ros_car_title6",
+
+   "AR"
+
+  ],
+
+  [
+
+   "wolf",
+
+   "狼"
+
+  ]
+
+ ],
+
+ "activity_get_color": [
+
+  [
+
+   "cancel_selecting_color",
+
+   "后取消取色"
+
+  ],
+
+  [
+
+   "color_range",
+
+   "颜色范围："
+
+  ],
+
+  [
+
+   "get_color",
+
+   "取色"
+
+  ],
+
+  [
+
+   "select_color_tip",
+
+   "点击“取色”按钮后，移动画面中的红色圆圈到目标物体上，点击“确定取色”按钮进行取色。"
+
+  ],
+
+  [
+
+   "selected_color",
+
+   "已选颜色"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jetauto_patrol": [
+
+  [
+
+   "ainova_draw_line_1",
+
+   "正方形模式"
+
+  ],
+
+  [
+
+   "ainova_draw_line_2",
+
+   "三角形模式"
+
+  ],
+
+  [
+
+   "ainova_draw_line_3",
+
+   "圆形模式"
+
+  ],
+
+  [
+
+   "rhombus",
+
+   "菱形模式"
+
+  ],
+
+  [
+
+   "ros_car_title3",
+
+   "智能巡逻"
+
+  ],
+
+  [
+
+   "select_path",
+
+   "路线选择"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jetmax_show_mode_layout": null,
+
+ "activity_jethexa_show_mode_layout": [
+
+  [
+
+   "jetspider_title2",
+
+   "表演模式"
+
+  ],
+
+  [
+
+   "self_balance",
+
+   "自平衡"
+
+  ]
+
+ ],
+
+ "activity_jethexaros2_show_mode_layout": [
+
+  [
+
+   "jetspider_title2",
+
+   "表演模式"
+
+  ],
+
+  [
+
+   "self_balance",
+
+   "自平衡"
+
+  ]
+
+ ],
+
+ "activity_jethexa_pro_show_mode_layout": [
+
+  [
+
+   "jetspider_title2",
+
+   "表演模式"
+
+  ],
+
+  [
+
+   "self_balance",
+
+   "自平衡"
+
+  ]
+
+ ],
+
+ "activity_jetmaxpro_show_mode_layout": null,
+
+ "activity_jetspider_show_mode": [
+
+  [
+
+   "jetspider_title2",
+
+   "表演模式"
+
+  ],
+
+  [
+
+   "self_balance",
+
+   "自平衡"
+
+  ]
+
+ ],
+
+ "activity_jethexa_rgb_control": [
+
+  [
+
+   "breath_light",
+
+   "单色呼吸灯"
+
+  ],
+
+  [
+
+   "breath_light2",
+
+   "炫彩呼吸灯"
+
+  ],
+
+  [
+
+   "jethexa_title7",
+
+   "灯环控制"
+
+  ],
+
+  [
+
+   "neon_light",
+
+   "幻彩霓虹灯"
+
+  ],
+
+  [
+
+   "rainbow_light",
+
+   "旋转彩虹灯"
+
+  ]
+
+ ],
+
+ "activity_jetmaxpro_control": [
+
+  [
+
+   "absorb",
+
+   "吸起"
+
+  ],
+
+  [
+
+   "absorb_control",
+
+   "吸嘴控制"
+
+  ],
+
+  [
+
+   "anti_clockwise",
+
+   "逆时针"
+
+  ],
+
+  [
+
+   "arm_control",
+
+   "机械臂控制"
+
+  ],
+
+  [
+
+   "big_claw_form",
+
+   "大爪子形态"
+
+  ],
+
+  [
+
+   "claw_control",
+
+   "爪子控制"
+
+  ],
+
+  [
+
+   "clockwise",
+
+   "顺时针"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "move_down",
+
+   "下降"
+
+  ],
+
+  [
+
+   "move_up",
+
+   "抬起"
+
+  ],
+
+  [
+
+   "open_arm",
+
+   "松开"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release2",
+
+   "放下"
+
+  ],
+
+  [
+
+   "sucker_form",
+
+   "吸嘴形态"
+
+  ]
+
+ ],
+
+ "activity_jetmaxpro_car_control": [
+
+  [
+
+   "absorb",
+
+   "吸起"
+
+  ],
+
+  [
+
+   "arm_control",
+
+   "机械臂控制"
+
+  ],
+
+  [
+
+   "claw_control",
+
+   "爪子控制"
+
+  ],
+
+  [
+
+   "close_arm",
+
+   "闭合"
+
+  ],
+
+  [
+
+   "move_down",
+
+   "下降"
+
+  ],
+
+  [
+
+   "move_up",
+
+   "抬起"
+
+  ],
+
+  [
+
+   "open_arm",
+
+   "松开"
+
+  ],
+
+  [
+
+   "phone_control",
+
+   "机体遥控"
+
+  ],
+
+  [
+
+   "release2",
+
+   "放下"
+
+  ],
+
+  [
+
+   "sucker_form",
+
+   "吸嘴形态"
+
+  ]
+
+ ],
+
+ "activity_jetarmpro_object_sorting": [
+
+  [
+
+   "color_threshold_setting",
+
+   "阈值设置"
+
+  ],
+
+  [
+
+   "object_sorting",
+
+   "物品分拣"
+
+  ],
+
+  [
+
+   "position",
+
+   "位置校准"
+
+  ],
+
+  [
+
+   "select_tag",
+
+   "标签选择"
+
+  ],
+
+  [
+
+   "selection_color",
+
+   "颜色选择"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jetmaxpro_obj_tracking": [
+
+  [
+
+   "color_threshold_setting",
+
+   "阈值设置"
+
+  ],
+
+  [
+
+   "color_tracking",
+
+   "颜色追踪"
+
+  ],
+
+  [
+
+   "face_tracking",
+
+   "人脸追踪"
+
+  ],
+
+  [
+
+   "instructions",
+
+   "操作说明"
+
+  ],
+
+  [
+
+   "ros_car_title4",
+
+   "目标追踪"
+
+  ]
+
+ ],
+
+ "activity_jetmaxpro_garbage": [
+
+  [
+
+   "jetmax_garbage_tip",
+
+   "开始玩法后需要等待20秒左右。"
+
+  ],
+
+  [
+
+   "position",
+
+   "位置校准"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jetarmpro_deep_sort": [
+
+  [
+
+   "show_deep",
+
+   "显示深度图"
+
+  ],
+
+  [
+
+   "start_sorting",
+
+   "开始分拣"
+
+  ]
+
+ ],
+
+ "activity_jetarm_garbage": [
+
+  [
+
+   "position",
+
+   "位置校准"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jethexa_large_model": [
+
+  [
+
+   "instruction",
+
+   "操作说明"
+
+  ],
+
+  [
+
+   "large_mode",
+
+   "大模型"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ]
+
+ ],
+
+ "activity_jetmaxpro_position": [
+
+  [
+
+   "start_postion_calibration",
+
+   "进行位置校准"
+
+  ]
+
+ ],
+
+ "activity_letter_sort": [
+
+  [
+
+   "letter_seqencing",
+
+   "字母排序"
+
+  ],
+
+  [
+
+   "letter_sort",
+
+   "目标排序"
+
+  ],
+
+  [
+
+   "number_seqencing",
+
+   "数字排序"
+
+  ],
+
+  [
+
+   "position",
+
+   "位置校准"
+
+  ]
+
+ ],
+
+ "activity_set_threshold_color": [
+
+  [
+
+   "color_threshold_setting",
+
+   "阈值设置"
+
+  ],
+
+  [
+
+   "instructions",
+
+   "操作说明"
+
+  ],
+
+  [
+
+   "save",
+
+   "保存"
+
+  ],
+
+  [
+
+   "select_color",
+
+   "选择颜色："
+
+  ]
+
+ ],
+
+ "activity_set_rpc_threshold_color": [
+
+  [
+
+   "color_threshold_setting",
+
+   "阈值设置"
+
+  ],
+
+  [
+
+   "instruction",
+
+   "操作说明"
+
+  ],
+
+  [
+
+   "save",
+
+   "保存"
+
+  ],
+
+  [
+
+   "select_color",
+
+   "选择颜色："
+
+  ]
+
+ ],
+
+ "activity_set_jethexa_threshold_color": [
+
+  [
+
+   "color_threshold_setting",
+
+   "阈值设置"
+
+  ],
+
+  [
+
+   "instructions",
+
+   "操作说明"
+
+  ],
+
+  [
+
+   "save",
+
+   "保存"
+
+  ],
+
+  [
+
+   "select_color",
+
+   "选择颜色："
+
+  ]
+
+ ],
+
+ "activity_product_select_layout": [
+
+  [
+
+   "product_selection",
+
+   "产品选择"
+
+  ]
+
+ ],
+
+ "activity_home_page_deep": [
+
+  [
+
+   "mode_selection",
+
+   "模式选择"
+
+  ]
+
+ ],
+
+ "activity_jetmax_obj_tracking": [
+
+  [
+
+   "color_threshold_setting",
+
+   "阈值设置"
+
+  ],
+
+  [
+
+   "color_tracking",
+
+   "颜色追踪"
+
+  ],
+
+  [
+
+   "face_tracking",
+
+   "人脸追踪"
+
+  ],
+
+  [
+
+   "instructions",
+
+   "操作说明"
+
+  ],
+
+  [
+
+   "object_track",
+
+   "目标追踪"
+
+  ]
+
+ ],
+
+ "activity_jethexa_obj_tracking": [
+
+  [
+
+   "jetspider_title5",
+
+   "目标追踪"
+
+  ],
+
+  [
+
+   "label_select",
+
+   "标签选择"
+
+  ],
+
+  [
+
+   "select_tag",
+
+   "标签选择"
+
+  ],
+
+  [
+
+   "selection_color",
+
+   "颜色选择"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ],
+
+  [
+
+   "tracking_obj",
+
+   "追踪目标"
+
+  ]
+
+ ],
+
+ "activity_jethexa_line_follow": [
+
+  [
+
+   "black",
+
+   "黑"
+
+  ],
+
+  [
+
+   "jetspider_title6",
+
+   "手势控制"
+
+  ],
+
+  [
+
+   "red",
+
+   "红"
+
+  ],
+
+  [
+
+   "selection_color",
+
+   "颜色选择"
+
+  ],
+
+  [
+
+   "start",
+
+   "开始"
+
+  ],
+
+  [
+
+   "tracking_color",
+
+   "追踪颜色"
+
+  ]
+
+ ]
+
+}

@@ -1,0 +1,25 @@
+--- official/smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali
+
++++ lab/smali/com/hiwonder/wonder_ai/activity/TitleActivity.smali
+
+@@ -20,7 +20,7 @@
+
+ .field private static final RETRY_TIMES:I = 0x3
+
+ 
+
+-.field public static isConnected:Z = false
+
+-
+
+-.field public static noShowConnect:Z = false
+
++.field public static isConnected:Z
+
++
+
++.field public static noShowConnect:Z
+
+ 
+
+ 
