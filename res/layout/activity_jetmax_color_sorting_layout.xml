@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/video_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/top">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:text="@string/start_sorting" style="@style/action_style" />
+                <com.suke.widget.SwitchButton android:id="@id/switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginLeft="5.0dp" app:sb_show_indicator="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <CheckBox android:id="@id/red_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dp" style="@style/MyCheckBox" />
+                <ImageView android:src="@drawable/arm_red" android:layout_marginStart="15.0dp" style="@style/color_sorting_img_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <CheckBox android:id="@id/green_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dp" style="@style/MyCheckBox" />
+                <ImageView android:src="@drawable/arm_green" android:layout_marginStart="15.0dp" style="@style/color_sorting_img_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <CheckBox android:id="@id/blue_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dp" style="@style/MyCheckBox" />
+                <ImageView android:src="@drawable/arm_blue" android:layout_marginStart="15.0dp" style="@style/color_sorting_img_style" />
+            </LinearLayout>
+            <Button android:textSize="13.0sp" android:textColor="@color/backgroud_blue" android:layout_gravity="center_horizontal" android:id="@id/goto_position_btn" android:background="@drawable/kit_button_unselected" android:layout_marginTop="10.0dp" android:text="@string/position" android:onClick="onClick" android:textAllCaps="false" style="@style/threshold_button_style" />
+            <Button android:textSize="13.0sp" android:textColor="@color/backgroud_blue" android:layout_gravity="center_horizontal" android:id="@id/goto_threshold_btn" android:background="@drawable/kit_button_unselected" android:layout_marginTop="10.0dp" android:text="@string/color_threshold_setting" android:onClick="onClick" android:textAllCaps="false" style="@style/threshold_button_style" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.5">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/background_orange" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_sort" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/style_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="40.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginRight="20.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/contact_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/contact_w" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

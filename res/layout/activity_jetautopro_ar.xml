@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/video_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="4.0">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.5">
+            <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="5" android:columnCount="3" style="@style/margin_title3">
+                <Button android:id="@id/action0" android:tag="0" android:background="@drawable/normal_button_unpress" android:text="@string/bicycle" android:onClick="onClick" android:textAllCaps="false" style="@style/jet_auto_show_btn_style" />
+                <Button android:id="@id/action1" android:tag="1" android:background="@drawable/normal_button_unpress" android:text="@string/chair" android:onClick="onClick" android:textAllCaps="false" style="@style/jet_auto_show_btn_style" />
+                <Button android:id="@id/action2" android:tag="2" android:background="@drawable/normal_button_unpress" android:text="@string/fox" android:onClick="onClick" android:textAllCaps="false" style="@style/jet_auto_show_btn_style" />
+                <Button android:id="@id/action3" android:tag="3" android:background="@drawable/normal_button_unpress" android:text="@string/cow" android:onClick="onClick" android:textAllCaps="false" style="@style/jet_auto_show_btn_style" />
+                <Button android:id="@id/action4" android:tag="4" android:background="@drawable/normal_button_unpress" android:text="@string/wolf" android:onClick="onClick" android:textAllCaps="false" style="@style/jet_auto_show_btn_style" />
+                <Button android:id="@id/action5" android:tag="5" android:background="@drawable/normal_button_unpress" android:text="@string/rectangle" android:onClick="onClick" android:textAllCaps="false" style="@style/jet_auto_show_btn_style" />
+            </GridLayout>
+            <com.selfvehicle.compat.weight.colorpicker.ColorPickerView android:id="@id/color_picker" android:visibility="gone" style="@style/jetauto_color_picker_style" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/red_btn" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/red_color" android:scaleType="fitCenter" android:onClick="onClick" style="@style/color_pick_button" />
+                <ImageButton android:id="@id/green_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/green_color" android:scaleType="fitCenter" android:onClick="onClick" style="@style/color_pick_button" />
+                <ImageButton android:id="@id/blue_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/blue_color" android:scaleType="fitCenter" android:onClick="onClick" style="@style/color_pick_button" />
+                <ImageButton android:id="@id/black_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/black_color" android:scaleType="fitCenter" android:onClick="onClick" style="@style/color_pick_button" />
+                <ImageButton android:id="@id/white_btn" android:background="?selectableItemBackgroundBorderless" android:layout_margin="5.0dp" android:src="@drawable/white_color" android:scaleType="fitCenter" android:onClick="onClick" style="@style/color_pick_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/background_orange" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ros_car_title6" android:layout_centerInParent="true" style="@style/style_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="20.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="20.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/contact_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/contact_w" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

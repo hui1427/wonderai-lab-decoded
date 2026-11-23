@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="40.0dp" android:layout_marginRight="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/alert_shape" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.5">
+        <LinearLayout android:orientation="vertical" android:id="@id/llChoose" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llAirlink" android:layout_width="match_parent" android:layout_height="60.0dp">
+                <TextView android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direct_connection_mode" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/line_gray" android:layout_width="match_parent" android:layout_height="0.5dp" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llSoftap" android:layout_width="match_parent" android:layout_height="60.0dp">
+                <TextView android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lAN_mode" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/line_gray" android:layout_width="match_parent" android:layout_height="0.5dp" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llCancel" android:layout_width="match_parent" android:layout_height="60.0dp">
+                <TextView android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llEnterPassword" android:background="@drawable/alert_shape" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/backgroud_blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvWifiTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:text="@string/input_tips" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp">
+                <EditText android:theme="@style/MyEditText" android:id="@id/passwordET" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/input_password" android:inputType="textPassword" />
+                <ImageButton android:id="@id/eye_password" android:background="?selectableItemBackgroundBorderless" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginBottom="10.0dp" android:src="@drawable/eye" android:scaleType="fitCenter" android:layout_alignRight="@id/passwordET" android:layout_alignBottom="@id/passwordET" />
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="0.5dp" android:divider="@color/backgroud_blue" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/cancelBtn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+                <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/okBtn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+                <View android:id="@id/dialog_divider" android:layout_width="0.5dp" android:layout_height="match_parent" android:divider="@color/backgroud_blue" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+</LinearLayout>

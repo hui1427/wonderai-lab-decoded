@@ -1,0 +1,130 @@
+.class Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;
+.super Ljava/lang/Object;
+.source "JetRoverAckerROS2ControlActivity.java"
+
+# interfaces
+.implements Lcom/selfvehicle/compat/view/VerticalController$VerticalChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;)V
+    .locals 0
+
+    .line 605
+    iput-object p1, p0, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;->this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onVerticalChange(I)V
+    .locals 10
+
+    const-string v0, "hiwonder"
+
+    if-eqz p1, :cond_2
+
+    const/4 v1, 0x1
+
+    if-eq p1, v1, :cond_1
+
+    const/4 v1, 0x2
+
+    if-eq p1, v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const-string p1, "high"
+
+    .line 618
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const/16 p1, 0x5a
+
+    goto :goto_1
+
+    :cond_1
+    const-string p1, "mid"
+
+    .line 615
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_2
+    const-string p1, "low"
+
+    .line 612
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const/16 p1, 0x10e
+
+    .line 622
+    :goto_1
+    iget-object v0, p0, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;->this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+    invoke-static {v0, p1}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->access$2400(Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;I)D
+
+    move-result-wide v1
+
+    iget-object v3, p0, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;->this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+    invoke-static {v3, p1}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->access$2500(Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;I)D
+
+    move-result-wide v3
+
+    const-wide/16 v5, 0x0
+
+    iget-object p1, p0, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;->this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+    invoke-static {p1}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->access$2600(Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;)D
+
+    move-result-wide v7
+
+    const/4 v9, 0x0
+
+    invoke-virtual/range {v0 .. v9}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->sendCarCmd(DDDDZ)V
+
+    .line 623
+    iget-object p1, p0, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;->this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+    invoke-static {p1}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->access$1500(Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_3
+
+    .line 624
+    iget-object p1, p0, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity$12;->this$0:Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;
+
+    invoke-static {p1}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->access$800(Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;)D
+
+    move-result-wide v0
+
+    invoke-virtual {p1, v0, v1}, Lcom/selfvehicle/compat/activity/JetRover/JetRoverAckerROS2ControlActivity;->sendCarLRCmd(D)V
+
+    :cond_3
+    return-void
+.end method

@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/selfvehicle/compat/dialog/ShareActionDialog/ButtonAdapter$OnItemClickListener;
+.super Ljava/lang/Object;
+.source "ButtonAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/selfvehicle/compat/dialog/ShareActionDialog/ButtonAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnItemClickListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onItemClick(ILjava/lang/String;)V
+.end method

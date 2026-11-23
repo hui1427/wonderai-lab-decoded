@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/control_arm_layout" android:background="@drawable/control_arm_layout" android:visibility="visible" android:clickable="true" android:layout_width="260.0dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_margin="2.0dp" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ros_car_id_hand" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/slider1_value" android:layout_width="35.0dp" android:layout_height="wrap_content" android:text="0" style="@style/action_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/left_1" android:tag="0" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_left" android:scaleType="fitCenter" style="@style/servo_button_style" />
+                <RelativeLayout android:background="@drawable/xarm_control_sliding" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/servo_slider_style">
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_arm" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/release" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                    <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller1" android:tag="0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:ball_h="@drawable/seekbar_reset" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/right_1" android:tag="0" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_right" android:scaleType="fitCenter" style="@style/servo_button_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_margin="2.0dp" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/joint_1" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/slider2_value" android:layout_width="35.0dp" android:layout_height="wrap_content" android:text="0" style="@style/action_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/left_2" android:tag="1" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_left" android:scaleType="fitCenter" style="@style/servo_button_style" />
+                <RelativeLayout android:background="@drawable/xarm_control_sliding" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/servo_slider_style">
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backward" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forward" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                    <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller2" android:tag="1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:ball_h="@drawable/seekbar_reset" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/right_2" android:tag="1" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_right" android:scaleType="fitCenter" style="@style/servo_button_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_margin="2.0dp" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/joint_2" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/slider3_value" android:layout_width="35.0dp" android:layout_height="wrap_content" android:text="0" style="@style/action_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/left_3" android:tag="2" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="5.0dp" android:src="@drawable/minipi_control_left" android:scaleType="fitCenter" android:layout_centerVertical="true" style="@style/servo_button_style" />
+                <RelativeLayout android:background="@drawable/xarm_control_sliding" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/servo_slider_style">
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backward" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forward" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                    <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller3" android:tag="2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:ball_h="@drawable/seekbar_reset" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/right_3" android:tag="2" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_right" android:scaleType="fitCenter" style="@style/servo_button_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_margin="2.0dp" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/joint_3" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/slider4_value" android:layout_width="35.0dp" android:layout_height="wrap_content" android:text="0" style="@style/action_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/left_4" android:tag="3" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="5.0dp" android:src="@drawable/minipi_control_left" android:scaleType="fitCenter" android:layout_centerVertical="true" style="@style/servo_button_style" />
+                <RelativeLayout android:background="@drawable/xarm_control_sliding" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/servo_slider_style">
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backward" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forward" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                    <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller4" android:tag="3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:ball_h="@drawable/seekbar_reset" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/right_4" android:tag="3" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_right" android:scaleType="fitCenter" style="@style/servo_button_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_margin="2.0dp" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/joint_4" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/slider5_value" android:layout_width="35.0dp" android:layout_height="wrap_content" android:text="0" style="@style/action_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/left_5" android:tag="4" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="5.0dp" android:src="@drawable/minipi_control_left" android:scaleType="fitCenter" android:layout_centerVertical="true" style="@style/servo_button_style" />
+                <RelativeLayout android:id="@id/servo1_adjust_layout" android:background="@drawable/xarm_control_sliding" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/servo_slider_style">
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/turn_left" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/turn_right" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                    <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller5" android:tag="4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:ball_h="@drawable/seekbar_reset" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/right_5" android:tag="4" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_right" android:scaleType="fitCenter" style="@style/servo_button_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_margin="2.0dp" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/joint_5" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/slider6_value" android:layout_width="35.0dp" android:layout_height="wrap_content" android:text="0" style="@style/action_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/left_6" android:tag="5" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_left" android:scaleType="fitCenter" style="@style/servo_button_style" />
+                <RelativeLayout android:id="@id/servo0_adjust_layout" android:background="@drawable/xarm_control_sliding" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/servo_slider_style">
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/turn_left" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/turn_right" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                    <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller6" android:tag="5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp" app:ball_h="@drawable/seekbar_reset" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/right_6" android:tag="5" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/minipi_control_right" android:scaleType="fitCenter" style="@style/servo_button_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.8">
+            <Button android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/reset_btn" android:background="@drawable/rec_button_unpress_orange" android:text="@string/ros_car_reset" android:textAllCaps="false" android:drawableStart="@drawable/arm_reset" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" style="@style/arm_reset_btn" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+        <ImageView android:layout_width="260.0dp" android:layout_height="wrap_content" android:src="@drawable/aiarm_robot" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <Button android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/action" android:background="@drawable/orange_button" android:layout_marginBottom="10.0dp" android:text="@string/action_group" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onViewClick" android:textAllCaps="false" style="@style/control_button_style" />
+        <Button android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/reset_arm" android:background="@drawable/orange_button" android:layout_marginBottom="10.0dp" android:text="@string/reset_arm" android:layout_above="@id/action" android:layout_centerHorizontal="true" android:onClick="onViewClick" android:textAllCaps="false" style="@style/control_button_style" />
+    </RelativeLayout>
+</LinearLayout>

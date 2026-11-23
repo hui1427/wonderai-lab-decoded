@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/video_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5" style="@style/top">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start" />
+                <com.suke.widget.SwitchButton android:id="@id/switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginLeft="20.0dp" app:sb_show_indicator="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selection_color" />
+                    <Button android:textColor="@color/white" android:id="@id/bt_red" android:background="@drawable/fpv_stereo_button_red" android:layout_marginTop="2.0dp" android:onClick="onClick" style="@style/color_button_style2" />
+                    <Button android:textColor="@color/white" android:id="@id/bt_green" android:background="@drawable/fpv_stereo_button_green" android:layout_marginTop="5.0dp" android:onClick="onClick" style="@style/color_button_style2" />
+                    <Button android:textColor="@color/white" android:id="@id/bt_blue" android:background="@drawable/fpv_stereo_button_blue" android:layout_marginTop="5.0dp" android:onClick="onClick" style="@style/color_button_style2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_tag" />
+                    <Button android:textColor="@color/white" android:id="@id/tag_num_1" android:background="@drawable/linefollow_black_button" android:layout_marginTop="2.0dp" android:text="1" android:onClick="onClick" style="@style/color_button_style2" />
+                    <Button android:textColor="@color/white" android:id="@id/tag_num_2" android:background="@drawable/linefollow_black_button" android:layout_marginTop="5.0dp" android:text="2" android:onClick="onClick" style="@style/color_button_style2" />
+                    <Button android:textColor="@color/white" android:id="@id/tag_num_3" android:background="@drawable/linefollow_black_button" android:layout_marginTop="5.0dp" android:text="3" android:onClick="onClick" style="@style/color_button_style2" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_select" />
+                <Button android:textColor="@color/white" android:id="@id/bt_1" android:background="@drawable/fpv_stereo_button_1" android:layout_width="60.0dp" android:layout_height="25.0dp" android:layout_marginTop="2.0dp" android:onClick="onClick" />
+                <Button android:textColor="@color/white" android:id="@id/bt_2" android:background="@drawable/fpv_stereo_button_2" android:layout_width="60.0dp" android:layout_height="25.0dp" android:layout_marginTop="5.0dp" android:onClick="onClick" />
+                <Button android:textColor="@color/white" android:id="@id/bt_3" android:background="@drawable/fpv_stereo_button_3" android:layout_width="60.0dp" android:layout_height="25.0dp" android:layout_marginTop="5.0dp" android:onClick="onClick" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/tracking_drawing_board" android:layout_width="90.0dp" android:layout_height="90.0dp" android:layout_marginTop="10.0dp">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:text="@string/tracking_obj" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_color" android:background="@drawable/vision_color_shape" android:visibility="visible" android:layout_width="45.0dp" android:layout_height="45.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.5">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/backgroud_blue" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jetspider_title5" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/action_style_game_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/contact_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:src="@drawable/contact_b" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" android:layout_marginEnd="25.0dp" android:layout_alignParentEnd="true" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

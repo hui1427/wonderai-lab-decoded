@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/im1" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ainex_instructions_dialog" />
+        <Button android:textColor="@color/white" android:id="@id/bt1" android:background="@drawable/armpi_button_style" android:layout_width="90.0dp" android:layout_height="40.0dp" android:layout_marginBottom="5.0dp" android:text="@string/turn_back" android:layout_alignParentBottom="true" android:layout_marginStart="50.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

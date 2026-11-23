@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_build" android:background="@drawable/build" android:layout_width="180.0dp" android:layout_height="248.0dp" android:onClick="onClick" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/ll_control" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="22.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/ainova_mode_assembly" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_control" android:background="@drawable/control_ainova" android:layout_width="180.0dp" android:layout_height="248.0dp" android:onClick="onClick" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/ll_blockly" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/ll_build" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="22.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/ainova_mode_operation" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_blockly" android:background="@drawable/programming" android:layout_width="180.0dp" android:layout_height="248.0dp" android:onClick="onClick" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/ll_control" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="22.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/ainova_mode_programming" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

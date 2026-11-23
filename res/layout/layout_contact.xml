@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="320.0dp" android:minHeight="300.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/backgroud_blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_us" android:textAllCaps="false" />
+    </LinearLayout>
+    <RelativeLayout android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo_img" android:background="?selectableItemBackgroundBorderless" android:layout_width="210.0dp" android:layout_height="29.0dp" android:src="@drawable/lobot" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0sp" android:id="@id/company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/company" android:layout_below="@id/logo_img" android:layout_centerHorizontal="true" android:textAllCaps="false" style="@style/contact_margin_top" />
+        <TextView android:textSize="18.0sp" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email" android:layout_below="@id/company" android:layout_alignLeft="@id/company" style="@style/contact_margin_top" />
+        <RelativeLayout android:id="@id/wwwlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/email" android:layout_alignLeft="@id/company" style="@style/contact_margin_top">
+            <TextView android:textSize="18.0sp" android:id="@id/website" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/website" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/www" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="www.hiwonder.com" android:layout_toRightOf="@id/website" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:id="@id/scan_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/webchat_subscription" android:layout_below="@id/wwwlayout" android:layout_alignLeft="@id/company" />
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:divider="@color/backgroud_blue" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/dialog_btn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:id="@id/dialog_divider" android:layout_width="0.5dp" android:layout_height="match_parent" android:divider="@color/backgroud_blue" />
+    </LinearLayout>
+</LinearLayout>

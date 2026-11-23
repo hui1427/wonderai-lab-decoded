@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.selfvehicle.compat" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.selfvehicle.compat.VehicleApplication" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.StartActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:name="com.selfvehicle.compat.utils.BluetoothTool.BLEService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.MainActivity" android:screenOrientation="landscape"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.TitleActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.SearchDeviceActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ShowphotoActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.SetNetActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.SetThresholdActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.SetThresholdArgsActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.RPC_SetThresholdActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.photolistActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.DirectConnectionModeActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxColorPalletizingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxColorSortingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxControlCarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxGarbageClassificationActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxLetterSortActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxObjectTrackActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMax.JetMaxPositonActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNexHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Control_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Automatic_Kick_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Color_Reconize_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Line_Tracking_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Color_Tracking_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Face_Recognition_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Label_Recognition_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.AiNex.AiNex_Down_Up_Steps_Activity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardObjectTrackActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardLineFollowActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardGestureActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardShowModeActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardPatrolActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardSetThresholdActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaStandard.JetHexaStandardRGBControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaLargeModelActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2ShowModeActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2RadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2ObjectTrackingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2LineFollowActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2GestureActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaROS2.JetHexaROS2HomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProShowModeActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProGestureActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProPatrolActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoDriveActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoArActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoObjectTrackingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAuto.JetAutoPatrolActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProControlActivity2" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoPro6ServosControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProObjectTrackingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProDriveActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProArActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProPatrolActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoTank.JetAutoTankHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoTank.JetAutoTankControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoTank.JetAutoTankRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetHexa.JetHexaAdvanced.JetHexaProSetThresholdActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmStarterHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmStarterControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmROS2StarterControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmStarterObjectSortingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmStarterGestureActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmStarterObjectTrackActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmStarterGarbageClassificationActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Starter.JetArmPositionActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Pro.JetArmProHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Pro.JetArmProControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Pro.JetArmProDeepSortActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Pro.JetArmROS2ObjectSortingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.Pro.JetArmProSmartStackingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinProductHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverProductHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverArActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverDriveActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverMecanumControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverMecanumROS2ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverTankControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverTankROS2ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverAckerROS2ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverObjectTrackingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverGestureControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverTankHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverAckerHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverAckerControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetRover.JetRoverAckerRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAcker.JetAckerHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAcker.JetAckerControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAcker.JetAckerROS2ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAcker.JetAckerRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetAutoPro.JetAutoProROS2ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.chassis.JetArmROS2MecanumControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetArm.chassis.JetArmROS2TrackControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderGestureActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderLidarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderLineFollowActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderObjTracking" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetSpider.SpiderShowModeActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinProControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinProROS1ControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinAckerControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinRadarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinObjectTrackingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinLineFollowActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.ROSOrin.ROSOrinDriverlessActibity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProPositonActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProPositonActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProObjectTrackActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProLetterSortActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProHomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProGarbageClassificationActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProControlCarActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProControlActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProColorSortingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxPro.JetMaxProColorPalletizingActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+        <activity android:launchMode="singleTop" android:name="com.selfvehicle.compat.activity.JetMaxProThresholdActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.Fullscreen"/>
+    </application>
+</manifest>

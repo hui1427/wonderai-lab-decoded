@@ -1,0 +1,120 @@
+.class Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;
+.super Ljava/lang/Object;
+.source "JetArmProControlActivity.java"
+
+# interfaces
+.implements Landroid/view/View$OnTouchListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;)V
+    .locals 0
+
+    .line 250
+    iput-object p1, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    .locals 2
+
+    .line 253
+    invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/String;
+
+    invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result p1
+
+    .line 254
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
+
+    move-result p2
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    if-eqz p2, :cond_2
+
+    if-eq p2, v0, :cond_0
+
+    const/4 v0, 0x3
+
+    if-eq p2, v0, :cond_0
+
+    goto :goto_0
+
+    .line 265
+    :cond_0
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    iput-boolean v1, p2, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->isMinusLongClick:Z
+
+    .line 266
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    iget-boolean p2, p2, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->minusPress:Z
+
+    if-eqz p2, :cond_1
+
+    .line 272
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    invoke-static {p2, p1}, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->access$600(Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;I)V
+
+    .line 274
+    :cond_1
+    iget-object p1, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    iput-boolean v1, p1, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->minusPress:Z
+
+    goto :goto_0
+
+    .line 256
+    :cond_2
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    iput-boolean v1, p2, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->isMinusLongClick:Z
+
+    .line 257
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    invoke-static {p2, v1}, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->access$202(Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;I)I
+
+    .line 258
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    iput-boolean v0, p2, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->minusPress:Z
+
+    .line 259
+    iget-object p2, p0, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity$3;->this$0:Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;
+
+    invoke-static {p2, p1}, Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;->access$502(Lcom/selfvehicle/compat/activity/JetArm/Pro/JetArmProControlActivity;I)I
+
+    :goto_0
+    return v1
+.end method

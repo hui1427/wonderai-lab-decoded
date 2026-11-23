@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="300.0dp" android:minHeight="150.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/backgroud_blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/software_update" android:textAllCaps="false" />
+    </LinearLayout>
+    <TextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_gravity="center" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_tips" />
+    <View android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:divider="@color/background_orange" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/dialog_cancel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <Button android:textSize="18.0sp" android:textColor="@color/backgroud_blue" android:id="@id/dialog_download" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/goto_download" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:id="@id/dialog_divider" android:layout_width="1.0dp" android:layout_height="match_parent" android:divider="@color/background_orange" />
+    </LinearLayout>
+</LinearLayout>

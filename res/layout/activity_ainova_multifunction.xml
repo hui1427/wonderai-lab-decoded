@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll1" android:background="@drawable/rounded_corners" android:layout_width="160.0dp" android:layout_height="160.0dp" android:layout_marginBottom="20.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/ll2" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ainova_multifunction_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginStart="5.0dp">
+                <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ainova_multifunction_6" />
+                <com.suke.widget.SwitchButton android:id="@id/switch_button1" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginLeft="2.0dp" app:sb_show_indicator="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll2" android:background="@drawable/ainova_multifunction_2" android:layout_width="160.0dp" android:layout_height="160.0dp" android:layout_marginBottom="20.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/ll3" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/ll1" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginStart="5.0dp">
+            <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ainova_multifunction_6" />
+            <com.suke.widget.SwitchButton android:id="@id/switch_button2" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginLeft="2.0dp" app:sb_show_indicator="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll3" android:background="@drawable/ainova_multifunction_3" android:layout_width="160.0dp" android:layout_height="160.0dp" android:layout_marginBottom="20.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/ll2" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginStart="5.0dp">
+            <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ainova_multifunction_6" />
+            <com.suke.widget.SwitchButton android:id="@id/switch_button3" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginLeft="2.0dp" app:sb_show_indicator="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:layout_marginTop="24.0dp" android:text="@string/ainova_multifunction_1" app:layout_constraintEnd_toEndOf="@id/ll1" app:layout_constraintStart_toStartOf="@id/ll1" app:layout_constraintTop_toBottomOf="@id/ll1" app:layout_goneMarginTop="5.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text="@string/ainova_multifunction_2" app:layout_constraintEnd_toEndOf="@id/ll2" app:layout_constraintStart_toStartOf="@id/ll2" app:layout_constraintTop_toBottomOf="@id/ll2" app:layout_goneMarginTop="5.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text="@string/ainova_multifunction_3" app:layout_constraintEnd_toEndOf="@id/ll3" app:layout_constraintStart_toStartOf="@id/ll3" app:layout_constraintTop_toBottomOf="@id/ll3" app:layout_goneMarginTop="5.0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fullscreen_layout" android:background="@color/add_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/fullscreen_video" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:id="@id/fullscreen_back_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/video_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/turn" android:layout_width="match_parent" android:layout_height="65.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" style="@style/control_top">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_weight="1.0">
+                    <Button android:id="@id/left_slide" android:background="@drawable/control_left_unpress" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginRight="15.0dp" android:layout_weight="1.0">
+                    <Button android:id="@id/right_slide" android:background="@drawable/control_right_unpress" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <com.selfvehicle.compat.component.HandShakeX android:id="@id/hand_shake" app:ball_bg="@drawable/ball_back" app:ball_src="@drawable/ball" style="@style/hand_shakex_style" />
+            </RelativeLayout>
+            <TextView android:textColor="@color/black" android:id="@id/speed_value_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="speed:240" />
+            <SeekBar android:id="@id/speed_seekbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:max="400" android:progress="140" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/select_form_margin">
+                <LinearLayout android:orientation="vertical" android:id="@id/select_form_layout" android:background="@drawable/shape_corner_select_form" android:padding="8.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/form_1_layout" android:tag="0" android:background="@drawable/shape_corner_form" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/form_1_iv" android:layout_width="54.0dp" android:layout_height="35.0dp" android:layout_marginRight="2.0dp" android:src="@drawable/form_1" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/form_1_tv" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="@string/sucker_form" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/form_2_layout" android:tag="1" android:background="@drawable/shape_corner_form" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/form_2_iv" android:layout_width="54.0dp" android:layout_height="35.0dp" android:layout_marginRight="2.0dp" android:src="@drawable/form_2" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/form_2_tv" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="XXX形态" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/form_3_layout" android:tag="2" android:background="@drawable/shape_corner_form" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/form_3_iv" android:layout_width="54.0dp" android:layout_height="35.0dp" android:layout_marginRight="2.0dp" android:src="@drawable/form_3" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/form_3_tv" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="XXX形态" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/form_4_layout" android:tag="3" android:background="@drawable/shape_corner_form" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/form_4_iv" android:layout_width="54.0dp" android:layout_height="35.0dp" android:layout_marginRight="2.0dp" android:src="@drawable/form_4" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/form_4_tv" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="XXX形态" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="2.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.2" style="@style/control_top">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/border_shape" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="4.0">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/arm_control" android:layout_centerInParent="true" style="@style/action_style" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="3.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="6.0">
+                    <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                        <RelativeLayout android:background="@drawable/xarm_control_sliding" android:layout_height="match_parent" android:layout_centerInParent="true" style="@style/vertical_style">
+                            <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/move_up" android:layout_centerHorizontal="true" />
+                            <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/move_down" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                            <com.selfvehicle.compat.view.VerticalController android:id="@id/vertical_controller" android:layout_width="match_parent" android:layout_height="match_parent" app:ball="@drawable/seekbar_reset_h" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_weight="3.0">
+                        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/iv_remote" android:layout_width="200.0dp" android:layout_height="200.0dp" android:layout_margin="5.0dp" android:src="@drawable/vision_pi_remote_0" android:layout_centerVertical="true" />
+                            <com.selfvehicle.compat.view.RemoteControlView android:id="@id/rcv_remote" android:layout_width="200.0dp" android:layout_height="200.0dp" android:layout_margin="5.0dp" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="5.0dp" android:layout_weight="2.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/layout_down" android:background="@drawable/border_shape" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                        <TextView android:textColor="@color/black" android:id="@id/control2_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/claw_control" android:layout_centerInParent="true" style="@style/action_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_seekbar" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="2.0dp" android:layout_weight="2.0" style="@style/horizontal_margin">
+                        <RelativeLayout android:background="@drawable/xarm_control_sliding" android:layout_width="match_parent" style="@style/horizontal_style">
+                            <TextView android:textColor="@color/black" android:id="@id/left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_arm" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" />
+                            <TextView android:textColor="@color/black" android:id="@id/right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_arm" android:layout_centerVertical="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+                            <com.selfvehicle.compat.view.HorizontalController android:id="@id/horizontal_controller" android:layout_width="match_parent" android:layout_height="match_parent" app:ball_h="@drawable/seekbar_reset" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.2">
+                <Button android:textColor="@color/white" android:id="@id/absorb_btn" android:background="@drawable/orange_button" android:text="@string/absorb" android:layout_centerVertical="true" android:onClick="onClick" android:textAllCaps="false" style="@style/control_button_style2" />
+                <Button android:textColor="@color/white" android:id="@id/release_btn" android:background="@drawable/orange_button" android:layout_marginRight="5.0dp" android:text="@string/release2" android:layout_alignBottom="@id/absorb_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" android:textAllCaps="false" style="@style/control_button_style2" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/titleView" android:background="@color/background_orange" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_control" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/style_title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/cur_form_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp" android:layout_toLeftOf="@id/video_take_photo" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/current_form" android:layout_width="54.0dp" android:layout_height="35.0dp" android:layout_marginRight="2.0dp" android:src="@drawable/form_1_w" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/arm_form" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="吸盘形态" />
+        </LinearLayout>
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="40.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/fullscreen" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginRight="20.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginRight="25.0dp" android:src="@drawable/contact_w" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/fullscreen" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="@dimen/margin_right" android:src="@drawable/fullscreen" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+</RelativeLayout>

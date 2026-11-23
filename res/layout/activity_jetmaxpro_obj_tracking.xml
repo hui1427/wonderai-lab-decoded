@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/titleView" android:background="@color/background_orange" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="visible" style="@style/title_bg">
+        <ImageButton android:id="@id/left_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginLeft="10.0dp" android:src="@drawable/back_arrow" android:scaleType="fitCenter" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ros_car_title4" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/style_title" />
+        <ImageButton android:id="@id/video_take_photo" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="40.0dp" android:src="@drawable/video_take_photo" android:scaleType="fitCenter" android:layout_toLeftOf="@id/hide_view" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/hide_view" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_marginRight="20.0dp" android:src="@drawable/hide" android:scaleType="fitCenter" android:layout_toLeftOf="@id/contact_button" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+        <ImageButton android:id="@id/contact_button" android:background="?selectableItemBackgroundBorderless" android:layout_marginRight="25.0dp" android:src="@drawable/contact_w" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/refresh_fit" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/video_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="3.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/border_shape" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center" android:padding="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/color_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                        <TextView android:textColor="@color/black" android:id="@id/color_track_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/color_tracking" style="@style/action_style" />
+                        <com.suke.widget.SwitchButton android:id="@id/color_switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginTop="2.0dp" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/color_track_tv" app:sb_show_indicator="false" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/red_color_iv" android:layout_marginTop="8.0dp" android:src="@drawable/red" android:layout_below="@id/color_rl" android:layout_alignLeft="@id/color_rl" style="@style/object_button_style_margin" />
+                    <ImageView android:id="@id/green_color_iv" android:src="@drawable/green" android:layout_alignBottom="@id/red_color_iv" android:layout_centerHorizontal="true" style="@style/object_button_style" />
+                    <ImageView android:id="@id/blue_color_iv" android:src="@drawable/blue" android:layout_alignBottom="@id/red_color_iv" android:layout_alignParentEnd="true" style="@style/object_button_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/face_layout" android:background="@drawable/border_shape" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <RelativeLayout android:layout_gravity="center" android:padding="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/black" android:id="@id/face_track_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/face_tracking" style="@style/action_style" />
+                    <com.suke.widget.SwitchButton android:id="@id/face_switch_button" android:layout_width="50.0dp" android:layout_height="30.0dp" android:layout_marginTop="2.0dp" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/face_track_tv" app:sb_show_indicator="false" />
+                    <ImageView android:id="@id/face_iv" android:layout_marginTop="8.0dp" android:src="@drawable/face_track" android:layout_below="@id/face_track_tv" android:layout_centerHorizontal="true" style="@style/face_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Button android:textSize="13.0sp" android:textColor="@color/backgroud_blue" android:layout_gravity="center_horizontal" android:id="@id/goto_threshold_btn" android:background="@drawable/kit_button_unselected" android:layout_marginTop="60.0dp" android:text="@string/color_threshold_setting" android:onClick="onClick" android:textAllCaps="false" style="@style/threshold_button_style" />
+            <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/instruction_btn" android:background="@drawable/orange_button" android:visibility="gone" android:layout_marginTop="5.0dp" android:text="@string/instructions" android:onClick="onClick" android:textAllCaps="false" style="@style/threshold_button_style" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/jetmax_webview_width">
+            <WebView android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="360.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/deep_background_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_title" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/instructions" android:textAllCaps="false" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/colorRed" android:id="@id/gesture_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="20.0dp" android:text="@string/gesture_tips3" android:textAllCaps="false" />
+    <ScrollView android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gesture_tips4" android:textAllCaps="false" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/gesture_tips5" android:textAllCaps="false" />
+                <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/gesture_1" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/gesture_tips6" android:textAllCaps="false" />
+                <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/gesture_2" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/gesture_tips7" android:textAllCaps="false" />
+                <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/gesture_3" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/gesture_tips8" android:textAllCaps="false" />
+                <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/gesture_4" />
+            </LinearLayout>
+            <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/gesture_tips9" android:textAllCaps="false" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:text="@string/gesture_tips10" android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="20.0dp">
+        <Button android:textColor="@color/white" android:id="@id/dialog_btn" android:background="@drawable/deep_button" android:layout_width="95.0dp" android:layout_height="35.0dp" android:layout_marginBottom="10.0dp" android:text="@string/i_know" android:textAllCaps="false" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

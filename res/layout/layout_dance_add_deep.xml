@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_border_deep" android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/dialog_title" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/deep_background_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <EditText android:id="@id/dance_add_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:hint="@string/dialog_dance_add_hint_title" android:textAllCaps="false" />
+    <EditText android:id="@id/dance_add_action" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:hint="@string/dialog_dance_add_hint_action_group" android:textAllCaps="false" />
+    <View android:background="@color/deep_background_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/gray" android:id="@id/dialog_left_btn" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/dialog_cancel" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:id="@id/dialog_divider" android:background="@color/deep_background_color" android:visibility="gone" android:layout_width="0.5dp" android:layout_height="match_parent" />
+        <Button android:textColor="@color/deep_background_color" android:id="@id/dialog_right_btn" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/dialog_yes" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

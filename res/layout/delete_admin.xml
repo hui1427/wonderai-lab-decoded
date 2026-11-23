@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/delete_admin1" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:id="@id/del_title" android:background="@color/background_orange" android:paddingLeft="10.0dp" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/delete_photo_title_note" />
+    <View android:background="@color/background_orange" android:layout_width="match_parent" android:layout_height="2.0dp" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/black" android:id="@id/del_note" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/delete_photo_admin_note" />
+    </LinearLayout>
+    <View android:background="@color/background_orange" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <TextView android:textSize="20.0sp" android:textColor="@color/background_orange" android:gravity="center_horizontal" android:id="@id/del_ok_btn" android:background="@drawable/selector" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" />
+        <View android:background="@color/background_orange" android:layout_width="1.0dp" android:layout_height="match_parent" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/background_orange" android:gravity="center_horizontal" android:id="@id/del_cancel_btn" android:background="@drawable/selector" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/background_orange" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

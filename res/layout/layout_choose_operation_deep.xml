@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_border_deep" android:padding="2.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose" style="@style/title_style_2" />
+    </LinearLayout>
+    <View android:background="@color/deep_background_color" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="2.0">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:text="@string/choose_tip" android:layout_centerInParent="true" />
+        <View android:background="@color/deep_background_color" android:layout_width="match_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <Button android:textSize="15.0sp" android:textColor="@color/grey_little" android:id="@id/choose_dialog_delete" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/delete_text" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+        <View android:background="@color/deep_background_color" android:layout_width="0.5dp" android:layout_height="match_parent" />
+        <Button android:textSize="15.0sp" android:textColor="@color/deep_background_color" android:id="@id/choose_dialog_modify" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/edit_text" android:layout_weight="1.0" android:textAllCaps="false" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
