@@ -9,3 +9,9 @@
 本版本包名 `com.selfvehicle.compat`，最低 Android 8.0（API 26），版本 `0.2.0`。可用 Apktool 重建、Android SDK Build Tools 对齐签名，手机状态页的 Java 源码及车端 Python 服务在 `selfvehicle-source/`；APK 中对应代码以 Smali 集成。改 Java 源码后需要重新编译并转换为 Smali，再重建 APK。
 
 已完成本机客户端和状态服务联调、APK 重建与签名校验。原版首页新增入口、实际手机显示、Wi-Fi/热点以及机器人功能尚待真机验证。按兼容版通信控制真实机器人前应根据设备资料核实接口和执行条件。
+
+## 分支说明
+
+- 本分支 `compat-renamed` 现为兼容版最新工程 `0.2.0`（`versionCode 2`、`minSdk 26`，包名 `com.selfvehicle.compat`）。上一迭代内容（`versionCode 1`、`versionName 0.1.0`、`minSdk 21`，包名 `com.robotlab.vehiclecontrol`）由提交 `61ca26e8` 及更早历史保留，可在历史中检出对照。
+- `docs/work-records/` 为工作记录（与 `main` 分支同源）：`后续工作记录/2026-11-23/03-兼容版命名调整`、`04-状态页与协议实质修改`、`04/05-Vehicle-Control-Compat(v0.2)核验` 等，记录了各版本的构建与核验依据。
+- 本分支与 `main` 无共同历史祖先：`main` 为反编译工程与记录，本分支为兼容版工程与记录，两者需分别维护。
