@@ -1,0 +1,24 @@
+--- official/smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali
++++ lab/smali/com/hiwonder/wonder_ai/activity/photolistActivity.smali
+@@ -14,7 +14,7 @@
+ 
+ # static fields
+-.field public static deleteflag:Z = false
+-
+-.field public static listItem:Ljava/util/ArrayList; = null
++.field public static deleteflag:Z
++
++.field public static listItem:Ljava/util/ArrayList;
+     .annotation system Ldalvik/annotation/Signature;
+         value = {
+@@ -28,7 +28,7 @@
+ .end field
+ 
+-.field public static listItemAdapter:Lcom/hiwonder/wonder_ai/component/PhotoAdapter; = null
+-
+-.field public static photo_del_mode:Z = false
++.field public static listItemAdapter:Lcom/hiwonder/wonder_ai/component/PhotoAdapter;
++
++.field public static photo_del_mode:Z
+ 
+ .field public static photo_num:I

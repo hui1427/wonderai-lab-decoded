@@ -1,0 +1,21 @@
+# 1) 业务包（BluetoothTool 目录之外）对 BLEManager/BLEService 的引用：
+# 合计 0 处
+
+# 2) 业务包中对 android.bluetooth.* 的引用（BluetoothTool 之外）：
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$1.smali:42  Landroid/bluetooth/BluetoothDevice;->getBondState
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:54  Landroid/bluetooth/BluetoothAdapter;->getBondedDevices
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:111  Landroid/bluetooth/BluetoothDevice;->getName
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:146  Landroid/bluetooth/BluetoothAdapter;->getBondedDevices
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:318  Landroid/bluetooth/BluetoothDevice;->getName
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:333  Landroid/bluetooth/BluetoothDevice;->getBondState
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:342  Landroid/bluetooth/BluetoothDevice;->getName
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:347  Landroid/bluetooth/BluetoothDevice;->getAddress
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:355  Landroid/bluetooth/BluetoothDevice;->getName
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog$BluetoothDataAdapter.smali:360  Landroid/bluetooth/BluetoothDevice;->getAddress
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali:63  Landroid/bluetooth/BluetoothAdapter;->getDefaultAdapter
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali:323  Landroid/bluetooth/BluetoothAdapter;->startLeScan
+app/smali/com/hiwonder/wonder_ai/dialog/SearchDeviceDialog.smali:387  Landroid/bluetooth/BluetoothAdapter;->stopLeScan
+# 合计 13 处
+
+# 3) SearchDeviceDialog（含 startLeScan）被外部引用次数：
+# 合计 0 处

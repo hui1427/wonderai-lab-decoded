@@ -1,0 +1,2048 @@
+{
+ "1": {
+  "strings": [],
+  "nstring": 0
+ },
+ "2": {
+  "strings": [
+   [
+    "app_name",
+    "WonderAi Lab"
+   ]
+  ],
+  "nstring": 1
+ },
+ "3": {
+  "strings": [],
+  "nstring": 0
+ },
+ "4": {
+  "strings": [
+   [
+    "app_name",
+    "WonderAi Lab"
+   ],
+   [
+    "exit_remind",
+    "再点击一次退出"
+   ],
+   [
+    "gps_prompt",
+    "未开启“位置信息”服务，无法搜索WIFI列表,请开启后再进行搜索"
+   ],
+   [
+    "input_tips",
+    "请输入Wifi:"
+   ],
+   [
+    "password_tips",
+    "的密码"
+   ],
+   [
+    "searching",
+    "正在搜索..."
+   ],
+   [
+    "unknow_ssid_tip",
+    "未识别网络，请关闭此窗口然后重试！"
+   ]
+  ],
+  "nstring": 7
+ },
+ "5": {
+  "strings": [],
+  "nstring": 0
+ },
+ "6": {
+  "strings": [
+   [
+    "connecting",
+    "连接中..."
+   ]
+  ],
+  "nstring": 1
+ },
+ "7": {
+  "strings": [],
+  "nstring": 0
+ },
+ "8": {
+  "strings": [],
+  "nstring": 0
+ },
+ "9": {
+  "strings": [],
+  "nstring": 0
+ },
+ "10": {
+  "strings": [
+   [
+    "photo_text",
+    "照片"
+   ]
+  ],
+  "nstring": 1
+ },
+ "11": {
+  "strings": [
+   [
+    "connecting",
+    "连接中..."
+   ],
+   [
+    "gps_prompt",
+    "未开启“位置信息”服务，无法搜索WIFI列表,请开启后再进行搜索"
+   ]
+  ],
+  "nstring": 2
+ },
+ "12": {
+  "strings": [],
+  "nstring": 0
+ },
+ "13": {
+  "strings": [
+   [
+    "color_palletizing",
+    "智能码垛"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_palletizing",
+    "开始码垛"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "14": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "15": {
+  "strings": [
+   [
+    "anti_clockwise",
+    "逆时针"
+   ],
+   [
+    "clockwise",
+    "顺时针"
+   ],
+   [
+    "close_arm",
+    "闭合"
+   ],
+   [
+    "hand_control",
+    "手部控制"
+   ],
+   [
+    "open_arm",
+    "松开"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "sucker_control",
+    "吸嘴控制"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 8
+ },
+ "16": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "17": {
+  "strings": [
+   [
+    "garbage_classification",
+    "垃圾分类"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "18": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "19": {
+  "strings": [
+   [
+    "object_track_instruction",
+    "\"1.颜色追踪功能请将摄像头方向朝下安装\n\n2.人脸追踪功能请将摄像头方向朝前安装\n开始玩法需要等15秒左右\""
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "20": {
+  "strings": [
+   [
+    "position",
+    "位置校准"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "21": {
+  "strings": [
+   [
+    "automatic_kick",
+    "追踪踢方块"
+   ],
+   [
+    "color_recognition",
+    "颜色识别"
+   ],
+   [
+    "color_tracking",
+    "颜色追踪"
+   ],
+   [
+    "intelligent_line_inspection",
+    "智能巡线"
+   ],
+   [
+    "phone_control",
+    "机体遥控"
+   ]
+  ],
+  "nstring": 5
+ },
+ "22": {
+  "strings": [
+   [
+    "custom",
+    "自定义"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "23": {
+  "strings": [
+   [
+    "please_open_kick",
+    "请先开启踢方块"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_kick",
+    "开始自动踢方块"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "24": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "25": {
+  "strings": [
+   [
+    "please_open_line_tracking",
+    "请先开启巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_tracking",
+    "开始追踪"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "26": {
+  "strings": [
+   [
+    "please_open_tracking",
+    "请先开启追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_tracking",
+    "开始追踪"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "27": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "28": {
+  "strings": [
+   [
+    "ainex_finger_tip_1",
+    "鞠躬"
+   ],
+   [
+    "ainex_finger_tip_2",
+    "挥手"
+   ],
+   [
+    "ainex_finger_tip_3",
+    "原地踏步"
+   ],
+   [
+    "ainex_finger_tip_4",
+    "仰卧起坐"
+   ],
+   [
+    "ainex_finger_tip_5",
+    "扭腰"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 7
+ },
+ "29": {
+  "strings": [
+   [
+    "please_open_line_tracking",
+    "请先开启巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_tracking",
+    "开始追踪"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "30": {
+  "strings": [],
+  "nstring": 0
+ },
+ "31": {
+  "strings": [
+   [
+    "jethexa_title1",
+    "机体遥控"
+   ],
+   [
+    "jethexa_title2",
+    "表演模式"
+   ],
+   [
+    "jethexa_title4",
+    "手势控制"
+   ],
+   [
+    "jethexa_title5",
+    "目标追踪"
+   ],
+   [
+    "jethexa_title6",
+    "视觉巡线"
+   ]
+  ],
+  "nstring": 5
+ },
+ "32": {
+  "strings": [
+   [
+    "please_open_target_tracking",
+    "请先开启追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_tracking_target",
+    "开始追踪"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "33": {
+  "strings": [
+   [
+    "please_open_line_tracking",
+    "请先开启巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "34": {
+  "strings": [
+   [
+    "gesture_control",
+    "手势控制"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start",
+    "开始"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "35": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "36": {
+  "strings": [],
+  "nstring": 0
+ },
+ "37": {
+  "strings": [],
+  "nstring": 0
+ },
+ "38": {
+  "strings": [],
+  "nstring": 0
+ },
+ "39": {
+  "strings": [],
+  "nstring": 0
+ },
+ "40": {
+  "strings": [
+   [
+    "jethexa_large_model_tip",
+    "\"功能体验前需要参考下述步骤连接局域网与配置大模型API Key： \n(1)返回到手机APP设备搜索界面，点击界面右下方的“+”按钮，接着点击“局域网模式”按钮，按照界面操作指引连接局域网。 \n(2)在当前手机APP“大模型”功能界面，点击右上方的密钥按钮，参考大模型API Key配置资料获取大模型API Key并填写设置。 \n\n点击“开始”按钮，等待“准备就绪”语音播报后，说出“小幻小幻”唤醒机器人，即可参考以下示例机器进行对话,等待任务总结的语音播报后，可进行下一次对话。 \n任务结束后未检测到语言命令时机器人会播报“咚”的语音播报，则需要重新唤醒机器人。 \n\n示例1：描述一下你看到了什么？ \n示例2：给我讲个笑话吧。 \n示例3：今天深圳市的天气怎么样？ \n示例4：往前走两步，然后再左平移三步。 \n示例5：给我看看前方障碍物距离你多少厘米？ \n示例6：沿着黑色的线走，遇到障碍物就停下。\""
+   ],
+   [
+    "network_disconect_tip",
+    "机器人未连接网络，请检查"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "41": {
+  "strings": [
+   [
+    "close_self_balance_tip",
+    "请先关闭自平衡功能"
+   ]
+  ],
+  "nstring": 1
+ },
+ "42": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "43": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "select_color_tip",
+    "点击“取色”按钮后，移动画面中的红色圆圈到目标物体上，点击“确定取色”按钮进行取色。"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 6
+ },
+ "44": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "jetspider_title4",
+    "取色巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "select_color_tip",
+    "点击“取色”按钮后，移动画面中的红色圆圈到目标物体上，点击“确定取色”按钮进行取色。"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 6
+ },
+ "45": {
+  "strings": [
+   [
+    "gesture_control",
+    "手势控制"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start",
+    "开始"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "46": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "47": {
+  "strings": [
+   [
+    "jethexa_title1",
+    "机体遥控"
+   ],
+   [
+    "jethexa_title2",
+    "表演模式"
+   ],
+   [
+    "jethexa_title4",
+    "手势控制"
+   ],
+   [
+    "jetspider_title3",
+    "激光雷达"
+   ],
+   [
+    "large_mode",
+    "大模型"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "rosorin_title4",
+    "取色巡线"
+   ]
+  ],
+  "nstring": 7
+ },
+ "48": {
+  "strings": [
+   [
+    "jethexa_title1",
+    "机体遥控"
+   ],
+   [
+    "jethexa_title2",
+    "表演模式"
+   ],
+   [
+    "jethexa_title4",
+    "手势控制"
+   ],
+   [
+    "ros_car_title2",
+    "激光雷达"
+   ]
+  ],
+  "nstring": 4
+ },
+ "49": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "50": {
+  "strings": [],
+  "nstring": 0
+ },
+ "51": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "52": {
+  "strings": [
+   [
+    "gesture_control",
+    "手势控制"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start",
+    "开始"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "53": {
+  "strings": [],
+  "nstring": 0
+ },
+ "54": {
+  "strings": [],
+  "nstring": 0
+ },
+ "55": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "56": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "57": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title5",
+    "取色巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "58": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "stop_ar",
+    "结束AR图像"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "59": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "60": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_patrol_please",
+    "请先开启智能巡逻"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "61": {
+  "strings": [
+   [
+    "ros_car_title1",
+    "机体遥控"
+   ],
+   [
+    "ros_car_title2",
+    "激光雷达"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "ros_car_title5",
+    "取色巡线"
+   ],
+   [
+    "ros_car_title6",
+    "AR"
+   ]
+  ],
+  "nstring": 5
+ },
+ "62": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "63": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "64": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "65": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "66": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "67": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title5",
+    "取色巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "68": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "stop_ar",
+    "结束AR图像"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "69": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_patrol_please",
+    "请先开启智能巡逻"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "70": {
+  "strings": [
+   [
+    "ros_car_title1",
+    "机体遥控"
+   ],
+   [
+    "ros_car_title2",
+    "激光雷达"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "ros_car_title5",
+    "取色巡线"
+   ],
+   [
+    "ros_car_title6",
+    "AR"
+   ]
+  ],
+  "nstring": 5
+ },
+ "71": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "72": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "73": {
+  "strings": [],
+  "nstring": 0
+ },
+ "74": {
+  "strings": [],
+  "nstring": 0
+ },
+ "75": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "76": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "77": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "78": {
+  "strings": [
+   [
+    "gesture_control",
+    "手势控制"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "79": {
+  "strings": [
+   [
+    "object_track_instruction",
+    "\"1.颜色追踪功能请将摄像头方向朝下安装\n\n2.人脸追踪功能请将摄像头方向朝前安装\n开始玩法需要等15秒左右\""
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "80": {
+  "strings": [
+   [
+    "garbage_classification",
+    "垃圾分类"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "81": {
+  "strings": [
+   [
+    "position",
+    "位置校准"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "82": {
+  "strings": [],
+  "nstring": 0
+ },
+ "83": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "84": {
+  "strings": [
+   [
+    "deep_sort",
+    "深度物品分拣"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "85": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "86": {
+  "strings": [
+   [
+    "color_palletizing",
+    "智能码垛"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "87": {
+  "strings": [],
+  "nstring": 0
+ },
+ "88": {
+  "strings": [],
+  "nstring": 0
+ },
+ "89": {
+  "strings": [],
+  "nstring": 0
+ },
+ "90": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "stop_ar",
+    "结束AR图像"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "91": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title5",
+    "取色巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "92": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "93": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "94": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "95": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "96": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "97": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "98": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "99": {
+  "strings": [
+   [
+    "gesture_control",
+    "手势控制"
+   ],
+   [
+    "gesture_tip",
+    "右手握拳举到摄像头视野中央，五指张开，在听到滴一声后，往上下左右其中一个方向移动手掌（注意：移动时手掌需要保持张开状态）。移动一段距离后握拳，滴一声后机器将开始移动。"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start",
+    "开始"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "100": {
+  "strings": [],
+  "nstring": 0
+ },
+ "101": {
+  "strings": [],
+  "nstring": 0
+ },
+ "102": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "103": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "104": {
+  "strings": [
+   [
+    "ros_car_title1",
+    "机体遥控"
+   ],
+   [
+    "ros_car_title2",
+    "激光雷达"
+   ],
+   [
+    "ros_car_title4",
+    "目标追踪"
+   ],
+   [
+    "ros_car_title5",
+    "取色巡线"
+   ],
+   [
+    "ros_car_title6",
+    "AR"
+   ]
+  ],
+  "nstring": 5
+ },
+ "105": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "106": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "107": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "108": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "109": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "110": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "111": {
+  "strings": [],
+  "nstring": 0
+ },
+ "112": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "113": {
+  "strings": [
+   [
+    "jetspider_title6",
+    "手势控制"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start",
+    "开始"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "114": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "115": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "jetspider_title4",
+    "取色巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "116": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "jetspider_title5",
+    "目标追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "117": {
+  "strings": [],
+  "nstring": 0
+ },
+ "118": {
+  "strings": [
+   [
+    "rosorin_title1",
+    "机体遥控"
+   ],
+   [
+    "rosorin_title2",
+    "激光雷达"
+   ],
+   [
+    "rosorin_title3",
+    "目标追踪"
+   ],
+   [
+    "rosorin_title4",
+    "取色巡线"
+   ],
+   [
+    "rosorin_title5",
+    "无人驾驶"
+   ]
+  ],
+  "nstring": 5
+ },
+ "119": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "120": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "121": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "122": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "123": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "124": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "rosorin_title3",
+    "目标追踪"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "125": {
+  "strings": [
+   [
+    "confirm_color",
+    "确定取色"
+   ],
+   [
+    "get_color",
+    "取色"
+   ],
+   [
+    "rosorin_title4",
+    "取色巡线"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 5
+ },
+ "126": {
+  "strings": [
+   [
+    "rosorin_title5",
+    "无人驾驶"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "127": {
+  "strings": [
+   [
+    "position",
+    "位置校准"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "128": {
+  "strings": [
+   [
+    "position",
+    "位置校准"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "129": {
+  "strings": [
+   [
+    "object_track_instruction",
+    "\"1.颜色追踪功能请将摄像头方向朝下安装\n\n2.人脸追踪功能请将摄像头方向朝前安装\n开始玩法需要等15秒左右\""
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "130": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "131": {
+  "strings": [],
+  "nstring": 0
+ },
+ "132": {
+  "strings": [
+   [
+    "garbage_classification",
+    "垃圾分类"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 3
+ },
+ "133": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "134": {
+  "strings": [
+   [
+    "anti_clockwise",
+    "逆时针"
+   ],
+   [
+    "clockwise",
+    "顺时针"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "sucker_control",
+    "吸嘴控制"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ],
+   [
+    "wrist_control",
+    "腕部控制"
+   ]
+  ],
+  "nstring": 6
+ },
+ "135": {
+  "strings": [
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 2
+ },
+ "136": {
+  "strings": [
+   [
+    "color_palletizing",
+    "智能码垛"
+   ],
+   [
+    "save_photo_fail",
+    "保存图片失败，请检查存储权限是否开启！"
+   ],
+   [
+    "start_palletizing",
+    "开始码垛"
+   ],
+   [
+    "video_take_photo_text",
+    "照片保存至："
+   ]
+  ],
+  "nstring": 4
+ },
+ "137": {
+  "strings": [],
+  "nstring": 0
+ }
+}

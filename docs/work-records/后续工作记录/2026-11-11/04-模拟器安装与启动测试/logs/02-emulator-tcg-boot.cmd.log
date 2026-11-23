@@ -1,0 +1,5 @@
+﻿CMD: emulator.exe -avd wonderai_api22_x86_64 -accel off -no-window -no-audio -no-snapshot -no-boot-anim -gpu swiftshader_indirect -memory 1024 -cores 2 -no-metrics -show-kernel -verbose -port 5554
+ENV: ANDROID_I_WANT_MY_TCG=yes ANDROID_AVD_HOME=D:\WonderAiLabEmu\avd ANDROID_SDK_ROOT=D:\WonderAiLabEmu\sdk
+START: 2026-11-11 21:43:26 +08:00
+emulator.exe PID=23952
+ALIVE_after_30s=True

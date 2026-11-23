@@ -1,0 +1,29 @@
+﻿文件,行号,类,方法,十进制,十六进制
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,44,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,private constructor <init>(Lcom/hiwonder/wonder_ai/connect/Scanner;)V,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,95,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,97,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,100,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,10,0xa
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,104,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,116,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,1,0x1
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,133,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,9025,0x2341
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,139,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,350,0x15e
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,180,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,9027,0x2343
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,219,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,224,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;,100,0x64
+app/smali/com/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask.smali,454,Lcom/hiwonder/wonder_ai/connect/Scanner$ScanAsyncTask;,protected onPostExecute(Ljava/util/Map;)V,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,36,Lcom/hiwonder/wonder_ai/connect/Scanner;,public constructor <init>(Landroid/content/Context;)V,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,183,Lcom/hiwonder/wonder_ai/connect/Scanner;,private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,197,Lcom/hiwonder/wonder_ai/connect/Scanner;,private bindSocketToWifiNetwork(Ljava/net/DatagramSocket;)V,1,0x1
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,230,Lcom/hiwonder/wonder_ai/connect/Scanner;,private copyOfRange([BI)[B,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,232,Lcom/hiwonder/wonder_ai/connect/Scanner;,private copyOfRange([BI)[B,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,234,Lcom/hiwonder/wonder_ai/connect/Scanner;,private copyOfRange([BI)[B,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,245,Lcom/hiwonder/wonder_ai/connect/Scanner;,private copyOfRange([BI)[B,58,0x3a
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,302,Lcom/hiwonder/wonder_ai/connect/Scanner;,private getGatewayAddress()Ljava/net/InetAddress;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,363,Lcom/hiwonder/wonder_ai/connect/Scanner;,private getWifiBroadcastAddress()Ljava/net/InetAddress;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,392,Lcom/hiwonder/wonder_ai/connect/Scanner;,private getWifiBroadcastAddress()Ljava/net/InetAddress;,4,0x4
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,396,Lcom/hiwonder/wonder_ai/connect/Scanner;,private getWifiBroadcastAddress()Ljava/net/InetAddress;,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,439,Lcom/hiwonder/wonder_ai/connect/Scanner;,private scan(Z)Z,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,446,Lcom/hiwonder/wonder_ai/connect/Scanner;,private scan(Z)Z,1,0x1
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,471,Lcom/hiwonder/wonder_ai/connect/Scanner;,private scan(Z)Z,0,0x0
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,490,Lcom/hiwonder/wonder_ai/connect/Scanner;,public scan()Z,1,0x1
+app/smali/com/hiwonder/wonder_ai/connect/Scanner.smali,503,Lcom/hiwonder/wonder_ai/connect/Scanner;,public scanAll()Z,0,0x0

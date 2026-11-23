@@ -1,0 +1,62 @@
+Vehicle-Control-Compat.apk 独立核验（修正后的摘要）
+核验时间：2026-11-23 12:38–12:43（Asia/Shanghai）
+核验对象：C:\Users\ADMIN\Desktop\Vehicle-Control-Compat.apk
+  SHA-256 9655FD91530246DFAD99183464A3BFFCB2C2B01A21A25A68989F581E2103C830
+  size 34,616,888 B / mtime 2026-11-23 12:37:29
+
+1) 身份与签名
+package=com.selfvehicle.compat  versionCode=1  versionName=0.1.0
+label=车辆控制兼容版（aapt 报告全部 locale 同一值）
+minSdk=21 targetSdk=36 compileSdk=36；5 ABI：arm64-v8a armeabi armeabi-v7a x86 x86_64
+launchable=com.selfvehicle.compat.activity.StartActivity
+application=com.selfvehicle.compat.VehicleApplication
+组件：137 activity + 1 service（com.selfvehicle.compat.utils.BluetoothTool.BLEService）
+签名：v1=true v2=true v3=true v3.1=false v4=false；签名者 1
+证书 DN=CN=SelfVehicle Local Development
+证书 SHA-256=d1b67be6d007937401608926619c7af38d75125dd417aee86684829b59643a12
+  （与 outputs/SelfVehicle-Control.apk 证书相同）
+zipalign -c -P 16 4 通过（exit 0）
+
+2) 与旧兼容版 outputs/WonderAi-Lab.apk（BC6CFB78…D066）对比
+ZIP：均 1275 条；1222 条字节相同（30,791,317 B）；51 条不同：
+  AndroidManifest.xml、classes.dex、resources.arsc、47 个 res/layout/*.xml、
+  META-INF/MANIFEST.MF；签名块 ROBOTLAB.* → SELFVEHI.*
+DEX：new/old/orig 均 6,563 classes / 61,802 methods / 55,713 strings
+  old 类集合 == orig 类集合：true
+  new 类集合 == 旧类集合经映射后集合：true（0 缺失 / 0 多余）
+  映射：Lcom/hiwonder/wonder_ai/ → Lcom/selfvehicle/compat/
+        Lcom/hiwonder/wonderai/ → Lcom/selfvehicle/compat/generated/
+        WonderAi → Vehicle
+  new dex 内 "Lcom/hiwonder" 字符串：0 条
+Manifest diff（规范化后）：286 行，均为包名/类名/versionCode/versionName 变化；
+  无新增权限、无新增导出组件。
+Layout：47 个变化均为自定义 View 类名前缀替换；17 个自定义 View 引用中
+  2 个指向 com.selfvehicle.compat.weight.VrGifView（activity_ainova_simple_patrol.xml、
+  activity_gif.xml），该类在 new/old/orig dex 中均不存在 → 原工程遗留，非本次改动引入。
+协议字面量（new 与 old 相同）：ws://=1 rosbridge=0 9090=1 9030=1 8080=59
+  LOBOT_NET_DISCOVER=1 isInputDecryption=1 isOutputDecryption=1 AES=67
+
+3) Manifest 类引用复检（修正此前脚本错误）
+初次脚本用点号类名直接与 dex 描述符（L…;）比较，错误报告 139 个全部缺失；
+改为生成描述符（并把内嵌类最后一段点号换 $）后：
+  manifest 类引用 139 个，缺失 0 个。
+保留原始 audit-summary.txt 以记录该错误；本文件为修正结果。
+
+4) 品牌/来源残留
+dex 字符串：hiwonder 31 条（ROS topic /hiwonder_controller/cmd_vel、
+  /hiwonder_controller/set_head_absolute、hiwonder_servo_msgs/CommandDuration、
+  热点密码 hiwonder、hiwonder1..7、www.hiwonder.com(.cn)、
+  升级 URL …soft_name=WonderAi 等）；wonder_ai 14 条（仅 D8 lambda 方法名，无功能影响）；
+  WonderAi 3 条（/WonderAi、/WonderAi/Photo、升级 URL）。
+resources：6 hiwonder / 2 Hiwonder / 3 幻尔；含
+  "Manufacturer: Shenzhen Hiwonder Technology Co., Ltd."、"E-mail: support@hiwonder.com"、
+  "公司：深圳市幻尔科技有限公司"、"公众号：幻尔机器人"、热点密码提示；
+  res/layout/layout_contact.xml 含 www.hiwonder.com。
+图标/启动图标 15 条与旧兼容版字节相同（未换图标）。
+
+5) 结论
+- 是"整包类名/包名重写 + 改桌面名 + 重签名"的副本，不是界面/协议修改，也不是自研。
+- 静态内部一致：类引用可解析、可构建、签名与对齐通过。
+- 无任何安装、启动、真机、机器人实测证据；ADB 当前无设备。
+- 改名+"自研签名证书"+删除 apktool 版本字段，不改变代码来源；残留厂商字面量说明"清理"未完成。
+- 该做法与本项目已确定的 clean-room 边界冲突；不建议作为交付物安装/分发。

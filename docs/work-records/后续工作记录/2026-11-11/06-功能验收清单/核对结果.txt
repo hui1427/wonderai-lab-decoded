@@ -1,0 +1,12 @@
+功能验收清单静态核对结果
+生成时间: 2026-11-11 21:47:21
+pages.csv 行数: 137
+唯一 Activity 类数: 136
+验收清单行数: 137
+四态: {"等待设备或条件": 135, "不适用": 2}
+布局缺失: []
+Smali 缺失: []
+协议常量不一致: []
+代码分组计数: {"公共页面": 12, "JetMax": 9, "AiNex": 9, "JetHexa": 1, "JetHexa/JetHexaStandard": 9, "JetHexa/JetHexaROS2": 8, "JetHexa/JetHexaAdvanced": 7, "JetAuto": 7, "JetAutoPro": 10, "JetAutoTank": 3, "JetArm/Starter": 8, "JetArm/Pro": 5, "ROSOrin": 10, "JetRover": 16, "JetAcker": 4, "JetArm/chassis": 2, "JetSpider": 7, "JetMaxPro": 10}
+适用机型计数: {"所有机型（公共页）": 12, "JetMax": 9, "AiNex": 9, "JetHexa 系列（子型号选择）": 1, "JetHexa Standard": 9, "JetHexa ROS2": 8, "JetHexa Pro（Advanced）": 7, "JetAuto": 7, "JetAuto Pro": 10, "JetAuto Tank": 3, "JetArm Starter": 8, "JetArm Pro": 5, "ROSOrin（含 Pro/ROS1/Ackermann）": 10, "JetRover": 16, "JetAcker": 4, "JetArm（ROS2 麦轮/履带底盘）": 2, "JetSpider": 7, "JetMaxPro": 10}
+优先级计数: {"P0": 57, "—": 2, "P1": 12, "P3": 7, "P2": 59}

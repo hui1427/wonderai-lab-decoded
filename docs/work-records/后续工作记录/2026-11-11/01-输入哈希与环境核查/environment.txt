@@ -1,0 +1,28 @@
+﻿采集时间: 2026-11-11 21:33:36 +08:00
+OS: Microsoft Windows 11 专业版 build 26200
+CPU: AMD Ryzen 5 5600 6-Core Processor              
+RAM total MB: 16310
+RAM free MB: 2143
+Admin: False
+HypervisorPresent: False
+VirtualizationFirmwareEnabled: True
+java: D:\SIMULIA\EstProducts\2022\win_b64\code\jre\bin\java.exe (11.0.8 OpenJ9)
+python: Python 3.12.15
+node: v24.16.0
+adb on PATH: 
+emulator on PATH: 
+ANDROID_HOME: 
+ANDROID_SDK_ROOT: 
+SDK path C:\Users\ADMIN\AppData\Local\Android\Sdk exists: False
+SDK path C:\Android exists: False
+SDK path D:\Android exists: False
+SDK path C:\Program Files\Android exists: False
+SDK path D:\WonderAiLabEmu exists: True
+Disks:
+  C: used 101.0 GB free 18.1 GB
+  D: used 115.0 GB free 64.0 GB
+  E: used 129.5 GB free 38.0 GB
+USB PnP present (Status OK) with Android-ish names:
+  Error NoMachine Microphone Adapter
+Network IPv4:
+  以太网 2 172.21.59.83/24

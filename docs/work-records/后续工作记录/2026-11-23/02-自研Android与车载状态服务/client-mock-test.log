@@ -1,0 +1,6 @@
+[mock] 127.0.0.1 "GET /api/v1/status HTTP/1.1" 200 -
+PASS Java status client received expected data from service
+[mock] 127.0.0.1 "POST /api/v1/mock/battery HTTP/1.1" 200 -
+[mock] 127.0.0.1 "GET /api/v1/status HTTP/1.1" 200 -
+PASS Java status client received expected data from service
+PASS phone client reads changed mock battery over HTTP

@@ -1,0 +1,8 @@
+﻿INFO         | Android emulator version 37.3.9.0 (build_id 16863232) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | AVD arm_test_probe has path D:\WonderAiLabEmu\avd\..\avd\arm_test_probe.avd
+INFO         | trying to check whether D:\WonderAiLabEmu\sdk is a valid sdk root
+WARNING      | D:\WonderAiLabEmu\sdk\system-images/android-27/default/arm64-v8a/ is not a valid directory.
+WARNING      | emulator has searched the above paths but found no valid sdk root directory.
+FATAL        | Broken AVD system path. Check your ANDROID_SDK_ROOT value [D:\WonderAiLabEmu\sdk]!
+

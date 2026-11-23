@@ -1,0 +1,9 @@
+--- official/smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali
++++ lab/smali/com/hiwonder/wonder_ai/utils/CommandConstant.smali
+@@ -23,5 +23,5 @@
+ .field public static AiNova_patrol:Ljava/lang/String; = "2222"
+ 
+-.field public static blockly_null:Z = false
++.field public static blockly_null:Z
+ 
+ 

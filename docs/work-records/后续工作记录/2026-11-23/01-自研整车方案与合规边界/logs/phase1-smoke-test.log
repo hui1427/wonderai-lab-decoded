@@ -1,0 +1,32 @@
+﻿mock service started on http://127.0.0.1:8099
+[mock] 127.0.0.1 "GET /api/v1/health HTTP/1.1" 200 -
+PASS 车辆模拟服务启动
+[mock] 127.0.0.1 "GET /api/v1/status HTTP/1.1" 200 -
+PASS GET /api/v1/status 返回 200 :: 200
+PASS schema 正确 :: selfvehicle.status.v1
+PASS vehicle_id 来自服务端 :: SV-TEST
+PASS battery_mv 来自服务端 :: 7000
+PASS battery_pct 为整数 :: 42
+PASS fw_version 存在 :: vehicle-mock-0.1.0
+[mock] 127.0.0.1 "POST /api/v1/mock/battery HTTP/1.1" 200 -
+PASS 改变电池电压成功 :: 200
+[mock] 127.0.0.1 "GET /api/v1/status HTTP/1.1" 200 -
+PASS 状态随服务端变化（非页面写死） :: 8400
+PASS 电量百分比计算正确 :: 100
+[mock] 127.0.0.1 "GET / HTTP/1.1" 200 -
+PASS 手机页面可访问
+PASS 页面包含控件 valVehicleId
+PASS 页面包含控件 valBatteryMv
+PASS 页面包含控件 btnConnect
+PASS 页面包含控件 btnDisconnect
+PASS 页面包含控件 btnRefresh
+[mock] 127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+PASS 页面脚本调用车辆状态接口
+[mock] 127.0.0.1 "GET /style.css HTTP/1.1" 200 -
+PASS 样式表可访问
+[mock] 127.0.0.1 "GET /api/v1/not-exist HTTP/1.1" 404 -
+PASS 未知接口返回规范错误 :: 404
+[mock] 127.0.0.1 "GET /api/v1/info HTTP/1.1" 200 -
+PASS GET /api/v1/info 正常
+
+=== 20/20 PASS ===

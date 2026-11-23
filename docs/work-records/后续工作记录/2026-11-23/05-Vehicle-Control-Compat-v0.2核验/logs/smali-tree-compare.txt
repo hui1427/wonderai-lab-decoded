@@ -1,0 +1,38 @@
+v01: 7839 smali files
+v02: 7839 smali files
+sc: 18 smali files
+only-in-v02: 11
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda0.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda1.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda2.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda3.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda4.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda5.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda6.smali
+  +smali/com/selfvehicle/control/MainActivity$$ExternalSyntheticLambda7.smali
+  +smali/com/selfvehicle/control/MainActivity.smali
+  +smali/com/selfvehicle/control/StatusClient$VehicleStatus.smali
+  +smali/com/selfvehicle/control/StatusClient.smali
+only-in-v01: 11
+  -unknown/res/color/abc_btn_colored_borderless_text_material.xml
+  -unknown/res/color/abc_btn_colored_text_material.xml
+  -unknown/res/color/abc_tint_btn_checkable.xml
+  -unknown/res/color/abc_tint_default.xml
+  -unknown/res/color/abc_tint_edittext.xml
+  -unknown/res/color/abc_tint_seek_thumb.xml
+  -unknown/res/color/abc_tint_spinner.xml
+  -unknown/res/color/abc_tint_switch_track.xml
+  -unknown/res/layout/abc_alert_dialog_button_bar_material.xml
+  -unknown/res/layout/abc_screen_toolbar.xml
+  -unknown/res/layout/activity_ainova_build.xml
+changed: 9
+  *AndroidManifest.xml
+  *apktool.yml
+  *original/AndroidManifest.xml
+  *original/META-INF/MANIFEST.MF
+  *original/META-INF/SELFVEHI.RSA
+  *original/META-INF/SELFVEHI.SF
+  *resources.arsc
+  *smali/com/selfvehicle/compat/activity/MainActivity.smali
+  *unknown/res/layout/activity_main.xml
+new-page files identical to dec-sc: 11/11

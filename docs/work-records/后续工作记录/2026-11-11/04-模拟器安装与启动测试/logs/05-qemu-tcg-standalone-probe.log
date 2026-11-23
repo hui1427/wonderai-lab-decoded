@@ -1,0 +1,6 @@
+﻿=== 2026-11-11 21:46:54 +08:00 独立 qemu TCG 能力探测 ===
+## qemu-system-x86_64-headless.exe -accel help
+exit=-1073741515
+## qemu monitor: info accel / info cpus (with -accel tcg)
+exit=-1073741515
+## qemu -version

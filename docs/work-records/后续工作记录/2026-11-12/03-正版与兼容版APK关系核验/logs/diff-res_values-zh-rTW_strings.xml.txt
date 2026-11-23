@@ -1,0 +1,9 @@
+--- official/res/values-zh-rTW/strings.xml
++++ lab/res/values-zh-rTW/strings.xml
+@@ -77,5 +77,5 @@
+     <string name="anti_clockwise">逆時針</string>
+     <string name="apirltag_recognize">標籤識別</string>
+-    <string name="app_name">WonderAi</string>
++    <string name="app_name">WonderAi Lab</string>
+     <string name="app_version">版本號:</string>
+     <string name="are_you_sure_you_want_to_delete">確定要刪除</string>

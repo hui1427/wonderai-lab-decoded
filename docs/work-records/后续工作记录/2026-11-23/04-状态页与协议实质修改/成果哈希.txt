@@ -1,0 +1,6 @@
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          6DA9DD33BF1EDAB9E2905C9517752F3BE036C25C17B0FB6E329211C907D587F1       C:\Users\ADMIN\Documents\Codex\2…
+SHA256          AAC163497EF0277A33C56C8A4410B08ACF9CABC370ACEB181051510DF36F71D9       C:\Users\ADMIN\Documents\Codex\2…
+
