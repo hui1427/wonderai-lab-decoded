@@ -1,250 +1,125 @@
-package: name='com.hiwonder.wonderai' versionCode='36' versionName='1.4.3' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
-
+﻿package: name='com.hiwonder.wonderai' versionCode='36' versionName='1.4.3' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
 sdkVersion:'21'
-
 targetSdkVersion:'36'
-
 uses-permission: name='android.permission.VIBRATE'
-
 uses-permission: name='android.permission.INTERNET'
-
 uses-permission: name='android.permission.CHANGE_WIFI_MULTICAST_STATE'
-
 uses-permission: name='android.permission.ACCESS_WIFI_STATE'
-
 uses-permission: name='android.permission.CHANGE_WIFI_STATE'
-
 uses-permission: name='android.permission.CHANGE_NETWORK_STATE'
-
 uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
-
 uses-permission: name='android.permission.WAKE_LOCK'
-
 uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
-
 uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
-
 application-label:'WonderAi'
-
 application-label-af:'WonderAi'
-
 application-label-am:'WonderAi'
-
 application-label-ar:'WonderAi'
-
 application-label-as:'WonderAi'
-
 application-label-az:'WonderAi'
-
 application-label-be:'WonderAi'
-
 application-label-bg:'WonderAi'
-
 application-label-bn:'WonderAi'
-
 application-label-bs:'WonderAi'
-
 application-label-ca:'WonderAi'
-
 application-label-cs:'WonderAi'
-
 application-label-da:'WonderAi'
-
 application-label-de:'WonderAi'
-
 application-label-el:'WonderAi'
-
 application-label-en-AU:'WonderAi'
-
 application-label-en-CA:'WonderAi'
-
 application-label-en-GB:'WonderAi'
-
 application-label-en-IN:'WonderAi'
-
 application-label-en-XC:'WonderAi'
-
 application-label-es:'WonderAi'
-
 application-label-es-US:'WonderAi'
-
 application-label-et:'WonderAi'
-
 application-label-eu:'WonderAi'
-
 application-label-fa:'WonderAi'
-
 application-label-fi:'WonderAi'
-
 application-label-fr:'WonderAi'
-
 application-label-fr-CA:'WonderAi'
-
 application-label-gl:'WonderAi'
-
 application-label-gu:'WonderAi'
-
 application-label-hi:'WonderAi'
-
 application-label-hr:'WonderAi'
-
 application-label-hu:'WonderAi'
-
 application-label-hy:'WonderAi'
-
 application-label-in:'WonderAi'
-
 application-label-is:'WonderAi'
-
 application-label-it:'WonderAi'
-
 application-label-iw:'WonderAi'
-
 application-label-ja:'WonderAi'
-
 application-label-ka:'WonderAi'
-
 application-label-kk:'WonderAi'
-
 application-label-km:'WonderAi'
-
 application-label-kn:'WonderAi'
-
 application-label-ko:'WonderAi'
-
 application-label-ky:'WonderAi'
-
 application-label-lo:'WonderAi'
-
 application-label-lt:'WonderAi'
-
 application-label-lv:'WonderAi'
-
 application-label-mk:'WonderAi'
-
 application-label-ml:'WonderAi'
-
 application-label-mn:'WonderAi'
-
 application-label-mr:'WonderAi'
-
 application-label-ms:'WonderAi'
-
 application-label-my:'WonderAi'
-
 application-label-nb:'WonderAi'
-
 application-label-ne:'WonderAi'
-
 application-label-nl:'WonderAi'
-
 application-label-or:'WonderAi'
-
 application-label-pa:'WonderAi'
-
 application-label-pl:'WonderAi'
-
 application-label-pt:'WonderAi'
-
 application-label-pt-BR:'WonderAi'
-
 application-label-pt-PT:'WonderAi'
-
 application-label-ro:'WonderAi'
-
 application-label-ru:'WonderAi'
-
 application-label-si:'WonderAi'
-
 application-label-sk:'WonderAi'
-
 application-label-sl:'WonderAi'
-
 application-label-sq:'WonderAi'
-
 application-label-sr:'WonderAi'
-
 application-label-sr-Latn:'WonderAi'
-
 application-label-sv:'WonderAi'
-
 application-label-sw:'WonderAi'
-
 application-label-ta:'WonderAi'
-
 application-label-te:'WonderAi'
-
 application-label-th:'WonderAi'
-
 application-label-tl:'WonderAi'
-
 application-label-tr:'WonderAi'
-
 application-label-uk:'WonderAi'
-
 application-label-ur:'WonderAi'
-
 application-label-uz:'WonderAi'
-
 application-label-vi:'WonderAi'
-
 application-label-zh-CN:'WonderAi'
-
 application-label-zh-HK:'WonderAi'
-
 application-label-zh-TW:'WonderAi'
-
 application-label-zu:'WonderAi'
-
 application-icon-160:'res/9w.png'
-
 application-icon-240:'res/yn.png'
-
 application-icon-320:'res/FS.png'
-
 application-icon-480:'res/RJ.png'
-
 application-icon-640:'res/o-.png'
-
 application-icon-65534:'res/9w.png'
-
 application: label='WonderAi' icon='res/9w.png'
-
 launchable-activity: name='com.hiwonder.wonder_ai.activity.StartActivity'  label='' icon=''
-
 feature-group: label=''
-
   uses-feature: name='android.hardware.bluetooth_le'
-
   uses-feature: name='android.hardware.faketouch'
-
   uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
-
   uses-feature: name='android.hardware.location'
-
   uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_COARSE_LOCATION permission, and requested android.permission.ACCESS_FINE_LOCATION permission'
-
   uses-feature: name='android.hardware.screen.landscape'
-
   uses-implied-feature: name='android.hardware.screen.landscape' reason='one or more activities have specified a landscape orientation'
-
   uses-feature: name='android.hardware.wifi'
-
   uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission, requested android.permission.CHANGE_WIFI_MULTICAST_STATE permission, and requested android.permission.CHANGE_WIFI_STATE permission'
-
 main
-
 other-activities
-
 other-services
-
 supports-screens: 'small' 'normal' 'large' 'xlarge'
-
 supports-any-density: 'true'
-
 locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
-
 densities: '160' '240' '320' '480' '640' '65534'
-
 native-code: 'arm64-v8a' 'armeabi' 'armeabi-v7a' 'x86' 'x86_64'
-

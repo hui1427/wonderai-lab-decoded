@@ -1,7 +1,7 @@
-import re, json, sys
+﻿import re, json, sys
 from pathlib import Path
 import xml.etree.ElementTree as ET
-rec = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab\后续工作记录\2026-11-12\01-正版与兼容版APK关系核验")
+rec = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab\后续工作记录\2026-11-12\01-正版与兼容版APK关系核验")
 off = Path(r"D:\WonderAiLabAudit-20261112\decode-official")
 lab = Path(r"D:\WonderAiLabAudit-20261112\decode-lab")
 res = {}
@@ -46,4 +46,3 @@ res["strings_semantic_diff"] = str_diffs
 res["note"] = "attrs.xml 差异仅为 flag/enum 顺序；strings 差异仅为 app_name；资源 ID 集合相等则重编译未改 ID"
 (rec/"semantic-checks.json").write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
 print(json.dumps(res, indent=2, ensure_ascii=False))
-

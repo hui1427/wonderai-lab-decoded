@@ -1,6 +1,6 @@
-import re, sys
+﻿import re, sys
 from pathlib import Path
-rec = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab\后续工作记录\2026-11-12\01-正版与兼容版APK关系核验")
+rec = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab\后续工作记录\2026-11-12\01-正版与兼容版APK关系核验")
 def parse(p):
     t = p.read_text(encoding="utf-8", errors="replace")
     perms = sorted(set(re.findall(r"uses-permission: name='([^']+)'", t)))
@@ -17,4 +17,3 @@ print("features equal:", fo == fl, fo)
 def acts(t):
     return sorted(set(re.findall(r"activity: name='([^']+)'", t)))
 print("badging activity lines equal:", acts(to) == acts(tl), len(acts(to)), len(acts(tl)))
-

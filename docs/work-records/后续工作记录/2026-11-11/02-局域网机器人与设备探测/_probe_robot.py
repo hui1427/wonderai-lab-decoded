@@ -1,10 +1,10 @@
-import socket, struct, time, json, concurrent.futures, ipaddress, sys
+﻿import socket, struct, time, json, concurrent.futures, ipaddress, sys
 from datetime import datetime
 out = sys.argv[1]
 res = {"timestamp": datetime.now().astimezone().isoformat(), "steps": []}
 # 1) UDP discovery exactly like app: bind 9025, broadcast LOBOT_NET_DISCOVER to 9027
 probe = b"LOBOT_NET_DISCOVER"
-targets = ["255.255.255.255", "<私网IP>", "<私网IP>"]
+targets = ["255.255.255.255", "172.21.59.255", "172.21.59.254"]
 res["steps"].append({"step": "udp_discovery", "local_port": 9025, "remote_port": 9027, "payload": probe.decode()})
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -34,7 +34,7 @@ try:
 finally:
     s.close()
 # 2) limited TCP connect scan of own /24 on robot-typical ports
-nets = [str(ip) for ip in ipaddress.ip_network("<私网IP>/24", strict=False).hosts()]
+nets = [str(ip) for ip in ipaddress.ip_network("172.21.59.0/24", strict=False).hosts()]
 ports = [80, 8080, 9090, 5555, 9025, 9027, 8000, 8888, 22]
 def check(ip):
     hits = []
@@ -55,8 +55,7 @@ res["steps"].append({"step": "tcp_scan", "ports": ports, "open_hosts": open_host
 # 3) environment conclusion flags
 res["wifi_adapter_present"] = False
 res["conclusion"] = ("未发现任何响应 LOBOT_NET_DISCOVER 的设备；未发现开放机器人常见端口的局域网主机；"
-                     "本机仅以太网 <私网IP>/24（网关 <私网IP>），无 Wi-Fi/蓝牙适配器，"
+                     "本机仅以太网 172.21.59.83/24（网关 172.21.59.254），无 Wi-Fi/蓝牙适配器，"
                      "无法加入机器人热点或进行 BLE 探测。当前环境不具备机器人端到端测试条件。")
 json.dump(res, open(out, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 print(json.dumps(res, indent=2, ensure_ascii=False))
-

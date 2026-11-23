@@ -18,7 +18,7 @@ import os
 import re
 import sys
 
-ROOT = r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab"
+ROOT = r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab"
 OUT_DIR = os.path.join(ROOT, "后续工作记录", "2026-11-11", "05-通信协议静态分析", "evidence")
 TARGET_DIRS = [
     os.path.join(ROOT, "app", "smali", "com", "hiwonder", "wonder_ai"),

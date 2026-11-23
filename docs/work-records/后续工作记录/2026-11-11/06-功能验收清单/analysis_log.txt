@@ -1,33 +1,17 @@
 pages.csv: rows=137, BOM=True, sha256=09166574227848d68f7e97ed1f4b4adaebf450002b39886f7a8fbe6a4ec3cad4
-
 pages.csv header=['代码分组', 'Manifest Activity', '编辑入口', '代码直接引用的布局 ID 名称', '候选协议或路径常量数', '实机状态']
-
 Manifest activity declarations=137 (lines 15..157)
-
 Manifest unique classes=136
-
 Manifest duplicate declarations={'com.hiwonder.wonder_ai.activity.JetMaxPro.JetMaxProPositonActivity': 2}
-
 pages.csv unique Activity=136; pages order==manifest order: True
-
 pages.csv 中不在 Manifest=0, Manifest 中不在 pages.csv=0
-
 layout 目录数=4, 布局 XML 文件数=205, 不同布局名=200
-
 strings.xml: base=506 条, zh-rCN=506 条
-
 带 actionText 标题的布局=61; 含 WebView/video 的布局=77
-
 smali 类文件总数=6563
-
 被引用的 activity 类数=140
-
 protocol-literals.csv: rows=1269, 涉及 Activity=116, sha256=3c1667b475b159536c65ae8641fa7cc98825146eede73b898e0a76430d5c35db
-
 逐行事实=137
-
 输入哈希={"pages.csv": {"sha256": "09166574227848d68f7e97ed1f4b4adaebf450002b39886f7a8fbe6a4ec3cad4", "size": 30301}, "protocol-literals.csv": {"sha256": "3c1667b475b159536c65ae8641fa7cc98825146eede73b898e0a76430d5c35db", "size": 234536}, "app/AndroidManifest.xml": {"sha256": "dedb45715a9de0c7d30aa4b46e935c0617c9e1dcad5ce29ab59bae47c14cb2d5", "size": 31625}, "app/res/values/strings.xml": {"sha256": "57cd03f63eb04a3cad23ff8a3c467ffddbcd8e1beae903ba8ad914d15cb46d89", "size": 37350}, "app/res/values-zh-rCN/strings.xml": {"sha256": "d81b24e4088a752234e1893e642a53ef3ab7a200b683565d8729c30db8110c68", "size": 35619}}
-
 builds 中 APK=2 个
-
 04-模拟器目录现有文件=0

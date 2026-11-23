@@ -1,26 +1,13 @@
-=== 2026-11-11 21:44:12 +08:00 开始等待 emulator-5554 启动 (超时 45 分钟) ===
-
+﻿=== 2026-11-11 21:44:12 +08:00 开始等待 emulator-5554 启动 (超时 45 分钟) ===
 [0 s] state=adb.exe : error: device offline
-
 所在位置 行:14 字符: 13
-
 +   $state = (& $adb -s emulator-5554 get-state 2>&1 | Out-String).Trim ...
-
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
     + CategoryInfo          : NotSpecified: (error: device offline:String) [], RemoteException
-
     + FullyQualifiedErrorId : NativeCommandError
-
 [200 s] state=adb.exe : error: device 'emulator-5554' not found
-
 所在位置 行:14 字符: 13
-
 +   $state = (& $adb -s emulator-5554 get-state 2>&1 | Out-String).Trim ...
-
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
     + CategoryInfo          : NotSpecified: (error: device 'emulator-5554' not found:String) [], RemoteException
-
     + FullyQualifiedErrorId : NativeCommandError
-

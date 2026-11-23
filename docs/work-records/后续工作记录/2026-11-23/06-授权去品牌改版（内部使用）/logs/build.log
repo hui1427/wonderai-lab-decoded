@@ -1,0 +1,203 @@
+﻿[2026-11-23T13:38:47.7459478+08:00] D:/SIMULIA/EstProducts/2022/win_b64/code/jre/bin/java.exe -Xmx2g -jar D:\WonderAiLabClean\tools\apktool.jar b app -p D:\WonderAiLabClean\builds\20261123-133847-624/framework -o D:\WonderAiLabClean\builds\20261123-133847-624\unsigned.apk
+I: Using Apktool 3.0.3 on VehicleControl-Internal.apk with 8 threads
+I: Building resources with aapt2...
+I: Smaling smali folder into classes.dex...
+I: Building apk file...
+I: Importing assets...
+I: Importing lib...
+I: Importing unknown files...
+I: Built apk into: D:\WonderAiLabClean\builds\20261123-133847-624\unsigned.apk
+[2026-11-23T13:39:51.8536297+08:00] tools/zipalign.exe -P 16 -f 4 D:\WonderAiLabClean\builds\20261123-133847-624\unsigned.apk D:\WonderAiLabClean\builds\20261123-133847-624\aligned.apk
+[2026-11-23T13:39:52.0366302+08:00] D:/SIMULIA/EstProducts/2022/win_b64/code/jre/bin/java.exe -jar D:\WonderAiLabClean\tools\apksigner.jar sign --ks C:\Users\ADMIN\AppData\Local\RobotLabWonderAi\signing\robotlab.p12 --ks-pass env:ROBOTLAB_BUILD_PASS --v4-signing-enabled false --out D:\WonderAiLabClean\builds\20261123-133847-624\VehicleControl-Internal.apk D:\WonderAiLabClean\builds\20261123-133847-624\aligned.apk
+[2026-11-23T13:39:53.1740886+08:00] D:/SIMULIA/EstProducts/2022/win_b64/code/jre/bin/java.exe -jar D:\WonderAiLabClean\tools\apksigner.jar verify --verbose --print-certs D:\WonderAiLabClean\builds\20261123-133847-624\VehicleControl-Internal.apk
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=RobotLab Local Development
+Signer #1 certificate SHA-256 digest: 6a31037d1a21d67a3d6cf6e26463f888b0c8108968d068ca1fefe93d9d3a5813
+Signer #1 certificate SHA-1 digest: e56b5a935009be8d4110a6dfa78e877bbc3cc2ef
+Signer #1 certificate MD5 digest: 64a28ef432a7fb6830f92012d43b2fcf
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: b00ac1cf85893d590a2ce7e8ecc051b470ee2e0f1e64414b0fbd173b23a04e6a
+Signer #1 public key SHA-1 digest: dac9901f8a9b2bce0a9dc136d36706d4f9c2a39a
+Signer #1 public key MD5 digest: 996c76ad2de35bac479eb980b4c9a23d
+WARNING: META-INF/androidx.activity_activity.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.annotation_annotation-experimental.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.appcompat_appcompat-resources.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.appcompat_appcompat.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.arch.core_core-runtime.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.cardview_cardview.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.coordinatorlayout_coordinatorlayout.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.core_core-ktx.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.core_core.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.cursoradapter_cursoradapter.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.customview_customview-poolingcontainer.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.customview_customview.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.documentfile_documentfile.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.drawerlayout_drawerlayout.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.exifinterface_exifinterface.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.fragment_fragment.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.interpolator_interpolator.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.legacy_legacy-support-core-ui.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.legacy_legacy-support-core-utils.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.legacy_legacy-support-v4.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-livedata-core.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-livedata.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-runtime.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-viewmodel.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.loader_loader.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.media_media.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.print_print.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.recyclerview_recyclerview.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.savedstate_savedstate.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.slidingpanelayout_slidingpanelayout.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.vectordrawable_vectordrawable-animated.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.vectordrawable_vectordrawable.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.versionedparcelable_versionedparcelable.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.viewpager_viewpager.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/com/android/build/gradle/app-metadata.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+[2026-11-23T13:39:54.0057521+08:00] tools/zipalign.exe -c -P 16 4 D:\WonderAiLabClean\builds\20261123-133847-624\VehicleControl-Internal.apk
+[2026-11-23T13:39:54.0337529+08:00] tools/aapt.exe dump badging D:\WonderAiLabClean\builds\20261123-133847-624\VehicleControl-Internal.apk
+package: name='com.robotlab.vehiclecontrol' versionCode='1' versionName='1.0.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+sdkVersion:'21'
+targetSdkVersion:'36'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.CHANGE_WIFI_MULTICAST_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.CHANGE_WIFI_STATE'
+uses-permission: name='android.permission.CHANGE_NETWORK_STATE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+application-label:'VehicleControl'
+application-label-af:'VehicleControl'
+application-label-am:'VehicleControl'
+application-label-ar:'VehicleControl'
+application-label-as:'VehicleControl'
+application-label-az:'VehicleControl'
+application-label-be:'VehicleControl'
+application-label-bg:'VehicleControl'
+application-label-bn:'VehicleControl'
+application-label-bs:'VehicleControl'
+application-label-ca:'VehicleControl'
+application-label-cs:'VehicleControl'
+application-label-da:'VehicleControl'
+application-label-de:'VehicleControl'
+application-label-el:'VehicleControl'
+application-label-en-AU:'VehicleControl'
+application-label-en-CA:'VehicleControl'
+application-label-en-GB:'VehicleControl'
+application-label-en-IN:'VehicleControl'
+application-label-en-XC:'VehicleControl'
+application-label-es:'VehicleControl'
+application-label-es-US:'VehicleControl'
+application-label-et:'VehicleControl'
+application-label-eu:'VehicleControl'
+application-label-fa:'VehicleControl'
+application-label-fi:'VehicleControl'
+application-label-fr:'VehicleControl'
+application-label-fr-CA:'VehicleControl'
+application-label-gl:'VehicleControl'
+application-label-gu:'VehicleControl'
+application-label-hi:'VehicleControl'
+application-label-hr:'VehicleControl'
+application-label-hu:'VehicleControl'
+application-label-hy:'VehicleControl'
+application-label-in:'VehicleControl'
+application-label-is:'VehicleControl'
+application-label-it:'VehicleControl'
+application-label-iw:'VehicleControl'
+application-label-ja:'VehicleControl'
+application-label-ka:'VehicleControl'
+application-label-kk:'VehicleControl'
+application-label-km:'VehicleControl'
+application-label-kn:'VehicleControl'
+application-label-ko:'VehicleControl'
+application-label-ky:'VehicleControl'
+application-label-lo:'VehicleControl'
+application-label-lt:'VehicleControl'
+application-label-lv:'VehicleControl'
+application-label-mk:'VehicleControl'
+application-label-ml:'VehicleControl'
+application-label-mn:'VehicleControl'
+application-label-mr:'VehicleControl'
+application-label-ms:'VehicleControl'
+application-label-my:'VehicleControl'
+application-label-nb:'VehicleControl'
+application-label-ne:'VehicleControl'
+application-label-nl:'VehicleControl'
+application-label-or:'VehicleControl'
+application-label-pa:'VehicleControl'
+application-label-pl:'VehicleControl'
+application-label-pt:'VehicleControl'
+application-label-pt-BR:'VehicleControl'
+application-label-pt-PT:'VehicleControl'
+application-label-ro:'VehicleControl'
+application-label-ru:'VehicleControl'
+application-label-si:'VehicleControl'
+application-label-sk:'VehicleControl'
+application-label-sl:'VehicleControl'
+application-label-sq:'VehicleControl'
+application-label-sr:'VehicleControl'
+application-label-sr-Latn:'VehicleControl'
+application-label-sv:'VehicleControl'
+application-label-sw:'VehicleControl'
+application-label-ta:'VehicleControl'
+application-label-te:'VehicleControl'
+application-label-th:'VehicleControl'
+application-label-tl:'VehicleControl'
+application-label-tr:'VehicleControl'
+application-label-uk:'VehicleControl'
+application-label-ur:'VehicleControl'
+application-label-uz:'VehicleControl'
+application-label-vi:'VehicleControl'
+application-label-zh-CN:'车辆控制'
+application-label-zh-HK:'車輛控制'
+application-label-zh-TW:'車輛控制'
+application-label-zu:'VehicleControl'
+application-icon-160:'res/mipmap-mdpi/ic_launcher.png'
+application-icon-240:'res/mipmap-hdpi/ic_launcher.png'
+application-icon-320:'res/mipmap-xhdpi/ic_launcher.png'
+application-icon-480:'res/mipmap-xxhdpi/ic_launcher.png'
+application-icon-640:'res/mipmap-xxxhdpi/ic_launcher.png'
+application-icon-65534:'res/mipmap-mdpi/ic_launcher.png'
+application: label='VehicleControl' icon='res/mipmap-mdpi/ic_launcher.png'
+launchable-activity: name='com.robotlab.vehiclecontrol.activity.StartActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature: name='android.hardware.bluetooth_le'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_COARSE_LOCATION permission, and requested android.permission.ACCESS_FINE_LOCATION permission'
+  uses-feature: name='android.hardware.screen.landscape'
+  uses-implied-feature: name='android.hardware.screen.landscape' reason='one or more activities have specified a landscape orientation'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission, requested android.permission.CHANGE_WIFI_MULTICAST_STATE permission, and requested android.permission.CHANGE_WIFI_STATE permission'
+main
+other-activities
+other-services
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '160' '240' '320' '480' '640' '65534'
+native-code: 'arm64-v8a' 'armeabi' 'armeabi-v7a' 'x86' 'x86_64'
+
+
+Algorithm : SHA256
+Hash      : A3D296414555C4CD98A936DBEC928256273E89D3B00ACC25A3B8C837459E43D3
+Path      : D:\WonderAiLabClean\builds\20261123-133847-624\VehicleControl-Internal.apk
+
+
+
+

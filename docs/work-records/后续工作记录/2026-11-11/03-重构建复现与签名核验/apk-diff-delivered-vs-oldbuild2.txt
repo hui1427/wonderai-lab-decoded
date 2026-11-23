@@ -1,90 +1,45 @@
-# APK 容器逐条目比对报告
-
-
+﻿# APK 容器逐条目比对报告
 
 | 项目 | 交付 WonderAi-Lab.apk | 既有工程第二轮构建 |
-
 |---|---|---|
-
-| 路径 | C:\Users\<用户>\Desktop\WonderAi-Lab.apk | C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab\builds\20261111-211610-946\WonderAi-Lab.apk |
-
+| 路径 | C:\Users\ADMIN\Desktop\WonderAi-Lab.apk | C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab\builds\20261111-211610-946\WonderAi-Lab.apk |
 | 文件大小(字节) | 34616888 | 34616888 |
-
 | 文件 SHA-256 | bc6cfb78a26dcebf37850b406301d9f1992de8a0d32203b641b82c3bc641d066 | bc6cfb78a26dcebf37850b406301d9f1992de8a0d32203b641b82c3bc641d066 |
-
 | ZIP 条目数 | 1275 | 1275 |
-
 | 条目顺序一致 | 是 | 是 |
-
 | 共同条目 | 1275 | 1275 |
-
 | 共同条目内容+压缩尺寸一致 | 1275 | 1275 |
-
 | 共同条目内容或压缩不同 | 0 | 0 |
-
 | 仅 A 有 | 0 | 0 |
-
 | 仅 B 有 | 0 | 0 |
-
-
 
 **结论：两个 APK 字节完全相同。**
 
-
-
 ## 仅在 交付 WonderAi-Lab.apk 中（交付 WonderAi-Lab.apk 独有）：0 项
 
-
-
 （无）
-
-
 
 ## 仅在 既有工程第二轮构建 中（既有工程第二轮构建 独有）：0 项
 
-
-
 （无）
-
-
 
 ## 共同条目但内容/压缩不同：0 项
 
-
-
 （无）
-
-
 
 ## 条目顺序的前后差异（若整体顺序不同）
 
-
-
 条目顺序完全一致。
-
-
 
 ## 关键载荷条目对照
 
-
-
 | 条目 | A 解压字节 | B 解压字节 | A SHA-256 | B SHA-256 | 内容一致 |
-
 |---|---|---|---|---|---|
-
 | AndroidManifest.xml | 43548 | 43548 | 40c99ba725c3ce6db77c73addc3a36fa86ba96c176efa3c560f52076b09016d0 | 40c99ba725c3ce6db77c73addc3a36fa86ba96c176efa3c560f52076b09016d0 | 是 |
-
 | classes.dex | 8735336 | 8735336 | f2462c398903a1cf8547734c154cdc253f5c950cd3fece28a63348c1ca274750 | f2462c398903a1cf8547734c154cdc253f5c950cd3fece28a63348c1ca274750 | 是 |
-
 | resources.arsc | 672224 | 672224 | e8ad9967a5ceada29341bb067839f360103f4fa990d78ce3cea9a62c43803bb2 | e8ad9967a5ceada29341bb067839f360103f4fa990d78ce3cea9a62c43803bb2 | 是 |
-
-
 
 ## APK 内是否有 .orig / 异常条目
 
-
-
 - 交付 WonderAi-Lab.apk: 无
-
 - 既有工程第二轮构建: 无
-

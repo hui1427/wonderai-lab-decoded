@@ -6,7 +6,7 @@ import json
 import os
 import time
 
-ROOT = r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab"
+ROOT = r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab"
 OUT = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -152,7 +152,7 @@ md = f"""# 工作记录（2026-11-11 / 功能验收清单）
 关键命令（可直接复跑，工作目录为本记录目录）：
 
 ```powershell
-cd 'C:\\Users\\<用户>\\Documents\\Codex\\2026-11-11\\w\\outputs\\RobotLab\\后续工作记录\\2026-11-11\\06-功能验收清单'
+cd 'C:\\Users\\ADMIN\\Documents\\Codex\\2026-11-11\\w\\outputs\\RobotLab\\后续工作记录\\2026-11-11\\06-功能验收清单'
 python analyze_static.py      # 输出 static_facts.json / analysis_log.txt
 python analyze_enrich.py      # 输出 enrich.json（动态标题/入口/协议线索）
 python build_deliverables.py  # 输出 功能验收清单.csv / 页面与机型对照.md / 验收执行手册.md / pages-2026-11-11.csv / stats.json / check.json
@@ -258,7 +258,7 @@ Get-FileHash -Algorithm SHA256 '..\\..\\..\\pages.csv'
 - 机器人型号：无
 - 机器人固件：无
 - 连接方式：无（无设备可连）
-- 其他：Windows 11 26200；Python 3.12.15；工程根 `C:\\Users\\<用户>\\Documents\\Codex\\2026-11-11\\w\\outputs\\RobotLab`；模拟器环境 `D:\\WonderAiLabEmu`（Android emulator 37.3.9 + platform-tools 37.0.3 + AVD 已建，无硬件加速，未启动成功/未安装 APK）；原版 APK 与新版 APK 均未在本机安装运行。
+- 其他：Windows 11 26200；Python 3.12.15；工程根 `C:\\Users\\ADMIN\\Documents\\Codex\\2026-11-11\\w\\outputs\\RobotLab`；模拟器环境 `D:\\WonderAiLabEmu`（Android emulator 37.3.9 + platform-tools 37.0.3 + AVD 已建，无硬件加速，未启动成功/未安装 APK）；原版 APK 与新版 APK 均未在本机安装运行。
 
 ## 9. 测试步骤、预期结果、实际结果与日志
 

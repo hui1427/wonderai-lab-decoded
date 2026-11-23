@@ -1,11 +1,11 @@
-import http.client, json, sys, socket
+﻿import http.client, json, sys, socket
 out = sys.argv[1]
 targets = [
-    ("<私网IP>", 80, "/"),
-    ("<私网IP>", 9090, "/"),
-    ("<私网IP>", 8080, "/"),
-    ("<私网IP>", 8080, "/stream?topic=/camera/image_raw"),
-    ("<私网IP>", 8080, "/snapshot?topic=/camera/image_raw"),
+    ("172.21.59.164", 80, "/"),
+    ("172.21.59.164", 9090, "/"),
+    ("172.21.59.37", 8080, "/"),
+    ("172.21.59.37", 8080, "/stream?topic=/camera/image_raw"),
+    ("172.21.59.37", 8080, "/snapshot?topic=/camera/image_raw"),
 ]
 res = []
 for host, port, path in targets:
@@ -25,4 +25,3 @@ for host, port, path in targets:
 json.dump(res, open(out, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 for r in res:
     print(json.dumps(r, ensure_ascii=False))
-

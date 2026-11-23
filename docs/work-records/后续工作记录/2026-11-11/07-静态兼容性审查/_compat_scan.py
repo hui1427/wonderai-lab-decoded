@@ -1,6 +1,6 @@
-import re, json, os, sys
+﻿import re, json, os, sys
 from pathlib import Path
-root = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab")
+root = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab")
 app = root / "app"
 outdir = Path(sys.argv[1])
 patterns = {
@@ -49,4 +49,3 @@ for k, v in summary.items():
     lines.append("")
 (outdir/"compat-scan.md").write_text("\n".join(lines), encoding="utf-8")
 print(json.dumps({k: v["count"] for k, v in summary.items()}, indent=2))
-

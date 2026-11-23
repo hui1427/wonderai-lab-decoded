@@ -1,182 +1,91 @@
-package: name='local.robotlab.wonderai' versionCode='36' versionName='1.4.3' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
-
+﻿package: name='local.robotlab.wonderai' versionCode='36' versionName='1.4.3' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
 sdkVersion:'21'
-
 targetSdkVersion:'36'
-
 application-label:'WonderAi Lab'
-
 application-label-af:'WonderAi Lab'
-
 application-label-am:'WonderAi Lab'
-
 application-label-ar:'WonderAi Lab'
-
 application-label-as:'WonderAi Lab'
-
 application-label-az:'WonderAi Lab'
-
 application-label-be:'WonderAi Lab'
-
 application-label-bg:'WonderAi Lab'
-
 application-label-bn:'WonderAi Lab'
-
 application-label-bs:'WonderAi Lab'
-
 application-label-ca:'WonderAi Lab'
-
 application-label-cs:'WonderAi Lab'
-
 application-label-da:'WonderAi Lab'
-
 application-label-de:'WonderAi Lab'
-
 application-label-el:'WonderAi Lab'
-
 application-label-en-AU:'WonderAi Lab'
-
 application-label-en-CA:'WonderAi Lab'
-
 application-label-en-GB:'WonderAi Lab'
-
 application-label-en-IN:'WonderAi Lab'
-
 application-label-en-XC:'WonderAi Lab'
-
 application-label-es:'WonderAi Lab'
-
 application-label-es-US:'WonderAi Lab'
-
 application-label-et:'WonderAi Lab'
-
 application-label-eu:'WonderAi Lab'
-
 application-label-fa:'WonderAi Lab'
-
 application-label-fi:'WonderAi Lab'
-
 application-label-fr:'WonderAi Lab'
-
 application-label-fr-CA:'WonderAi Lab'
-
 application-label-gl:'WonderAi Lab'
-
 application-label-gu:'WonderAi Lab'
-
 application-label-hi:'WonderAi Lab'
-
 application-label-hr:'WonderAi Lab'
-
 application-label-hu:'WonderAi Lab'
-
 application-label-hy:'WonderAi Lab'
-
 application-label-in:'WonderAi Lab'
-
 application-label-is:'WonderAi Lab'
-
 application-label-it:'WonderAi Lab'
-
 application-label-iw:'WonderAi Lab'
-
 application-label-ja:'WonderAi Lab'
-
 application-label-ka:'WonderAi Lab'
-
 application-label-kk:'WonderAi Lab'
-
 application-label-km:'WonderAi Lab'
-
 application-label-kn:'WonderAi Lab'
-
 application-label-ko:'WonderAi Lab'
-
 application-label-ky:'WonderAi Lab'
-
 application-label-lo:'WonderAi Lab'
-
 application-label-lt:'WonderAi Lab'
-
 application-label-lv:'WonderAi Lab'
-
 application-label-mk:'WonderAi Lab'
-
 application-label-ml:'WonderAi Lab'
-
 application-label-mn:'WonderAi Lab'
-
 application-label-mr:'WonderAi Lab'
-
 application-label-ms:'WonderAi Lab'
-
 application-label-my:'WonderAi Lab'
-
 application-label-nb:'WonderAi Lab'
-
 application-label-ne:'WonderAi Lab'
-
 application-label-nl:'WonderAi Lab'
-
 application-label-or:'WonderAi Lab'
-
 application-label-pa:'WonderAi Lab'
-
 application-label-pl:'WonderAi Lab'
-
 application-label-pt:'WonderAi Lab'
-
 application-label-pt-BR:'WonderAi Lab'
-
 application-label-pt-PT:'WonderAi Lab'
-
 application-label-ro:'WonderAi Lab'
-
 application-label-ru:'WonderAi Lab'
-
 application-label-si:'WonderAi Lab'
-
 application-label-sk:'WonderAi Lab'
-
 application-label-sl:'WonderAi Lab'
-
 application-label-sq:'WonderAi Lab'
-
 application-label-sr:'WonderAi Lab'
-
 application-label-sr-Latn:'WonderAi Lab'
-
 application-label-sv:'WonderAi Lab'
-
 application-label-sw:'WonderAi Lab'
-
 application-label-ta:'WonderAi Lab'
-
 application-label-te:'WonderAi Lab'
-
 application-label-th:'WonderAi Lab'
-
 application-label-tl:'WonderAi Lab'
-
 application-label-tr:'WonderAi Lab'
-
 application-label-uk:'WonderAi Lab'
-
 application-label-ur:'WonderAi Lab'
-
 application-label-uz:'WonderAi Lab'
-
 application-label-vi:'WonderAi Lab'
-
 application-label-zh-CN:'WonderAi Lab'
-
 application-label-zh-HK:'WonderAi Lab'
-
 application-label-zh-TW:'WonderAi Lab'
-
 application-label-zu:'WonderAi Lab'
-
 launchable-activity: name='com.hiwonder.wonder_ai.activity.StartActivity'  label='' icon=''
-
 native-code: 'arm64-v8a' 'armeabi' 'armeabi-v7a' 'x86' 'x86_64'
-

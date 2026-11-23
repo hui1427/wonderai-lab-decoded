@@ -11,7 +11,7 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 
-ROOT = r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab"
+ROOT = r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab"
 OUT = os.path.dirname(os.path.abspath(__file__))
 APP = os.path.join(ROOT, "app")
 LAYOUT_DIRS = [os.path.join(APP, "res", d) for d in os.listdir(os.path.join(APP, "res"))

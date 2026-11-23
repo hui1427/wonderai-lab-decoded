@@ -1,2 +1,1 @@
     topResumedActivity=ActivityRecord{54395161 u0 local.robotlab.wonderai/com.hiwonder.wonder_ai.activity.MainActivity t11215}
-

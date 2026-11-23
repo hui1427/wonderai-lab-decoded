@@ -1,0 +1,11 @@
+v01 entries 1275, v02 entries 1264
+only-in-v02: []
+only-in-v01: ['res/color/abc_btn_colored_borderless_text_material.xml', 'res/color/abc_btn_colored_text_material.xml', 'res/color/abc_tint_btn_checkable.xml', 'res/color/abc_tint_default.xml', 'res/color/abc_tint_edittext.xml', 'res/color/abc_tint_seek_thumb.xml', 'res/color/abc_tint_spinner.xml', 'res/color/abc_tint_switch_track.xml', 'res/layout/abc_alert_dialog_button_bar_material.xml', 'res/layout/abc_screen_toolbar.xml', 'res/layout/activity_ainova_build.xml']
+same bytes: 1257, changed: 7
+  *AndroidManifest.xml
+  *META-INF/MANIFEST.MF
+  *META-INF/SELFVEHI.RSA
+  *META-INF/SELFVEHI.SF
+  *classes.dex
+  *res/layout/activity_main.xml
+  *resources.arsc

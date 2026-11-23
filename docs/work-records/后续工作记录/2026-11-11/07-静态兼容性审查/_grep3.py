@@ -1,6 +1,6 @@
-import re
+﻿import re
 from pathlib import Path
-root = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab")
+root = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab")
 def grep(pat, base="app/smali", limit=25, exclude=None):
     r = re.compile(pat); n=0
     for p in (root/base).rglob("*.smali"):
@@ -20,4 +20,3 @@ p = root/"app/smali/com/hiwonder/wonder_ai/activity/MainActivity.smali"
 lines = p.read_text(encoding="utf-8",errors="replace").splitlines()
 for i in range(40, 140):
     print(f"{i+1}: {lines[i]}")
-

@@ -1,6 +1,6 @@
-import re
+﻿import re
 from pathlib import Path
-root = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab")
+root = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab")
 def show_methods(rel, names):
     p = root/rel
     lines = p.read_text(encoding="utf-8",errors="replace").splitlines()
@@ -27,4 +27,3 @@ p = root/"app/smali/com/hiwonder/wonder_ai/activity/SetNetActivity.smali"
 lines = p.read_text(encoding="utf-8",errors="replace").splitlines()
 for i in range(690, 800):
     if i < len(lines): print(f"{i+1}: {lines[i]}")
-

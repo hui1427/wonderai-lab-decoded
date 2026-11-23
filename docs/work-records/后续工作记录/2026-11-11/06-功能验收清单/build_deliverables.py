@@ -15,7 +15,7 @@ import re
 import time
 import xml.etree.ElementTree as ET
 
-ROOT = r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab"
+ROOT = r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab"
 OUT = os.path.dirname(os.path.abspath(__file__))
 SM = os.path.join(ROOT, "app", "smali")
 T0 = time.strftime("%H:%M")

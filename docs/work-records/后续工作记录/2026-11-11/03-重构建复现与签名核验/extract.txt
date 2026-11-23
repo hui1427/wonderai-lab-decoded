@@ -1,52 +1,26 @@
-解压开始: 2026-11-11 21:42:30.842
-
+﻿解压开始: 2026-11-11 21:42:30.842
 解压结束: 2026-11-11 21:42:39.392
-
 解压耗时: 8.55 秒
-
-ZIP: C:\Users\<用户>\Desktop\WonderAi-Lab-Project.zip
-
+ZIP: C:\Users\ADMIN\Desktop\WonderAi-Lab-Project.zip
 ZIP 大小: 66243751 字节
-
 ZIP 条目数: 7996
-
 解压后总字节(ZIP 记录): 127463182 (121.56 MB)
-
 解压目标: D:\WonderAiLabRepro\RobotLab
-
 解压后实际文件数: 7996
-
 解压后实际字节: 127463182 (121.56 MB)
 
-
-
 ===== 一级目录/文件统计（解压树） =====
-
 analysis/ | 5 个文件 | 0.01 MB
-
 app/ | 7955 个文件 | 95.02 MB
-
 logs/ | 20 个文件 | 0.16 MB
-
 tools/ | 6 个文件 | 26.10 MB
-
 aes.cjs | 1600 字节
-
 build.cmd | 152 字节
-
 build.ps1 | 3202 字节
-
 compare-smali.py | 473 字节
-
 pages.csv | 30301 字节
-
 protocol-literals.csv | 234536 字节
-
 test-aes.cjs | 832 字节
-
 verify.py | 3957 字节
-
 交接清单.md | 1214 字节
-
 工作流程.md | 10777 字节
-

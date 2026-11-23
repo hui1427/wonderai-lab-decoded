@@ -1,24 +1,12 @@
-
-
-Interface: <私网IP> --- 0x5
-
+﻿
+Interface: 172.21.59.83 --- 0x5
   Internet Address      Physical Address      Type
-
-  169.254.169.254       <MAC地址>     dynamic   
-
-  <私网IP>         <MAC地址>     dynamic   
-
-  <私网IP>         <MAC地址>     dynamic   
-
-  <私网IP>         <MAC地址>     static    
-
-  224.0.0.22            <MAC地址>     static    
-
-  224.0.0.251           <MAC地址>     static    
-
-  224.0.0.252           <MAC地址>     static    
-
-  239.255.255.250       <MAC地址>     static    
-
-  255.255.255.255       <MAC地址>     static    
-
+  169.254.169.254       20-37-06-59-95-c1     dynamic   
+  172.21.59.145         60-cf-84-81-d8-30     dynamic   
+  172.21.59.254         20-37-06-59-95-c1     dynamic   
+  172.21.59.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    

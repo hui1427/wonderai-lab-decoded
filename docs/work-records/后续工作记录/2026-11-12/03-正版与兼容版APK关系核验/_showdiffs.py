@@ -1,4 +1,4 @@
-import difflib, sys
+﻿import difflib, sys
 from pathlib import Path
 off = Path(r"D:\WonderAiLabAudit-20261112\decode-official")
 lab = Path(r"D:\WonderAiLabAudit-20261112\decode-lab")
@@ -16,4 +16,3 @@ for rel in files:
     (outdir/("diff-"+name+".txt")).write_text("\n".join(d), encoding="utf-8")
     print(f"\n########## {rel}: {len(d)} diff lines ##########")
     print("\n".join(d[:60]))
-

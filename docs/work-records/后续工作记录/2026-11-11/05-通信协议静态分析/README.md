@@ -1,7 +1,7 @@
 # 05-通信协议静态分析（交付说明）
 
 本目录是 task-3「通信链路与协议报文静态分析」的交付物。分析对象为 Apktool 解包的 WonderAi 1.4.3 工程（兼容版 WonderAi Lab 通信代码未改动），工程根：
-`C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab`
+`C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab`
 
 **只读工程**：未修改 `app/`、`logs/` 及根目录 CSV；所有新增内容均在本记录目录内。
 
@@ -34,7 +34,7 @@
 
 ```powershell
 # 工程根
-cd C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab
+cd C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab
 cd 后续工作记录\2026-11-11\05-通信协议静态分析\scripts
 python extract_facts.py       # 生成 ../evidence/facts.jsonl（约 42MB）
 python build_reports.py       # 生成 evidence/*.csv

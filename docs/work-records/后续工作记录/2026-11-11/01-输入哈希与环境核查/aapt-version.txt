@@ -1,2 +1,1 @@
-Android Asset Packaging Tool, v0.2-11948202
-
+﻿Android Asset Packaging Tool, v0.2-11948202

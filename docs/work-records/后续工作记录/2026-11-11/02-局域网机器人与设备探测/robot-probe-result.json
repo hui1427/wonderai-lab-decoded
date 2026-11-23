@@ -1,101 +1,51 @@
 {
-
   "timestamp": "2026-11-11T21:34:30.725550+08:00",
-
   "steps": [
-
     {
-
       "step": "udp_discovery",
-
       "local_port": 9025,
-
       "remote_port": 9027,
-
       "payload": "LOBOT_NET_DISCOVER",
-
       "sent_to": [
-
         "255.255.255.255",
-
-        "<私网IP>",
-
-        "<私网IP>"
-
+        "172.21.59.255",
+        "172.21.59.254"
       ],
-
       "send_errors": [],
-
       "replies": [],
-
       "reply_count": 0
-
     },
-
     {
-
       "step": "tcp_scan",
-
       "ports": [
-
         80,
-
         8080,
-
         9090,
-
         5555,
-
         9025,
-
         9027,
-
         8000,
-
         8888,
-
         22
-
       ],
-
       "open_hosts": [
-
         {
-
-          "host": "<私网IP>",
-
+          "host": "172.21.59.37",
           "open_ports": [
-
             8080
-
           ]
-
         },
-
         {
-
-          "host": "<私网IP>",
-
+          "host": "172.21.59.164",
           "open_ports": [
-
             80,
-
             9090
-
           ]
-
         }
-
       ],
-
       "host_count": 2
-
     }
-
   ],
-
   "wifi_adapter_present": false,
-
-  "conclusion": "未发现任何响应 LOBOT_NET_DISCOVER 的设备；未发现开放机器人常见端口的局域网主机；本机仅以太网 <私网IP>/24（网关 <私网IP>），无 Wi-Fi/蓝牙适配器，无法加入机器人热点或进行 BLE 探测。当前环境不具备机器人端到端测试条件。"
-
+  "conclusion": "未发现任何响应 LOBOT_NET_DISCOVER 的设备；未发现开放机器人常见端口的局域网主机；本机仅以太网 172.21.59.83/24（网关 172.21.59.254），无 Wi-Fi/蓝牙适配器，无法加入机器人热点或进行 BLE 探测。当前环境不具备机器人端到端测试条件。"
 }

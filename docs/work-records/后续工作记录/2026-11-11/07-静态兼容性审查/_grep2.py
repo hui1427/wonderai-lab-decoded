@@ -1,5 +1,5 @@
-from pathlib import Path
-root = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab")
+﻿from pathlib import Path
+root = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab")
 def grep(pat, base=r"app\smali\com", limit=40):
     import re
     r = re.compile(pat)
@@ -13,4 +13,3 @@ def grep(pat, base=r"app\smali\com", limit=40):
 print("########## SearchDeviceDialog references ##########"); grep("SearchDeviceDialog")
 print("\n########## startService / bindService in app ##########"); grep("->startService\\(|->bindService\\(")
 print("\n########## Bluetooth enable/disable in app ##########"); grep("BluetoothAdapter;->(enable|disable|isEnabled|getBondedDevices|getRemoteDevice)")
-

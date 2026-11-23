@@ -1,0 +1,7 @@
+fileinfo + SHA-256 (2026-11-23 audit)
+
+C:\Users\ADMIN\Desktop\Vehicle-Control-Compat-v0.2.apk | 34595490 B | SHA256 6da9dd33bf1edab9e2905c9517752f3be036c25c17b0fb6e329211c907d587f1
+C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\Vehicle-Control-Compat-v0.2.apk | 34595490 B | SHA256 6da9dd33bf1edab9e2905c9517752f3be036c25c17b0fb6e329211c907d587f1
+C:\Users\ADMIN\Desktop\Vehicle-Control-Compat.apk | 34616888 B | SHA256 9655fd91530246dfad99183464a3bffcb2c2b01a21a25a68989f581e2103c830
+C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\Vehicle-Control-Compat-v0.2-Project.zip | 41520907 B | SHA256 aac163497ef0277a33c56c8a4410b08acf9cabc370aceb181051510df36f71d9
+rebuild-unsigned.apk: NOT YET

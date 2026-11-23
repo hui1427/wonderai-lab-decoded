@@ -1,0 +1,21 @@
+rebuild entries: 1260, delivered entries: 1264
+only-in-rebuild: 0 -> []
+only-in-delivered: 4 -> ['META-INF/MANIFEST.MF', 'META-INF/SELFVEHI.RSA', 'META-INF/SELFVEHI.SF', 'META-INF/com/android/build/gradle/app-metadata.properties']
+same bytes: 1260, changed: 0
+changed list: []
+dropped resources present in rebuild:
+  res/color/abc_btn_colored_borderless_text_material.xml -> False
+  res/color/abc_btn_colored_text_material.xml -> False
+  res/color/abc_tint_btn_checkable.xml -> False
+  res/color/abc_tint_default.xml -> False
+  res/color/abc_tint_edittext.xml -> False
+  res/color/abc_tint_seek_thumb.xml -> False
+  res/color/abc_tint_spinner.xml -> False
+  res/color/abc_tint_switch_track.xml -> False
+  res/layout/abc_alert_dialog_button_bar_material.xml -> False
+  res/layout/abc_screen_toolbar.xml -> False
+  res/layout/activity_ainova_build.xml -> False
+resources.arsc: rebuild 655472 B sha256 21fc92239ffd807c | delivered 655472 B sha256 21fc92239ffd807c | same=True
+classes.dex: rebuild 8746888 B sha256 e7812ec6c2d93310 | delivered 8746888 B sha256 e7812ec6c2d93310 | same=True
+AndroidManifest.xml: rebuild 43764 B sha256 2685648c68e01614 | delivered 43764 B sha256 2685648c68e01614 | same=True
+res/layout/activity_main.xml: rebuild 2696 B sha256 30ab21fd306aeb36 | delivered 2696 B sha256 30ab21fd306aeb36 | same=True

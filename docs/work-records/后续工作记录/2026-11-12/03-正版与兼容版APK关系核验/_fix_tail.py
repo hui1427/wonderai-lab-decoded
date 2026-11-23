@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab\后续工作记录\2026-11-12\03-正版与兼容版APK关系核验\记录.md")
+p = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab\后续工作记录\2026-11-12\03-正版与兼容版APK关系核验\记录.md")
 data = p.read_bytes()
 marker = "## 12. 补充：与本机今日其他记录的关联".encode("utf-8")
 pos = data.find(marker)

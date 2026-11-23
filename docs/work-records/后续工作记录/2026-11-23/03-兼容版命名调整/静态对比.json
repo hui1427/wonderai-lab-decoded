@@ -1,0 +1,14 @@
+{
+  "classes": [
+    6563,
+    6563
+  ],
+  "class_names_match_after_rename": true,
+  "methods": [
+    61802,
+    61802
+  ],
+  "method_refs_match_after_rename": true,
+  "assets_lib_match": true,
+  "zip_error": null
+}

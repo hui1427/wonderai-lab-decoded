@@ -1,6 +1,6 @@
-import re, json, sys, struct
+﻿import re, json, sys, struct
 from pathlib import Path
-root = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab")
+root = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab")
 rec = Path(sys.argv[1])
 app = root/"app"
 res = {}
@@ -82,4 +82,3 @@ print(json.dumps({"old_package_refs": res["old_package_refs"]["count"],
   "activities_exported_true": [s["name"] for s in res["activities_exported_true"]],
   "app_storage_paths_count": res["app_storage_paths"]["count"],
   "elf": elf}, indent=2))
-

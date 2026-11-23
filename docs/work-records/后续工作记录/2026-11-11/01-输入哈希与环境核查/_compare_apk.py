@@ -1,4 +1,4 @@
-import zipfile, json, sys
+﻿import zipfile, json, sys
 from pathlib import Path
 orig = Path(sys.argv[1]); lab = Path(sys.argv[2]); out = Path(sys.argv[3])
 def info(p):
@@ -24,4 +24,3 @@ with (out.parent/"apk-entries-lab.txt").open("w",encoding="utf-8") as f:
 with (out.parent/"apk-entries-orig.txt").open("w",encoding="utf-8") as f:
     for n in sorted(o): f.write(f"{o[n]:>10}  {n}\n")
 print(json.dumps({k:report[k] for k in ("orig_entries","lab_entries","common_entries","only_original_count","only_lab_count","size_diff","size_diff_count","crc_diff_count","orig_total_uncompressed","lab_total_uncompressed")},indent=2,ensure_ascii=False))
-

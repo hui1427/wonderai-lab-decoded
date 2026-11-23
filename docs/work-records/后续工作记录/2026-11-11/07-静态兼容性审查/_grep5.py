@@ -1,6 +1,6 @@
 import re
 from pathlib import Path
-root = Path(r"C:\Users\<用户>\Documents\Codex\2026-11-11\w\outputs\RobotLab")
+root = Path(r"C:\Users\ADMIN\Documents\Codex\2026-11-11\w\outputs\RobotLab")
 app = root / "app" / "smali" / "com"
 
 print("=== PERMISSIONS_STORAGE / checkSelfPermission / requestPermissions call sites in app code ===")

@@ -1,0 +1,5 @@
+127.0.0.1 - - [23/Nov/2026 10:52:03] "GET /api/v1/status HTTP/1.1" 200 -
+127.0.0.1 - - [23/Nov/2026 10:52:03] "POST /api/v1/command HTTP/1.1" 501 -
+127.0.0.1 - - [23/Nov/2026 10:52:04] "GET /api/v1/status HTTP/1.1" 200 -
+PASS Java status client received expected data from service
+PASS configured vehicle ID, unavailable telemetry, and unimplemented command response

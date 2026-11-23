@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=SelfVehicle Local Development
+Signer #1 certificate SHA-256 digest: d1b67be6d007937401608926619c7af38d75125dd417aee86684829b59643a12
+Signer #1 certificate SHA-1 digest: ef5c8628b327b2b4049d3576a87c3e461202e5b6
+Signer #1 certificate MD5 digest: b005d0590b3b3b2245c01f87b488c25e
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 53c55b5f8bd33387a5081b54fd09ead7f63539e53414bd7ea0ced63eceb5ca4e
+Signer #1 public key SHA-1 digest: 249727467a76cb4f4fcf3770d2c04badde0fc467
+Signer #1 public key MD5 digest: 39966fef2707d3e51f943b0e25b5d239
